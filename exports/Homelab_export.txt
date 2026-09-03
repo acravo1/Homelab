@@ -1,0 +1,13558 @@
+﻿================================================================================
+Repository Export
+================================================================================
+
+Repository : Homelab
+Date       : 2026-09-03 17:18:45
+Root       : C:\Users\silva\OneDrive\GitHub\Homelab
+
+
+================================================================================
+FILE: README.md
+================================================================================
+
+# Cravo Homelab
+
+> Infraestrutura doméstica orientada para soberania digital, centralização da informação, automação inteligente e preservação do conhecimento.
+
+---
+
+# O Que é o Cravo Homelab?
+
+O Cravo Homelab é uma plataforma tecnológica doméstica desenvolvida para servir as necessidades reais da família.
+
+Não foi concebido como uma experiência tecnológica ou demonstração de competências técnicas.
+
+Foi criado para:
+
+- centralizar informação;
+- reduzir duplicações;
+- automatizar processos repetitivos;
+- preservar conhecimento;
+- aumentar a privacidade;
+- diminuir dependências externas.
+
+Ao longo do tempo evoluiu de um conjunto de serviços isolados para um sistema integrado de documentação, automação, armazenamento e colaboração.
+
+---
+
+# Missão
+
+A tecnologia existe para servir a família.
+
+Todas as decisões técnicas devem contribuir para:
+
+- simplificar tarefas;
+- proteger informação;
+- preservar conhecimento;
+- garantir continuidade;
+- reduzir dependências desnecessárias.
+
+---
+
+# Antes de Começar
+
+O primeiro documento que deve ser lido é:
+
+```text
+docs/philosophy/00-principios-fundamentais.md
+```
+
+Este documento constitui a base filosófica de todo o projeto.
+
+---
+
+# Estrutura da Documentação
+
+## Filosofia
+
+Porque existe o projeto.
+
+```text
+docs/philosophy/
+```
+
+Inclui:
+
+- Princípios Fundamentais
+- Regras de Ouro
+- Glossário
+- Visão Estratégica
+- Carta do Administrador
+
+---
+
+## Fonte Única da Verdade (SSOT)
+
+Estado atual da infraestrutura.
+
+```text
+docs/ssot/
+```
+
+Inclui:
+
+- Hardware
+- Rede
+- Armazenamento
+- Serviços
+- Utilizadores
+- Backups
+- Inventário
+- Criticidade
+
+---
+
+## Arquitetura
+
+Como os sistemas se relacionam.
+
+```text
+docs/architecture/
+```
+
+Inclui:
+
+- Princípios de Arquitetura
+- Dependências de Serviços
+- Fluxos de Informação
+
+---
+
+## Operação
+
+Como administrar o sistema.
+
+```text
+docs/operations/
+```
+
+Inclui:
+
+- Manutenção
+- Recuperação
+- Auditoria
+- Pipeline Documental
+- Integração de Serviços
+
+---
+
+## Serviços
+
+Documentação individual de cada serviço.
+
+```text
+docs/services/
+```
+
+Inclui:
+
+- Home Assistant
+- PostgreSQL
+- Nextcloud
+- Paperless
+- Authentik
+- AdGuard
+- WireGuard
+- NPM
+
+---
+
+## Família
+
+Documentação destinada aos utilizadores finais.
+
+```text
+docs/family/
+```
+
+Inclui:
+
+- Guia da Família
+- Nextcloud
+- Paperless
+- Talk
+- Home Assistant
+- FAQ
+
+---
+
+## Normas
+
+Regras de governação.
+
+```text
+docs/standards/
+```
+
+Inclui:
+
+- Convenções de Nomenclatura
+- Classificação Documental
+
+---
+
+## História
+
+Preserva a evolução do projeto.
+
+```text
+docs/history/
+```
+
+Inclui:
+
+- Evolução Arquitetural
+- Migração Palmela → Castelo Branco
+- Lições Aprendidas
+- Ativos Aposentados
+
+---
+
+# Leitura Recomendada
+
+## Sou Utilizador da Família
+
+Ler:
+
+```text
+docs/family/
+```
+
+---
+
+## Sou Administrador
+
+Ler:
+
+```text
+docs/philosophy/
+docs/ssot/
+docs/operations/
+```
+
+---
+
+## Quero Recuperar a Infraestrutura
+
+Ler:
+
+```text
+docs/ssot/
+docs/operations/
+docs/services/
+```
+
+---
+
+## Quero Compreender a História
+
+Ler:
+
+```text
+docs/history/
+```
+
+---
+
+## Quero Fazer Auditoria
+
+Ler:
+
+```text
+docs/standards/
+docs/ssot/
+docs/operations/document-audit-process.md
+```
+
+---
+
+# Modelo de Conhecimento
+
+O projeto segue uma hierarquia formal de confiança.
+
+```text
+VALIDADO
+↓
+PROVÁVEL
+↓
+HIPÓTESE
+
+HISTÓRICO
+```
+
+Apenas informação validada deve ser utilizada para decisões críticas.
+
+---
+
+# Gestão Documental
+
+A documentação original existe apenas no GitHub.
+
+```text
+GitHub
+    ↓
+Markdown
+```
+
+Todos os restantes formatos são derivados.
+
+---
+
+# Publicação Documental
+
+Arquitetura prevista:
+
+```text
+Markdown
+    ↓
+GitHub
+    ↓
+GitHub Actions
+    ↓
+PDF
+```
+
+Destino:
+
+```text
+Nextcloud
+    ↓
+Biblioteca Viva
+```
+
+e
+
+```text
+Paperless
+    ↓
+Arquivo Histórico
+```
+
+---
+
+# Fonte da Verdade
+
+Em caso de conflito entre:
+
+- memória;
+- documentação antiga;
+- mensagens;
+- respostas de IA;
+
+prevalece sempre:
+
+1. configuração real;
+2. evidência técnica;
+3. SSOT.
+
+---
+
+# Objetivo Final
+
+O sucesso do Cravo Homelab não será medido pelo número de serviços instalados.
+
+Será medido pela capacidade de:
+
+- servir a família;
+- preservar conhecimento;
+- proteger informação;
+- simplificar operações;
+- sobreviver ao tempo.
+
+---
+
+# Frase Fundadora
+
+> Os sistemas mudam.
+>
+> Os equipamentos mudam.
+>
+> As aplicações mudam.
+>
+> A documentação envelhece.
+>
+> Os princípios permanecem.
+
+
+================================================================================
+FILE: docs\knowledge-map.md
+================================================================================
+
+# Mapa de Conhecimento do Cravo Homelab
+
+## Objetivo
+
+Este documento funciona como o índice principal de toda a documentação do Cravo Homelab.
+
+O seu objetivo é permitir localizar rapidamente:
+
+- informação técnica;
+- informação histórica;
+- procedimentos;
+- documentação familiar;
+- princípios arquiteturais;
+- documentação operacional.
+
+Sempre que existir dúvida sobre onde procurar informação, este deverá ser o primeiro documento a consultar.
+
+---
+
+# Estrutura Geral
+
+```text
+docs/
+
+├── philosophy/
+├── architecture/
+├── ssot/
+├── operations/
+├── services/
+├── family/
+├── standards/
+└── history/
+```
+
+---
+
+# Philosophy
+
+Descreve os princípios fundamentais que orientam o projeto.
+
+## Documentos
+
+### 00-principios-fundamentais.md
+
+Constituição do Cravo Homelab.
+
+---
+
+### 01-interpretacao-dos-principios.md
+
+Interpretação detalhada dos princípios.
+
+---
+
+### 02-glossario.md
+
+Glossário de termos oficiais.
+
+---
+
+### 03-regras-de-ouro.md
+
+Regras operacionais essenciais.
+
+---
+
+### 04-roadmap-e-visao.md
+
+Visão estratégica de longo prazo.
+
+---
+
+### 05-carta-do-administrador.md
+
+Carta histórica para futuros administradores.
+
+---
+
+# Architecture
+
+Descreve a arquitetura lógica da infraestrutura.
+
+## Documentos
+
+### architecture-principles.md
+
+Princípios arquiteturais.
+
+---
+
+### service-dependencies.md
+
+Dependências entre serviços.
+
+---
+
+### data-flow.md
+
+Fluxos de informação.
+
+---
+
+# SSOT
+
+Fonte Única da Verdade.
+
+Descreve apenas o estado atual.
+
+## Documentos
+
+### hardware.md
+
+Hardware em produção.
+
+---
+
+### storage.md
+
+Arquitetura de armazenamento.
+
+---
+
+### network.md
+
+Rede e conectividade.
+
+---
+
+### services.md
+
+Serviços ativos.
+
+---
+
+### users-and-access.md
+
+Identidade e acessos.
+
+---
+
+### backup-and-recovery.md
+
+Estratégia de recuperação.
+
+---
+
+### asset-inventory.md
+
+Inventário completo.
+
+---
+
+### house-map.md
+
+Localização física dos ativos.
+
+---
+
+### criticality-matrix.md
+
+Criticidade dos componentes.
+
+---
+
+### change-log.md
+
+Histórico oficial de alterações.
+
+---
+
+# Operations
+
+Procedimentos operacionais.
+
+## Documentos
+
+### rebuild-from-zero.md
+
+Reconstrução integral.
+
+---
+
+### maintenance.md
+
+Manutenção periódica.
+
+---
+
+### lifecycle-management.md
+
+Gestão do ciclo de vida.
+
+---
+
+### new-service-onboarding.md
+
+Integração de novos serviços.
+
+---
+
+### decision-records.md
+
+ADRs e decisões arquiteturais.
+
+---
+
+### contributing.md
+
+Contribuição documental.
+
+---
+
+### documentation-pipeline.md
+
+Pipeline documental.
+
+---
+
+### document-audit-process.md
+
+Processo de auditoria.
+
+---
+
+### checklists.md
+
+Checklists operacionais.
+
+---
+
+# Services
+
+Documentação individual dos serviços.
+
+## Serviços
+
+### home-assistant.md
+
+Automação residencial.
+
+---
+
+### postgresql.md
+
+Base de dados central.
+
+---
+
+### nextcloud.md
+
+Armazenamento colaborativo.
+
+---
+
+### paperless.md
+
+Arquivo documental.
+
+---
+
+### authentik.md
+
+Identidade.
+
+---
+
+### adguard.md
+
+DNS.
+
+---
+
+### wireguard.md
+
+VPN.
+
+---
+
+### nginx-proxy-manager.md
+
+Publicação de serviços.
+
+---
+
+### uptime-kuma.md
+
+Monitorização.
+
+---
+
+# Family
+
+Documentação orientada aos utilizadores finais.
+
+## Documentos
+
+### guia-familia.md
+
+Introdução geral.
+
+---
+
+### nextcloud.md
+
+Manual do Nextcloud.
+
+---
+
+### paperless.md
+
+Manual do Paperless.
+
+---
+
+### talk.md
+
+Manual do Nextcloud Talk.
+
+---
+
+### home-assistant.md
+
+Manual do Home Assistant.
+
+---
+
+### faq.md
+
+Perguntas frequentes.
+
+---
+
+# Standards
+
+Normas de governação.
+
+## Documentos
+
+### naming-conventions.md
+
+Convenções de nomenclatura.
+
+---
+
+### document-classification.md
+
+Classificação documental.
+
+---
+
+# History
+
+Preservação histórica.
+
+## Documentos
+
+### architecture-evolution.md
+
+Evolução da infraestrutura.
+
+---
+
+### palmela-to-castelo-branco.md
+
+Relatório da migração.
+
+---
+
+### lessons-learned.md
+
+Conhecimento adquirido.
+
+---
+
+### retired-assets.md
+
+Equipamentos aposentados.
+
+---
+
+# Percursos Recomendados
+
+## Sou Utilizador da Família
+
+Ler:
+
+```text
+family/
+```
+
+---
+
+## Sou Administrador
+
+Ler:
+
+```text
+philosophy/
+ssot/
+operations/
+services/
+```
+
+---
+
+## Quero Recuperar a Infraestrutura
+
+Ler:
+
+```text
+ssot/
+operations/
+services/
+```
+
+---
+
+## Quero Compreender a Evolução
+
+Ler:
+
+```text
+history/
+philosophy/
+```
+
+---
+
+## Quero Fazer Uma Auditoria
+
+Ler:
+
+```text
+ssot/
+standards/
+operations/
+```
+
+---
+
+# Regra Fundamental
+
+Se não souber onde procurar uma informação:
+
+1. Consultar este documento.
+2. Identificar a área correta.
+3. Seguir as ligações para a documentação específica.
+
+---
+
+# Definição de Sucesso
+
+O sistema documental será considerado maduro quando qualquer pessoa conseguir localizar qualquer informação relevante em menos de cinco minutos utilizando apenas este mapa de conhecimento.
+
+
+================================================================================
+FILE: docs\architecture\architecture-principles.md
+================================================================================
+
+# Princípios de Arquitetura
+
+## Objetivo
+
+Este documento define os princípios arquiteturais que orientam a evolução técnica do Cravo Homelab.
+
+Estes princípios complementam os Princípios Fundamentais do projeto.
+
+Enquanto os Princípios Fundamentais explicam "porquê", este documento explica "como".
+
+---
+
+# Princípio 1
+
+## Local First
+
+Os serviços devem funcionar localmente sempre que possível.
+
+A rede local é considerada a localização natural dos serviços.
+
+O acesso remoto é um complemento.
+
+Não uma dependência.
+
+---
+
+# Princípio 2
+
+## Single Source of Truth
+
+Cada informação deve possuir uma única localização autoritativa.
+
+Exemplos:
+
+```text
+Documentação Técnica
+    ↓
+GitHub
+
+Documentos Ativos
+    ↓
+Nextcloud
+
+Arquivo Permanente
+    ↓
+Paperless
+```
+
+A duplicação é considerada dívida técnica.
+
+---
+
+# Princípio 3
+
+## DNS Antes de Endereços IP
+
+Os serviços devem ser acedidos por nome.
+
+Exemplos:
+
+```text
+nextcloud.lenovo
+paperless.lenovo
+homeassistant.lenovo
+```
+
+e não por:
+
+```text
+192.168.x.x
+```
+
+ou
+
+```text
+:portas
+```
+
+---
+
+# Princípio 4
+
+## Segurança por Segmentação
+
+A rede deve assumir que nem todos os dispositivos são confiáveis.
+
+Sempre que possível:
+
+- separar dispositivos;
+- limitar acessos;
+- reduzir privilégios.
+
+---
+
+# Princípio 5
+
+## Menor Privilégio
+
+Cada utilizador, dispositivo ou serviço deve possuir apenas os acessos necessários para cumprir a sua função.
+
+---
+
+# Princípio 6
+
+## Serviços Especializados
+
+Cada serviço deve ter uma responsabilidade principal.
+
+Exemplos:
+
+```text
+Nextcloud
+    ↓
+Documentos ativos
+
+Paperless
+    ↓
+Arquivo
+
+Authentik
+    ↓
+Identidade
+
+PostgreSQL
+    ↓
+Dados
+```
+
+Evitar sistemas com responsabilidades excessivamente abrangentes.
+
+---
+
+# Princípio 7
+
+## Dados Antes dos Serviços
+
+Os dados são mais importantes do que as aplicações.
+
+Uma aplicação pode ser substituída.
+
+Os dados não.
+
+Qualquer decisão deve privilegiar:
+
+- preservação dos dados;
+- portabilidade;
+- recuperação.
+
+---
+
+# Princípio 8
+
+## Infraestrutura Como Código
+
+Sempre que possível:
+
+- configurações;
+- documentação;
+- scripts;
+- automações;
+
+devem existir sob controlo de versão.
+
+O estado da infraestrutura não deve depender exclusivamente de interfaces gráficas.
+
+---
+
+# Princípio 9
+
+## Recuperação Acima da Instalação
+
+Instalar um serviço é fácil.
+
+Recuperá-lo após desastre é o verdadeiro teste.
+
+Sempre que um novo componente for introduzido deve existir um plano de recuperação documentado.
+
+---
+
+# Princípio 10
+
+## Falhar de Forma Elegante
+
+A falha de um componente não deve provocar a falha de toda a infraestrutura.
+
+Sempre que possível:
+
+- isolar dependências;
+- segmentar responsabilidades;
+- reduzir pontos únicos de falha.
+
+---
+
+# Princípio 11
+
+## Observabilidade
+
+Tudo o que é importante deve poder ser observado.
+
+Exemplos:
+
+- disponibilidade;
+- armazenamento;
+- rede;
+- bases de dados;
+- automações.
+
+O que não pode ser observado dificilmente pode ser administrado.
+
+---
+
+# Princípio 12
+
+## Simplicidade Sustentável
+
+A arquitetura mais impressionante nem sempre é a melhor.
+
+A arquitetura mais sustentável é aquela que:
+
+- pode ser explicada;
+- pode ser mantida;
+- pode ser recuperada;
+- pode ser documentada.
+
+---
+
+# Princípio 13
+
+## Compatibilidade com a Família
+
+Qualquer decisão técnica deve ser avaliada também do ponto de vista dos utilizadores finais.
+
+A melhor solução técnica não é necessariamente a melhor solução operacional.
+
+---
+
+# Princípio 14
+
+## Evolução Incremental
+
+Evitar reescritas completas.
+
+Preferir:
+
+```text
+Pequenas melhorias contínuas
+```
+
+em vez de:
+
+```text
+Grandes revoluções periódicas
+```
+
+---
+
+# Princípio 15
+
+## Conhecimento Preservado
+
+Uma decisão que não foi documentada terá de ser redescoberta.
+
+O custo dessa redescoberta é frequentemente superior ao custo de documentar a decisão inicialmente.
+
+---
+
+# Definição de Sucesso
+
+Uma alteração arquitetural será considerada adequada quando:
+
+- respeitar os princípios fundamentais;
+- respeitar estes princípios arquiteturais;
+- simplificar a operação;
+- preservar dados;
+- melhorar a sustentabilidade futura do sistema.
+
+Quando existir dúvida entre duas soluções tecnicamente válidas, deve ser escolhida a solução que melhor respeite estes princípios.
+
+
+================================================================================
+FILE: docs\architecture\data-flow.md
+================================================================================
+
+# Fluxos de Informação
+
+## Objetivo
+
+Este documento descreve a forma como a informação circula dentro do ecossistema Cravo Homelab.
+
+O objetivo é compreender:
+
+- origem dos dados;
+- transformação dos dados;
+- armazenamento;
+- consumo;
+- dependências.
+
+Enquanto o documento de dependências descreve a relação entre serviços, este documento descreve a relação entre os dados.
+
+---
+
+# Filosofia
+
+Os dados são o ativo mais importante da infraestrutura.
+
+Os serviços existem para:
+
+- receber dados;
+- processar dados;
+- armazenar dados;
+- apresentar dados.
+
+A arquitetura deve sempre privilegiar:
+
+- rastreabilidade;
+- simplicidade;
+- recuperação;
+- preservação.
+
+---
+
+# Fluxo 1
+
+## Fotografias da Família
+
+### Origem
+
+```text
+Telemóvel
+```
+
+### Fluxo
+
+```text
+Telemóvel
+      ↓
+
+Nextcloud
+
+      ↓
+
+NAS QNAP
+```
+
+### Destino Final
+
+```text
+Nextcloud
+```
+
+### Objetivo
+
+Preservação e acesso familiar.
+
+---
+
+# Fluxo 2
+
+## Documento Recebido
+
+### Origem
+
+```text
+Email
+PDF
+Digitalização
+Download
+```
+
+### Fluxo
+
+```text
+Receção
+
+    ↓
+
+Verificação
+
+    ↓
+
+Utilização
+
+    ↓
+
+Arquivo
+```
+
+### Implementação
+
+```text
+Documento
+
+    ↓
+
+Nextcloud
+
+    ↓
+
+Paperless
+
+    ↓
+
+Arquivo Permanente
+```
+
+### Destino Final
+
+```text
+Paperless
+```
+
+---
+
+# Fluxo 3
+
+## Conhecimento Técnico
+
+### Origem
+
+```text
+Experiência
+Configuração
+Projeto
+Incidente
+```
+
+### Fluxo
+
+```text
+Conhecimento
+
+    ↓
+
+Markdown
+
+    ↓
+
+GitHub
+```
+
+### Publicação
+
+```text
+GitHub
+
+    ↓
+
+PDF
+```
+
+### Consulta
+
+```text
+Nextcloud
+```
+
+### Arquivo Histórico
+
+```text
+Paperless
+```
+
+---
+
+# Fluxo 4
+
+## Sensores Domésticos
+
+### Origem
+
+```text
+Sensores
+```
+
+Exemplos:
+
+- temperatura;
+- humidade;
+- movimento;
+- energia;
+- segurança.
+
+### Fluxo
+
+```text
+Sensor
+
+    ↓
+
+Home Assistant
+
+    ↓
+
+PostgreSQL
+
+    ↓
+
+Dashboard
+```
+
+### Consumidores
+
+- Utilizadores
+- Automações
+- Notificações
+
+---
+
+# Fluxo 5
+
+## Sistema de Rega
+
+### Origem
+
+```text
+Sensores de Humidade
+```
+
+### Fluxo
+
+```text
+Sensor
+
+    ↓
+
+Home Assistant
+
+    ↓
+
+Lógica de Rega
+
+    ↓
+
+Atuador
+
+    ↓
+
+Jardim
+```
+
+### Resultado
+
+Rega automatizada.
+
+---
+
+# Fluxo 6
+
+## Comunicação Familiar
+
+### Origem
+
+```text
+Utilizador
+```
+
+### Fluxo
+
+```text
+Talk
+
+    ↓
+
+Nextcloud
+
+    ↓
+
+Base de Dados
+```
+
+### Destino
+
+Outro utilizador.
+
+---
+
+# Fluxo 7
+
+## Acesso Remoto
+
+### Origem
+
+```text
+Telemóvel
+Portátil
+```
+
+### Fluxo
+
+```text
+Internet
+
+    ↓
+
+WireGuard
+
+    ↓
+
+Rede Interna
+
+    ↓
+
+Serviços
+```
+
+### Objetivo
+
+Extensão segura da rede doméstica.
+
+---
+
+# Fluxo 8
+
+## Resolução de Nomes
+
+### Origem
+
+Pedido de um utilizador.
+
+Exemplo:
+
+```text
+nextcloud.lenovo
+```
+
+### Fluxo
+
+```text
+Cliente
+
+    ↓
+
+AdGuard
+
+    ↓
+
+IP Interno
+
+    ↓
+
+Serviço
+```
+
+### Benefício
+
+Eliminar dependência de IPs e portas.
+
+---
+
+# Fluxo 9
+
+## Autenticação
+
+### Origem
+
+Utilizador.
+
+### Fluxo
+
+```text
+Utilizador
+
+    ↓
+
+Authentik
+
+    ↓
+
+Serviço
+
+    ↓
+
+Acesso
+```
+
+### Objetivo
+
+Identidade única.
+
+---
+
+# Fluxo 10
+
+## Monitorização
+
+### Origem
+
+Serviços.
+
+### Fluxo
+
+```text
+Serviço
+
+    ↓
+
+Uptime Kuma
+
+    ↓
+
+Alerta
+
+    ↓
+
+Administrador
+```
+
+### Objetivo
+
+Deteção precoce de falhas.
+
+---
+
+# Fluxos Críticos
+
+Consideram-se críticos:
+
+```text
+Documentos
+```
+
+```text
+Fotografias
+```
+
+```text
+Base de Dados
+```
+
+```text
+Autenticação
+```
+
+```text
+DNS
+```
+
+```text
+Backups
+```
+
+---
+
+# Dependência dos Dados
+
+Os dados possuem prioridade superior aos serviços.
+
+Exemplo:
+
+```text
+Nextcloud pode ser substituído.
+
+Fotografias não.
+```
+
+---
+
+# Regra Fundamental
+
+Ao introduzir um novo serviço deve ser possível responder:
+
+1. De onde vêm os dados?
+2. Para onde vão os dados?
+3. Quem consome os dados?
+4. Como são recuperados?
+
+Se alguma destas respostas não existir, o fluxo está incompleto.
+
+---
+
+# Definição de Sucesso
+
+Qualquer pessoa deve conseguir seguir o percurso de uma informação desde a sua origem até ao seu destino final.
+
+Se um fluxo não puder ser explicado, o sistema ainda não está completamente documentado.
+
+
+================================================================================
+FILE: docs\architecture\service-dependencies.md
+================================================================================
+
+# Dependências entre Serviços
+
+## Objetivo
+
+Este documento descreve as relações entre os vários componentes do Cravo Homelab.
+
+O objetivo é compreender:
+
+- quais os serviços críticos;
+- quais as dependências existentes;
+- qual o impacto da falha de cada componente;
+- qual a ordem correta de recuperação.
+
+Este documento complementa:
+
+```text
+docs/ssot/services.md
+```
+
+---
+
+# Visão Geral
+
+```text
+                    Internet
+                        │
+                        ▼
+
+                    WireGuard
+                        │
+                        ▼
+
+                  AdGuard Home
+                        │
+                        ▼
+
+             Nginx Proxy Manager
+                        │
+                        ▼
+
+                   Authentik
+             ┌──────────┼──────────┐
+             │          │          │
+             ▼          ▼          ▼
+
+         Nextcloud   Paperless  Outros
+
+             │
+             ▼
+
+         OnlyOffice
+             │
+             ▼
+
+       Nextcloud Talk
+
+             ▲
+             │
+
+       PostgreSQL
+             ▲
+             │
+
+      Home Assistant
+```
+
+---
+
+# Níveis de Dependência
+
+## Nível 0
+
+Infraestrutura Física
+
+### Componentes
+
+- Energia
+- Rede
+- Lenovo
+- NAS QNAP
+
+Sem estes componentes nada funciona.
+
+---
+
+## Nível 1
+
+Serviços Fundamentais
+
+### PostgreSQL
+
+Responsável pelas bases de dados.
+
+Consumidores:
+
+- Home Assistant
+- Nextcloud
+- Paperless
+- Authentik
+
+---
+
+### AdGuard Home
+
+Responsável por:
+
+- DNS
+- resolução interna
+
+Consumidores:
+
+- toda a rede
+
+---
+
+# Nível 2
+
+Identidade
+
+## Authentik
+
+Função:
+
+Centralização da autenticação.
+
+Consumidores:
+
+- Nextcloud
+- Talk
+- futuras integrações
+
+---
+
+# Nível 3
+
+Serviços de Dados
+
+## Nextcloud
+
+Função:
+
+Armazenamento ativo.
+
+Dependências:
+
+- PostgreSQL
+- Authentik
+- Rede
+
+---
+
+## Paperless
+
+Função:
+
+Arquivo documental.
+
+Dependências:
+
+- PostgreSQL
+- Rede
+- Armazenamento
+
+---
+
+## Home Assistant
+
+Função:
+
+Automação.
+
+Dependências:
+
+- PostgreSQL
+- Sensores
+- Rede
+
+---
+
+# Nível 4
+
+Serviços Complementares
+
+## OnlyOffice
+
+Dependência:
+
+Nextcloud
+
+Se falhar:
+
+Os documentos continuam acessíveis.
+
+Perde-se apenas edição integrada.
+
+---
+
+## Nextcloud Talk
+
+Dependência:
+
+Nextcloud
+
+Se falhar:
+
+A comunicação fica indisponível.
+
+Os ficheiros permanecem acessíveis.
+
+---
+
+## Uptime Kuma
+
+Dependência:
+
+Rede
+
+Se falhar:
+
+Perde-se monitorização.
+
+Não existe impacto direto na produção.
+
+---
+
+# Impacto de Falhas
+
+## Falha PostgreSQL
+
+Impacto:
+
+Muito elevado.
+
+Afeta:
+
+- Home Assistant
+- Nextcloud
+- Paperless
+- Authentik
+
+Criticidade:
+
+Crítica.
+
+---
+
+## Falha AdGuard
+
+Impacto:
+
+Elevado.
+
+Afeta:
+
+- resolução de nomes;
+- domínios internos.
+
+Criticidade:
+
+Crítica.
+
+---
+
+## Falha Authentik
+
+Impacto:
+
+Elevado.
+
+Afeta:
+
+- autenticação;
+- SSO.
+
+Criticidade:
+
+Elevada.
+
+---
+
+## Falha Nextcloud
+
+Impacto:
+
+Elevado.
+
+Afeta:
+
+- acesso a documentos ativos;
+- sincronização;
+- colaboração.
+
+Criticidade:
+
+Elevada.
+
+---
+
+## Falha Paperless
+
+Impacto:
+
+Moderado.
+
+Afeta:
+
+- consulta documental.
+
+Criticidade:
+
+Elevada.
+
+---
+
+## Falha Home Assistant
+
+Impacto:
+
+Elevado.
+
+Afeta:
+
+- automações;
+- dashboards;
+- monitorização.
+
+Criticidade:
+
+Crítica.
+
+---
+
+# Ordem de Recuperação
+
+Em caso de desastre seguir:
+
+## 1
+
+Infraestrutura Física
+
+- Energia
+- Rede
+- Lenovo
+- NAS
+
+---
+
+## 2
+
+PostgreSQL
+
+---
+
+## 3
+
+AdGuard
+
+---
+
+## 4
+
+Authentik
+
+---
+
+## 5
+
+Home Assistant
+
+---
+
+## 6
+
+Nextcloud
+
+---
+
+## 7
+
+Paperless
+
+---
+
+## 8
+
+OnlyOffice
+
+---
+
+## 9
+
+Talk
+
+---
+
+## 10
+
+Uptime Kuma
+
+---
+
+# Regra Fundamental
+
+Antes de remover, alterar ou atualizar um serviço, consultar sempre este documento.
+
+Uma alteração num serviço pode afetar múltiplos componentes dependentes.
+
+---
+
+# Definição de Sucesso
+
+Qualquer pessoa deve conseguir compreender:
+
+- o papel de cada serviço;
+- as dependências existentes;
+- o impacto de uma falha;
+
+consultando exclusivamente este documento.
+
+
+================================================================================
+FILE: docs\family\emergencia-e-continuidade.md
+================================================================================
+
+# Emergência e Continuidade
+
+## Objetivo
+
+Este documento foi criado para garantir que os serviços digitais da família continuam utilizáveis mesmo na ausência temporária ou prolongada do administrador principal.
+
+O objetivo não é ensinar administração de sistemas.
+
+O objetivo é permitir identificar:
+
+- onde estão os dados;
+- como aceder aos serviços;
+- o que fazer perante problemas comuns;
+- quando pedir ajuda externa.
+
+---
+
+# Regra Mais Importante
+
+Não entrar em pânico.
+
+A maior parte dos problemas tem solução.
+
+A maior parte dos dados continua a existir mesmo quando um serviço parece indisponível.
+
+---
+
+# Onde Está a Informação da Família?
+
+## Fotografias
+
+Local principal:
+
+```text
+Nextcloud
+```
+
+---
+
+## Documentos Ativos
+
+Local principal:
+
+```text
+Nextcloud
+```
+
+---
+
+## Faturas e Arquivo
+
+Local principal:
+
+```text
+Paperless
+```
+
+---
+
+## Conversas e Chamadas
+
+Local principal:
+
+```text
+Nextcloud Talk
+```
+
+---
+
+## Informação da Casa
+
+Local principal:
+
+```text
+Home Assistant
+```
+
+---
+
+# O Que Fazer Se Um Serviço Não Abrir?
+
+## Passo 1
+
+Confirmar Internet.
+
+Abrir uma página qualquer.
+
+Exemplo:
+
+```text
+www.sapo.pt
+```
+
+---
+
+## Passo 2
+
+Verificar VPN.
+
+Se estiver fora de casa:
+
+```text
+WireGuard
+Ligado
+```
+
+---
+
+## Passo 3
+
+Tentar novamente após alguns minutos.
+
+---
+
+## Passo 4
+
+Consultar a FAQ.
+
+---
+
+# O Que Fazer Se o Nextcloud Não Estiver Disponível?
+
+Verificar:
+
+- ligação à Internet;
+- VPN;
+- endereço correto.
+
+Os documentos continuam armazenados.
+
+A indisponibilidade temporária não significa perda de dados.
+
+---
+
+# O Que Fazer Se o Paperless Não Estiver Disponível?
+
+Os documentos permanecem armazenados.
+
+Apenas a interface de consulta pode estar indisponível.
+
+---
+
+# O Que Fazer Se a Casa Inteligente Não Funcionar?
+
+Em muitos casos:
+
+- luzes continuam a funcionar;
+- equipamentos continuam a funcionar;
+- tomadas continuam operacionais.
+
+O Home Assistant acrescenta automatização.
+
+Nem tudo depende dele.
+
+---
+
+# O Que Fazer Se o Servidor Estiver Desligado?
+
+Verificar:
+
+- energia elétrica;
+- router;
+- UPS (se existir);
+- tomadas.
+
+Não efetuar alterações sem compreender o impacto.
+
+---
+
+# Quem Pode Ajudar?
+
+Consultar:
+
+```text
+Manual da Família
+FAQ
+```
+
+antes de procurar assistência externa.
+
+---
+
+# Informação Importante
+
+Os dados importantes da família foram concebidos para existir de forma organizada e recuperável.
+
+A infraestrutura pode falhar.
+
+Os dados não devem desaparecer por causa disso.
+
+---
+
+# Filosofia
+
+Este sistema foi construído para servir a família.
+
+Não foi construído para depender permanentemente de uma única pessoa.
+
+O objetivo da documentação é precisamente garantir que o conhecimento permanece acessível, mesmo quando o administrador não está disponível.
+
+---
+
+# Mensagem Final
+
+Se está a ler este documento porque surgiu um problema, lembre-se:
+
+A infraestrutura foi concebida para ser recuperada.
+
+A documentação foi criada para ajudar.
+
+Os dados importantes continuam a ser mais valiosos do que qualquer equipamento ou aplicação.
+
+Concentre-se primeiro em proteger e recuperar a informação.
+
+Tudo o resto pode ser reconstruído.
+
+
+================================================================================
+FILE: docs\family\faq.md
+================================================================================
+
+# Perguntas Frequentes (FAQ)
+
+## Objetivo
+
+Este documento reúne as perguntas mais comuns relacionadas com os serviços digitais da família.
+
+Sempre que surgir uma dúvida, recomenda-se consultar primeiro esta página.
+
+---
+
+# Acesso aos Serviços
+
+## Não estou em casa. Porque não consigo abrir os serviços?
+
+A maioria dos serviços da família está protegida por VPN.
+
+Antes de utilizar:
+
+- Nextcloud
+- Paperless
+- Home Assistant
+- Talk
+
+deve verificar se a VPN WireGuard está ligada.
+
+---
+
+## Como sei se a VPN está ligada?
+
+Abrir a aplicação WireGuard.
+
+O perfil da família deve aparecer como:
+
+```text
+Ativo
+```
+
+ou
+
+```text
+Ligado
+```
+
+dependendo do dispositivo.
+
+---
+
+## A VPN deve estar sempre ligada?
+
+Não.
+
+Quando está em casa normalmente não é necessária.
+
+Quando está fora de casa é recomendada para acesso aos serviços privados.
+
+---
+
+# Nextcloud
+
+## Onde guardo os meus documentos?
+
+No Nextcloud.
+
+O Nextcloud é a localização oficial dos documentos ativos.
+
+---
+
+## Onde guardo as minhas fotografias?
+
+No Nextcloud.
+
+Sempre que possível utiliza-se uma única localização para evitar duplicações.
+
+---
+
+## Apaguei um ficheiro por engano. O que faço?
+
+Consultar a pasta:
+
+```text
+Ficheiros Eliminados
+```
+
+dentro do Nextcloud.
+
+---
+
+## Porque não devo guardar documentos importantes apenas no computador?
+
+Porque os computadores podem falhar.
+
+O Nextcloud existe precisamente para centralizar os ficheiros importantes.
+
+---
+
+# Paperless
+
+## Onde encontro uma fatura antiga?
+
+No Paperless.
+
+Utilizar a pesquisa.
+
+---
+
+## Como procuro um documento?
+
+Escrever:
+
+- nome da empresa;
+- data;
+- palavra presente no documento.
+
+Exemplos:
+
+```text
+EDP
+```
+
+```text
+Continente
+```
+
+```text
+Seguro
+```
+
+```text
+MEO
+```
+
+---
+
+## Não encontro um documento.
+
+Tentar:
+
+- outra palavra;
+- outro ano;
+- nome da empresa;
+- categoria.
+
+---
+
+## Um documento deve ficar no Nextcloud ou no Paperless?
+
+Regra simples:
+
+```text
+Documento em utilização
+        ↓
+Nextcloud
+```
+
+```text
+Documento arquivado
+        ↓
+Paperless
+```
+
+---
+
+# Nextcloud Talk
+
+## Para que serve?
+
+Para mensagens e chamadas privadas.
+
+---
+
+## Posso fazer videochamadas?
+
+Sim.
+
+O Talk suporta:
+
+- mensagens;
+- chamadas de voz;
+- videochamadas.
+
+---
+
+## Posso enviar ficheiros?
+
+Sim.
+
+Pode enviar:
+
+- fotografias;
+- PDFs;
+- documentos.
+
+---
+
+# Home Assistant
+
+## A casa deixa de funcionar se o Home Assistant estiver desligado?
+
+Não.
+
+Muitos equipamentos continuam a funcionar manualmente.
+
+O Home Assistant adiciona automatização e coordenação.
+
+---
+
+## Posso utilizar os botões do painel?
+
+Sim.
+
+Os controlos apresentados foram criados para utilização normal.
+
+---
+
+## Recebi uma notificação. Significa que existe um problema?
+
+Nem sempre.
+
+Existem notificações:
+
+- informativas;
+- avisos;
+- alertas importantes.
+
+Ler sempre a mensagem antes de concluir que existe uma avaria.
+
+---
+
+# Palavra-passe e Contas
+
+## Esqueci-me da palavra-passe.
+
+Contactar o administrador do sistema.
+
+Não criar contas duplicadas.
+
+---
+
+## Posso mudar a palavra-passe?
+
+Sim.
+
+No entanto é recomendável informar o administrador para garantir que não existem dependências associadas.
+
+---
+
+# Mudança de Telemóvel
+
+## Comprei um telemóvel novo. O que devo fazer?
+
+Instalar:
+
+- WireGuard;
+- Nextcloud;
+- Nextcloud Talk.
+
+Entrar com a conta habitual.
+
+---
+
+## Vou perder os meus dados?
+
+Não.
+
+Os dados estão armazenados na infraestrutura da família e não apenas no telemóvel.
+
+---
+
+# Problemas Gerais
+
+## Um serviço parece lento.
+
+Verificar:
+
+1. Ligação à Internet.
+2. Ligação Wi-Fi.
+3. Estado da VPN.
+
+---
+
+## Um serviço não abre.
+
+Verificar:
+
+1. Se está em casa ou fora de casa.
+2. Se a VPN está ligada.
+3. Se o endereço foi escrito corretamente.
+
+---
+
+## Não sei onde está um documento.
+
+Pergunta simples:
+
+O documento está a ser utilizado ou está arquivado?
+
+```text
+Em utilização
+        ↓
+Nextcloud
+```
+
+```text
+Arquivado
+        ↓
+Paperless
+```
+
+---
+
+# Regra Mais Importante
+
+Se uma dúvida não estiver respondida nesta página:
+
+1. Não entrar em pânico.
+2. Não alterar configurações desconhecidas.
+3. Contactar o administrador.
+
+Na grande maioria dos casos o problema tem uma solução simples.
+
+---
+
+# Resumo Rápido
+
+```text
+Ficheiros
+    ↓
+Nextcloud
+
+Faturas
+    ↓
+Paperless
+
+Mensagens
+    ↓
+Talk
+
+Casa Inteligente
+    ↓
+Home Assistant
+
+Fora de Casa
+    ↓
+WireGuard
+```
+
+Se se lembrar destas cinco regras, conseguirá utilizar praticamente todo o ecossistema digital da família.
+
+
+================================================================================
+FILE: docs\family\guia-familia.md
+================================================================================
+
+# Guia da Família
+
+## Bem-vindos ao Cravo Homelab
+
+Este sistema foi criado para simplificar a gestão da informação digital da família.
+
+Em vez de utilizar múltiplos serviços dispersos pela Internet, o Cravo Homelab reúne num único local os documentos, fotografias, comunicações e ferramentas digitais mais importantes do dia a dia.
+
+O objetivo principal não é substituir a tecnologia existente por razões técnicas.
+
+O objetivo é criar um ambiente mais simples, organizado, privado e fácil de utilizar.
+
+---
+
+# O Que É o Cravo Homelab?
+
+O Cravo Homelab pode ser visto como um conjunto de serviços digitais privados da família.
+
+Tal como existe uma biblioteca para guardar livros e um arquivo para guardar documentos, este sistema permite armazenar e organizar informação digital de forma centralizada.
+
+Os principais serviços são:
+
+| Serviço | Utilização |
+|----------|----------|
+| Nextcloud | Ficheiros, fotografias e documentos |
+| Paperless | Faturas e arquivo documental |
+| Nextcloud Talk | Mensagens e videochamadas |
+| Home Assistant | Controlo da casa inteligente |
+
+---
+
+# Utilização em Casa
+
+Quando estiver ligado ao Wi-Fi da casa:
+
+- Não é necessário ativar VPN.
+- Não é necessário memorizar números de portas.
+- Não é necessário conhecer endereços IP.
+
+Basta utilizar os endereços habituais fornecidos neste guia.
+
+---
+
+# Utilização Fora de Casa
+
+Quando estiver fora da rede doméstica:
+
+1. Abrir a aplicação WireGuard.
+2. Ativar o perfil da família.
+3. Utilizar normalmente os mesmos serviços.
+
+O sistema passará a funcionar como se estivesse dentro da rede de casa.
+
+---
+
+# Onde Estão as Fotografias?
+
+As fotografias da família encontram-se armazenadas no Nextcloud.
+
+O Nextcloud funciona de forma semelhante aos serviços tradicionais de armazenamento na cloud.
+
+Pode:
+
+- visualizar fotografias;
+- criar pastas;
+- organizar álbuns;
+- partilhar conteúdos com outros membros da família.
+
+---
+
+# Onde Estão os Documentos?
+
+Os documentos de trabalho diário devem ser guardados no Nextcloud.
+
+Exemplos:
+
+- documentos pessoais;
+- folhas de cálculo;
+- fotografias;
+- PDFs;
+- documentos partilhados.
+
+---
+
+# Onde Estão as Faturas?
+
+As faturas e documentos importantes são guardados no Paperless.
+
+O Paperless funciona como um arquivo digital inteligente.
+
+Permite:
+
+- pesquisar documentos;
+- organizar categorias;
+- encontrar faturas antigas;
+- consultar documentos digitalizados.
+
+---
+
+# Como Procurar Uma Fatura?
+
+Entrar no Paperless.
+
+Utilizar a caixa de pesquisa.
+
+Pode pesquisar:
+
+- nome da empresa;
+- data;
+- tipo de documento;
+- palavras presentes no documento.
+
+Exemplos:
+
+```text
+EDP
+Continente
+Seguro
+IMI
+MEO
+```
+
+---
+
+# Como Comunicar Com a Família?
+
+O Nextcloud Talk permite:
+
+- trocar mensagens;
+- realizar chamadas;
+- realizar videochamadas;
+- partilhar ficheiros.
+
+Funciona de forma semelhante a aplicações de mensagens tradicionais.
+
+---
+
+# Como Controlar a Casa?
+
+O Home Assistant permite:
+
+- consultar sensores;
+- controlar dispositivos;
+- visualizar informação da casa;
+- receber notificações.
+
+Nem todos os utilizadores necessitam de utilizar esta aplicação diariamente.
+
+---
+
+# Regras Simples
+
+## Regra 1
+
+Guardar documentos no Nextcloud.
+
+Evitar criar cópias espalhadas por dispositivos diferentes.
+
+---
+
+## Regra 2
+
+Guardar faturas importantes no Paperless.
+
+---
+
+## Regra 3
+
+Quando estiver fora de casa e algo não funcionar, verificar primeiro se a VPN está ligada.
+
+---
+
+## Regra 4
+
+Em caso de dúvida, procurar primeiro.
+
+A maior parte da informação já se encontra organizada e indexada.
+
+---
+
+# Perguntas Frequentes
+
+## Não encontro um documento.
+
+Verificar:
+
+1. Nextcloud.
+2. Paperless.
+
+---
+
+## Não consigo aceder a um serviço fora de casa.
+
+Verificar:
+
+1. Ligação à Internet.
+2. VPN WireGuard ativa.
+
+---
+
+## Posso apagar ficheiros?
+
+Sim.
+
+No entanto, apagar um ficheiro pode afetar outros utilizadores.
+
+Em caso de dúvida, mover para uma pasta temporária antes de eliminar.
+
+---
+
+## Preciso de perceber a parte técnica?
+
+Não.
+
+O sistema foi concebido para ser utilizado sem necessidade de conhecimentos técnicos.
+
+---
+
+# Filosofia
+
+A tecnologia existe para servir a família.
+
+O objetivo deste sistema é:
+
+- simplificar;
+- organizar;
+- proteger;
+- automatizar.
+
+Sempre que a utilização parecer complicada, existe provavelmente uma forma mais simples de fazer a mesma tarefa.
+
+
+================================================================================
+FILE: docs\family\home-assistant.md
+================================================================================
+
+# Home Assistant
+
+## O Que É?
+
+O Home Assistant é o sistema que coordena os equipamentos inteligentes da casa.
+
+Pode ser visto como o "cérebro digital" da habitação.
+
+A sua função é recolher informação dos dispositivos, apresentar essa informação de forma simples e automatizar tarefas repetitivas.
+
+---
+
+# Para Que Serve?
+
+O Home Assistant permite:
+
+- Consultar sensores;
+- Controlar equipamentos;
+- Receber notificações;
+- Executar automações;
+- Acompanhar o estado da habitação.
+
+A maioria das operações ocorre automaticamente sem necessidade de intervenção dos utilizadores.
+
+---
+
+# Como Entrar
+
+## Em Casa
+
+Abrir o navegador e aceder a:
+
+```text
+https://homeassistant.lenovo
+```
+
+ou ao endereço atualmente definido para o serviço.
+
+---
+
+## Fora de Casa
+
+1. Abrir a aplicação WireGuard.
+2. Ativar o perfil da família.
+3. Abrir normalmente o Home Assistant.
+
+---
+
+# Ecrã Principal
+
+O painel principal apresenta informação sobre:
+
+- Estado geral da habitação;
+- Sensores;
+- Equipamentos ativos;
+- Alertas;
+- Informações relevantes do dia.
+
+O aspeto do painel poderá evoluir ao longo do tempo.
+
+---
+
+# O Que Pode Consultar?
+
+Dependendo da configuração ativa da casa, pode consultar:
+
+## Ambiente
+
+- Temperatura;
+- Humidade;
+- Qualidade do ar.
+
+---
+
+## Energia
+
+- Consumos;
+- Equipamentos ligados;
+- Tomadas monitorizadas.
+
+---
+
+## Segurança
+
+- Alarmes;
+- Sensores;
+- Estado dos equipamentos críticos.
+
+---
+
+## Jardim
+
+- Estado dos sensores da rega;
+- Informações de humidade do solo;
+- Estado da automação do jardim.
+
+---
+
+## Limpeza
+
+- Estado dos robôs aspiradores;
+- Última limpeza efetuada;
+- Estado das baterias.
+
+---
+
+# O Que Pode Controlar?
+
+Dependendo da configuração da habitação:
+
+- Iluminação;
+- Tomadas inteligentes;
+- Equipamentos multimédia;
+- Robôs aspiradores;
+- Automatizações específicas.
+
+---
+
+# O Que São Automações?
+
+As automações são tarefas executadas automaticamente.
+
+Exemplos:
+
+- Notificações;
+- Gestão da rega;
+- Alertas de segurança;
+- Monitorização de equipamentos.
+
+A maioria destas funcionalidades não necessita de intervenção manual.
+
+---
+
+# Notificações
+
+O sistema pode enviar notificações para:
+
+- Telemóveis;
+- Aplicações;
+- Equipamentos de voz.
+
+Estas mensagens servem para informar sobre eventos relevantes da habitação.
+
+---
+
+# Alarmes e Alertas
+
+Nem todas as mensagens representam um problema.
+
+Existem três categorias gerais:
+
+## Informação
+
+Mensagens normais de funcionamento.
+
+---
+
+## Aviso
+
+Situações que merecem atenção.
+
+---
+
+## Crítico
+
+Situações que podem necessitar de intervenção rápida.
+
+---
+
+# O Que Fazer se Algo Parecer Errado?
+
+## Passo 1
+
+Verificar se existe alguma mensagem explicativa.
+
+---
+
+## Passo 2
+
+Atualizar o ecrã.
+
+---
+
+## Passo 3
+
+Aguardar alguns minutos.
+
+Muitas informações são atualizadas periodicamente.
+
+---
+
+## Passo 4
+
+Contactar o administrador do sistema.
+
+---
+
+# O Que Não Deve Ser Feito?
+
+Evitar:
+
+- Alterar configurações desconhecidas;
+- Apagar dispositivos;
+- Alterar credenciais;
+- Desativar automações sem compreender o objetivo.
+
+---
+
+# Boas Práticas
+
+✅ Consultar a informação antes de agir.
+
+✅ Utilizar os controlos normais do painel.
+
+✅ Comunicar situações estranhas.
+
+✅ Utilizar os dashboards oficiais.
+
+---
+
+# Perguntas Frequentes
+
+## A casa deixa de funcionar se o Home Assistant estiver desligado?
+
+Não.
+
+Muitos equipamentos continuam a funcionar manualmente.
+
+O Home Assistant adiciona coordenação e automatização.
+
+---
+
+## Posso danificar algo carregando num botão?
+
+Normalmente não.
+
+Os controlos apresentados foram concebidos para utilização diária.
+
+---
+
+## Preciso de compreender a parte técnica?
+
+Não.
+
+O objetivo do sistema é apresentar informação útil de forma simples.
+
+---
+
+# Filosofia
+
+O Home Assistant não existe para controlar a família.
+
+Existe para simplificar tarefas repetitivas, reduzir preocupações e tornar a informação da habitação mais acessível.
+
+A melhor automação é aquela que ajuda sem ser notada.
+
+
+================================================================================
+FILE: docs\family\nextcloud.md
+================================================================================
+
+# Nextcloud
+
+## O Que É?
+
+O Nextcloud é a nuvem privada da família.
+
+Pode ser encarado como uma combinação entre:
+
+- Google Drive
+- OneDrive
+- Dropbox
+- Google Photos
+
+mas funcionando na infraestrutura da família.
+
+Aqui encontram-se armazenados:
+
+- fotografias;
+- documentos;
+- ficheiros pessoais;
+- ficheiros partilhados;
+- conteúdos familiares.
+
+---
+
+# Como Entrar
+
+## Em Casa
+
+Abrir o navegador e aceder a:
+
+```text
+http://nextcloud.lenovo
+```
+
+ou
+
+```text
+https://nextcloud.lenovo
+```
+
+(conforme a configuração em produção)
+
+Introduzir as credenciais habituais.
+
+---
+
+## Fora de Casa
+
+1. Abrir a aplicação WireGuard.
+2. Ativar o perfil da família.
+3. Abrir o Nextcloud normalmente.
+
+---
+
+# Página Inicial
+
+Após o login existem normalmente várias áreas:
+
+## Ficheiros
+
+Local onde estão armazenados os documentos.
+
+---
+
+## Fotografias
+
+Área para visualizar imagens e vídeos.
+
+---
+
+## Partilhados
+
+Conteúdo disponibilizado por outros utilizadores.
+
+---
+
+## Favoritos
+
+Atalhos para conteúdos frequentemente utilizados.
+
+---
+
+# Criar Uma Pasta
+
+1. Abrir a área "Ficheiros".
+2. Carregar em "Novo".
+3. Selecionar "Pasta".
+4. Introduzir o nome.
+5. Confirmar.
+
+---
+
+# Carregar Ficheiros
+
+## Método 1
+
+Arrastar diretamente para a janela do navegador.
+
+---
+
+## Método 2
+
+1. Carregar em "Novo".
+2. Escolher "Enviar ficheiro".
+3. Selecionar o ficheiro.
+4. Confirmar.
+
+---
+
+# Carregar Fotografias
+
+## No Computador
+
+Utilizar o mesmo processo de envio de ficheiros.
+
+---
+
+## No Telemóvel
+
+Instalar a aplicação Nextcloud.
+
+Após a configuração inicial:
+
+1. Abrir a aplicação.
+2. Entrar na conta.
+3. Ativar envio automático de fotografias.
+
+As novas fotografias passam a ser guardadas automaticamente.
+
+---
+
+# Partilhar Ficheiros
+
+1. Selecionar o ficheiro.
+2. Escolher "Partilhar".
+3. Introduzir o utilizador.
+4. Confirmar.
+
+Também é possível gerar uma ligação de partilha.
+
+---
+
+# Editar Documentos
+
+Os documentos suportados podem ser editados diretamente.
+
+Ao abrir:
+
+- documentos de texto;
+- folhas de cálculo;
+- apresentações;
+
+o editor OnlyOffice abrirá automaticamente.
+
+---
+
+# Recuperar Ficheiros Apagados
+
+Se um ficheiro foi eliminado por engano:
+
+1. Abrir o menu lateral.
+2. Entrar em "Ficheiros eliminados".
+3. Procurar o ficheiro.
+4. Escolher "Restaurar".
+
+---
+
+# Pesquisa
+
+A caixa de pesquisa permite procurar:
+
+- nomes de ficheiros;
+- pastas;
+- documentos.
+
+Sempre que possível utilizar nomes claros nos ficheiros.
+
+---
+
+# Organização Recomendada
+
+Evitar:
+
+```text
+Novo Documento.docx
+```
+
+ou
+
+```text
+Documento Final Final.docx
+```
+
+Preferir:
+
+```text
+2026-08 Seguro Automovel.pdf
+```
+
+```text
+2026-09 Orcamento Cozinha.xlsx
+```
+
+```text
+2026-08 Ata Reuniao Condominio.docx
+```
+
+---
+
+# Boas Práticas
+
+## Fazer
+
+✅ Organizar os ficheiros em pastas.
+
+✅ Utilizar nomes claros.
+
+✅ Utilizar partilhas em vez de duplicações.
+
+✅ Carregar fotografias regularmente.
+
+✅ Apagar conteúdo obsoleto.
+
+---
+
+## Evitar
+
+❌ Guardar versões duplicadas.
+
+❌ Criar múltiplas cópias do mesmo documento.
+
+❌ Utilizar o ambiente de trabalho do computador como arquivo principal.
+
+❌ Armazenar documentos importantes apenas no telemóvel.
+
+---
+
+# Problemas Frequentes
+
+## Não consigo entrar
+
+Verificar:
+
+- Palavra-passe;
+- Ligação à Internet;
+- VPN (se estiver fora de casa).
+
+---
+
+## Não vejo um ficheiro
+
+Verificar:
+
+- Pasta correta;
+- Pesquisa;
+- Ficheiros eliminados.
+
+---
+
+## Não consigo editar
+
+Verificar:
+
+- Permissões;
+- Estado do OnlyOffice.
+
+---
+
+# Regra Fundamental
+
+O Nextcloud é a localização oficial dos ficheiros ativos da família.
+
+Sempre que existir dúvida sobre onde guardar um documento, a resposta é normalmente:
+
+```text
+Guardar no Nextcloud.
+```
+
+
+================================================================================
+FILE: docs\family\paperless.md
+================================================================================
+
+# Paperless-ngx
+
+## O Que É?
+
+O Paperless é o arquivo documental digital da família.
+
+Pode ser visto como o equivalente digital de:
+
+- um arquivo de faturas;
+- uma pasta de garantias;
+- um armário de documentos;
+- uma coleção organizada de PDFs.
+
+A diferença é que consegue pesquisar instantaneamente o conteúdo de milhares de documentos.
+
+---
+
+# Para Que Serve?
+
+O Paperless foi criado para eliminar três problemas:
+
+1. Perda de documentos importantes.
+2. Dificuldade em encontrar documentos antigos.
+3. Acumulação de papel.
+
+Atualmente funciona como o arquivo documental oficial da família.
+
+---
+
+# Tipos de Documentos Guardados
+
+Exemplos:
+
+- Faturas
+- Garantias
+- Recibos
+- Contratos
+- Seguros
+- Documentação fiscal
+- Registos de manutenção
+- Documentos digitalizados
+
+---
+
+# Como Entrar
+
+## Em Casa
+
+Abrir:
+
+```text
+http://paperless.lenovo
+```
+
+ou
+
+```text
+https://paperless.lenovo
+```
+
+(conforme a configuração em produção)
+
+---
+
+## Fora de Casa
+
+1. Ligar a VPN WireGuard.
+2. Abrir o Paperless normalmente.
+
+---
+
+# O Conceito Mais Importante
+
+O Paperless não é uma pasta.
+
+É um motor de pesquisa.
+
+A forma correta de utilizar o Paperless é:
+
+```text
+Pesquisar
+```
+
+e não:
+
+```text
+Navegar por pastas
+```
+
+---
+
+# Como Procurar Um Documento
+
+Na caixa de pesquisa escrever palavras relacionadas com o documento.
+
+Exemplos:
+
+```text
+EDP
+```
+
+```text
+Seguro
+```
+
+```text
+Continente
+```
+
+```text
+2026
+```
+
+```text
+MEO
+```
+
+```text
+IRS
+```
+
+O sistema pesquisa o conteúdo interno dos documentos.
+
+Não apenas o nome do ficheiro.
+
+---
+
+# Pesquisa Inteligente
+
+O sistema utiliza OCR.
+
+OCR significa:
+
+```text
+Reconhecimento Ótico de Caracteres
+```
+
+Na prática isto significa que mesmo documentos digitalizados podem ser encontrados por palavras presentes no seu interior.
+
+Exemplo:
+
+Uma fatura digitalizada pode ser encontrada pesquisando:
+
+```text
+Eletricidade
+```
+
+mesmo que essa palavra não faça parte do nome do ficheiro.
+
+---
+
+# Como Visualizar Um Documento
+
+1. Procurar o documento.
+2. Abrir o resultado.
+3. Visualizar diretamente no navegador.
+
+Não é necessário descarregar o PDF.
+
+---
+
+# Como Descarregar Um Documento
+
+1. Abrir o documento.
+2. Escolher a opção de descarga.
+3. Guardar localmente se necessário.
+
+---
+
+# Como Adicionar Novos Documentos
+
+Dependendo da configuração ativa, um documento pode ser adicionado através de:
+
+- Upload manual;
+- Pasta de importação automática;
+- Processos automatizados;
+- Integrações futuras.
+
+---
+
+# Como Saber se um Documento Já Existe
+
+Antes de carregar documentos importantes:
+
+1. Utilizar a pesquisa.
+2. Verificar se já se encontra arquivado.
+
+Isto ajuda a reduzir duplicações.
+
+---
+
+# Organização
+
+Os documentos podem surgir associados a:
+
+- Etiquetas
+- Categorias
+- Datas
+- Correspondentes
+
+Estas classificações ajudam na pesquisa mas não substituem a caixa de pesquisa principal.
+
+---
+
+# O Que Não Deve Ser Guardado Aqui
+
+O Paperless não substitui o Nextcloud.
+
+Guardar no Nextcloud:
+
+- documentos em edição;
+- fotografias;
+- ficheiros de trabalho.
+
+Guardar no Paperless:
+
+- versões finais;
+- documentos oficiais;
+- arquivo permanente.
+
+---
+
+# Fluxo Recomendado
+
+```text
+Receber Documento
+        │
+        ▼
+
+Utilizar Documento
+        │
+        ▼
+
+Guardar no Nextcloud
+        │
+        ▼
+
+Documento Final
+        │
+        ▼
+
+Arquivar no Paperless
+```
+
+---
+
+# Problemas Frequentes
+
+## Não encontro o documento
+
+Tentar:
+
+- outra palavra;
+- nome da empresa;
+- data aproximada;
+- categoria.
+
+---
+
+## O documento está ilegível
+
+Verificar o PDF original.
+
+A qualidade do OCR depende da qualidade da digitalização.
+
+---
+
+## Tenho dúvidas se devo guardar aqui
+
+Regra simples:
+
+Se for um documento importante que poderá ser necessário daqui a cinco anos:
+
+```text
+Paperless
+```
+
+---
+
+# Regra Fundamental
+
+O Paperless é o arquivo documental permanente da família.
+
+Se um documento for juridicamente, fiscalmente ou pessoalmente importante, deve acabar arquivado no Paperless.
+
+
+================================================================================
+FILE: docs\family\talk.md
+================================================================================
+
+# Nextcloud Talk
+
+## O Que É?
+
+O Nextcloud Talk é a plataforma privada de comunicação da família.
+
+Pode ser comparado a aplicações como:
+
+- WhatsApp
+- Signal
+- Microsoft Teams
+- Google Meet
+
+A diferença é que as comunicações são realizadas através da infraestrutura da família.
+
+---
+
+# Para Que Serve?
+
+O Talk permite:
+
+- trocar mensagens;
+- criar conversas de grupo;
+- efetuar chamadas de voz;
+- realizar videochamadas;
+- partilhar ficheiros;
+- colaborar em tempo real.
+
+---
+
+# Quando Devo Utilizar?
+
+Utilizar o Talk quando pretender:
+
+- conversar com outro membro da família;
+- realizar uma chamada privada;
+- partilhar rapidamente um ficheiro;
+- iniciar uma videochamada.
+
+---
+
+# Como Entrar
+
+## Em Casa
+
+Abrir:
+
+```text
+http://nextcloud.lenovo
+```
+
+Entrar na conta habitual.
+
+Selecionar o ícone do Talk.
+
+---
+
+## Fora de Casa
+
+1. Ativar a VPN WireGuard.
+2. Abrir o Talk normalmente.
+
+---
+
+# Aplicação para Telemóvel
+
+O Talk possui aplicação própria.
+
+Disponível para:
+
+- Android
+- iPhone
+
+Instalar a aplicação oficial Nextcloud Talk.
+
+---
+
+# Primeira Configuração
+
+## Passo 1
+
+Instalar a aplicação.
+
+---
+
+## Passo 2
+
+Introduzir o endereço do servidor.
+
+Exemplo:
+
+```text
+nextcloud.lenovo
+```
+
+ou o endereço definido na documentação atual.
+
+---
+
+## Passo 3
+
+Autenticar com a conta habitual.
+
+---
+
+# Conversas
+
+## Iniciar Conversa
+
+1. Abrir o Talk.
+2. Selecionar um contacto.
+3. Escrever a mensagem.
+4. Enviar.
+
+---
+
+## Responder
+
+A conversa funciona de forma semelhante às aplicações de mensagens mais comuns.
+
+---
+
+# Grupos
+
+É possível criar grupos para:
+
+- Família
+- Casa
+- Projetos específicos
+
+Os grupos facilitam a partilha de informação comum.
+
+---
+
+# Chamadas de Voz
+
+Para iniciar uma chamada:
+
+1. Abrir a conversa.
+2. Selecionar o ícone de chamada.
+
+---
+
+# Videochamadas
+
+Para iniciar uma videochamada:
+
+1. Abrir a conversa.
+2. Selecionar o ícone de vídeo.
+
+---
+
+# Partilha de Ficheiros
+
+Durante uma conversa é possível:
+
+- enviar fotografias;
+- enviar documentos;
+- partilhar ficheiros do Nextcloud.
+
+---
+
+# Partilha de Fotografias
+
+1. Escolher anexar ficheiro.
+2. Selecionar fotografia.
+3. Enviar.
+
+---
+
+# Notificações
+
+Recomenda-se manter as notificações ativas.
+
+Isto permite receber:
+
+- mensagens;
+- chamadas;
+- alertas de conversas.
+
+---
+
+# Utilização Recomendada
+
+O Talk deve ser considerado o canal privado principal da família.
+
+Sempre que possível:
+
+- utilizar o Talk para partilha de ficheiros internos;
+- utilizar o Talk para comunicação familiar;
+- evitar a dispersão de informação por múltiplas plataformas.
+
+---
+
+# Problemas Frequentes
+
+## Não consigo ligar
+
+Verificar:
+
+- ligação à Internet;
+- VPN ativa (fora de casa).
+
+---
+
+## Não recebo notificações
+
+Verificar:
+
+- permissões da aplicação;
+- notificações do sistema operativo.
+
+---
+
+## Não consigo fazer chamadas
+
+Verificar:
+
+- microfone;
+- permissões da aplicação;
+- ligação de rede.
+
+---
+
+# Boas Práticas
+
+✅ Utilizar grupos familiares.
+
+✅ Partilhar ficheiros através do Nextcloud.
+
+✅ Manter a aplicação atualizada.
+
+✅ Utilizar a VPN quando estiver fora de casa.
+
+---
+
+# Regra Fundamental
+
+O Talk foi criado para centralizar as comunicações da família dentro da infraestrutura do Homelab.
+
+Sempre que uma conversa deva permanecer no ecossistema familiar, o canal preferencial é:
+
+```text
+Nextcloud Talk
+```
+
+
+================================================================================
+FILE: docs\history\architecture-evolution.md
+================================================================================
+
+# Evolução Arquitetural do Cravo Homelab
+
+## Objetivo
+
+Este documento descreve a evolução do Cravo Homelab ao longo do tempo.
+
+Ao contrário da SSOT, este documento não descreve exclusivamente o estado atual.
+
+O objetivo é preservar o contexto histórico das decisões tomadas, permitindo compreender:
+
+- como o sistema começou;
+- quais os problemas encontrados;
+- porque determinadas soluções foram adotadas;
+- porque determinadas soluções foram abandonadas.
+
+A história é preservada para fins de referência e aprendizagem.
+
+Este documento não deve ser utilizado para determinar o estado atual da infraestrutura.
+
+Para isso deve ser consultada a documentação presente em:
+
+```text
+docs/ssot/
+```
+
+---
+
+# Origem
+
+O projeto nasceu da necessidade de resolver problemas concretos da vida digital da família.
+
+Os objetivos iniciais eram:
+
+- reduzir dependências externas;
+- centralizar informação;
+- eliminar duplicações;
+- automatizar tarefas repetitivas;
+- melhorar a organização documental;
+- aumentar a soberania digital.
+
+Desde o início ficou definido que a tecnologia deveria servir as pessoas e não o contrário.
+
+---
+
+# Primeira Geração
+
+## Infraestrutura Inicial
+
+A primeira arquitetura focava-se essencialmente em:
+
+- Home Assistant;
+- armazenamento local;
+- documentação dispersa;
+- automações domésticas básicas.
+
+Nesta fase o principal objetivo era consolidar conhecimento e reduzir dependências cloud.
+
+---
+
+# Segunda Geração
+
+## Consolidação dos Serviços
+
+A infraestrutura começou a receber novos componentes:
+
+- Paperless-ngx;
+- Plex;
+- Samba;
+- monitorização;
+- primeiras experiências com Docker.
+
+O foco passou da automação para a centralização de serviços.
+
+Os primeiros problemas relacionados com gestão documental começaram a ser resolvidos nesta fase.
+
+---
+
+# Terceira Geração
+
+## Centralização Documental
+
+A introdução do Paperless constituiu um dos momentos mais importantes da evolução do sistema.
+
+Pela primeira vez passou a existir um arquivo documental centralizado, pesquisável e independente de pastas dispersas.
+
+Objetivos alcançados:
+
+- OCR automático;
+- indexação;
+- pesquisa unificada;
+- redução da dependência do papel.
+
+---
+
+# Quarta Geração
+
+## Infraestrutura Baseada em Serviços
+
+A plataforma passou a ser concebida como um ecossistema integrado.
+
+Foram introduzidos:
+
+- PostgreSQL;
+- autenticação centralizada;
+- monitorização;
+- gestão de serviços mais estruturada.
+
+Durante esta fase começou a surgir a distinção entre:
+
+- dados;
+- identidade;
+- serviços.
+
+---
+
+# Quinta Geração
+
+## Nextcloud e Colaboração Familiar
+
+A necessidade de uniformizar o armazenamento familiar conduziu à adoção do Nextcloud.
+
+Objetivos:
+
+- armazenamento centralizado;
+- sincronização de ficheiros;
+- colaboração documental;
+- redução de duplicações.
+
+Esta alteração representou uma mudança significativa na forma como a família interagia com os seus próprios dados.
+
+---
+
+# Sexta Geração
+
+## Soberania de Identidade
+
+A introdução do Authentik permitiu consolidar os múltiplos mecanismos de autenticação.
+
+Objetivos:
+
+- Single Sign-On;
+- simplificação de acessos;
+- redução de credenciais dispersas;
+- centralização de identidade.
+
+Pela primeira vez a autenticação passou a ser tratada como um serviço autónomo da arquitetura.
+
+---
+
+# Sétima Geração
+
+## Infraestrutura de Rede Moderna
+
+A rede foi reestruturada com foco em:
+
+- segmentação;
+- isolamento;
+- DNS interno;
+- VPN.
+
+Foram introduzidos conceitos como:
+
+- VLANs;
+- AdGuard Home;
+- WireGuard;
+- acesso remoto seguro.
+
+A rede passou a ser encarada como um componente ativo da segurança da infraestrutura.
+
+---
+
+# O Período Palmela
+
+Palmela foi o local onde a maior parte da arquitetura moderna foi concebida e desenvolvida.
+
+Durante este período foram definidos:
+
+- princípios de funcionamento;
+- processos de automatização;
+- estrutura documental;
+- plataforma de colaboração familiar;
+- arquitetura de acesso remoto.
+
+Grande parte das decisões estruturais atuais têm origem nesta fase.
+
+---
+
+# Migração para Castelo Branco
+
+A mudança para Castelo Branco constituiu o primeiro grande exercício de portabilidade da infraestrutura.
+
+Os objetivos da migração eram:
+
+- preservar o conhecimento;
+- validar a documentação;
+- reduzir dependências da memória humana;
+- consolidar a Fonte Única da Verdade.
+
+Durante o processo verificou-se a existência de documentação histórica divergente, originando uma revisão completa da estratégia documental.
+
+---
+
+# O Nascimento da SSOT
+
+A auditoria documental realizada durante a preparação da migração revelou uma realidade importante:
+
+Nem toda a documentação histórica representava o estado real do sistema.
+
+Foram identificadas:
+
+- arquiteturas antigas;
+- planos nunca implementados;
+- informações contraditórias;
+- decisões posteriormente revertidas.
+
+Como consequência foi criada a política de:
+
+```text
+Fonte Única da Verdade (SSOT)
+```
+
+bem como a classificação formal de informação:
+
+- VALIDADO
+- PROVÁVEL
+- HISTÓRICO
+- HIPÓTESE
+
+Esta decisão alterou profundamente a governação documental do projeto.
+
+---
+
+# Lições Aprendidas
+
+Ao longo da evolução do Homelab foram identificadas várias conclusões fundamentais:
+
+## A memória falha.
+
+A documentação deve prevalecer sobre recordações.
+
+---
+
+## A documentação envelhece.
+
+Cada documento deve indicar claramente a sua validade.
+
+---
+
+## A complexidade acumula-se.
+
+Cada serviço introduz manutenção futura.
+
+---
+
+## A automatização tem custos.
+
+Automatizar apenas o que vale a pena.
+
+---
+
+## A simplicidade é uma vantagem competitiva.
+
+Uma infraestrutura compreensível é mais valiosa do que uma infraestrutura impressionante.
+
+---
+
+# Estado Atual
+
+O estado atual da infraestrutura não é descrito neste documento.
+
+O estado atual encontra-se documentado em:
+
+```text
+docs/ssot/
+```
+
+---
+
+# Regra Final
+
+Este documento preserva a história.
+
+A SSOT preserva a verdade atual.
+
+As duas são necessárias.
+
+Nenhuma substitui a outra.
+
+
+================================================================================
+FILE: docs\history\lessons-learned.md
+================================================================================
+
+# Lições Aprendidas
+
+## Objetivo
+
+Este documento existe para preservar conhecimento adquirido através de sucessos, falhas, erros, migrações, auditorias e decisões tomadas ao longo da evolução do Cravo Homelab.
+
+O objetivo não é documentar configurações.
+
+O objetivo é documentar sabedoria operacional.
+
+Enquanto a SSOT documenta o estado atual do sistema, este documento preserva aquilo que o sistema ensinou aos seus administradores.
+
+---
+
+# Filosofia
+
+Os erros são inevitáveis.
+
+O desperdício de um erro é opcional.
+
+Sempre que um problema exigir investigação significativa, revelar uma falha de conceção ou obrigar a alterar a arquitetura, a lição aprendida deve ser registada.
+
+---
+
+# Lição 001
+
+## A memória não é uma base de dados.
+
+### Contexto
+
+Ao preparar a migração de Palmela para Castelo Branco surgiram descrições contraditórias sobre:
+
+- hardware;
+- armazenamento;
+- arquitetura;
+- serviços instalados.
+
+### Conclusão
+
+A memória deve ser considerada uma fonte auxiliar.
+
+Nunca uma fonte de verdade.
+
+### Consequência
+
+Criação da SSOT.
+
+---
+
+# Lição 002
+
+## A documentação envelhece.
+
+### Contexto
+
+Vários documentos inicialmente corretos deixaram de representar a realidade devido à evolução natural da infraestrutura.
+
+### Conclusão
+
+Todo o documento deve indicar claramente se é:
+
+- Atual;
+- Histórico;
+- Obsoleto.
+
+### Consequência
+
+Separação formal entre:
+
+```text
+docs/ssot/
+```
+
+e
+
+```text
+docs/history/
+```
+
+---
+
+# Lição 003
+
+## A IA não substitui evidências.
+
+### Contexto
+
+Durante a auditoria documental surgiram informações plausíveis mas não suportadas por evidências diretas.
+
+### Conclusão
+
+Uma IA consegue organizar conhecimento.
+
+Não consegue substituir:
+
+- ficheiros reais;
+- exportações;
+- backups;
+- faturas;
+- configurações.
+
+### Consequência
+
+Criação dos níveis:
+
+```text
+VALIDADO
+PROVÁVEL
+HISTÓRICO
+HIPÓTESE
+```
+
+---
+
+# Lição 004
+
+## A complexidade cobra juros.
+
+### Contexto
+
+Cada novo serviço introduziu:
+
+- mais configurações;
+- mais documentação;
+- mais dependências.
+
+### Conclusão
+
+A complexidade não desaparece.
+
+Acumula-se.
+
+### Consequência
+
+Cada novo serviço deve justificar a sua existência.
+
+---
+
+# Lição 005
+
+## Um backup não testado é apenas uma teoria.
+
+### Contexto
+
+Criar backups é fácil.
+
+Recuperar sistemas é difícil.
+
+### Conclusão
+
+A única forma de validar um backup é utilizá-lo.
+
+### Consequência
+
+A recuperação passou a fazer parte da documentação.
+
+---
+
+# Lição 006
+
+## A documentação deve acompanhar a alteração.
+
+### Contexto
+
+Muitas discrepâncias surgiram porque alterações foram implementadas sem o respetivo registo documental.
+
+### Conclusão
+
+Uma alteração não está concluída até a documentação ser atualizada.
+
+### Consequência
+
+Introdução do Change Log.
+
+---
+
+# Lição 007
+
+## Local First simplifica tudo.
+
+### Contexto
+
+Sempre que um serviço dependia excessivamente de terceiros surgiam limitações, dependências ou perda de controlo.
+
+### Conclusão
+
+Os serviços funcionam melhor quando a casa continua funcional mesmo sem Internet.
+
+### Consequência
+
+A filosofia Local First tornou-se um princípio fundamental.
+
+---
+
+# Lição 008
+
+## A melhor automação é quase invisível.
+
+### Contexto
+
+As automações mais bem sucedidas são aquelas que raramente exigem intervenção humana.
+
+### Conclusão
+
+A automação existe para remover trabalho, não para criar sistemas complexos.
+
+### Consequência
+
+Qualquer nova automação deve justificar claramente o benefício obtido.
+
+---
+
+# Lição 009
+
+## A tecnologia muda mais depressa do que os princípios.
+
+### Contexto
+
+Hardware, software e serviços mudaram repetidamente ao longo dos anos.
+
+### Conclusão
+
+Os princípios sobreviveram a todas as mudanças.
+
+### Consequência
+
+A filosofia passou a ser documentada explicitamente.
+
+---
+
+# Lição 010
+
+## O conhecimento é um ativo.
+
+### Contexto
+
+A preparação da mudança demonstrou que reconstruir conhecimento é mais difícil do que reinstalar software.
+
+### Conclusão
+
+A documentação tem o mesmo valor estratégico que os dados.
+
+### Consequência
+
+GitHub adotado como memória permanente do projeto.
+
+---
+
+# Como Adicionar Novas Lições
+
+Sempre que ocorrer:
+
+- uma falha importante;
+- uma migração;
+- uma alteração estrutural;
+- um incidente relevante;
+- uma descoberta significativa;
+
+deve ser considerada a criação de uma nova entrada.
+
+---
+
+# Regra Fundamental
+
+Configurações explicam como.
+
+Lições aprendidas explicam porquê.
+
+Os dois tipos de conhecimento são igualmente importantes.
+
+---
+
+# Definição de Sucesso
+
+Daqui a dez anos, uma pessoa que leia este documento deverá conseguir evitar erros que já foram cometidos anteriormente e compreender as razões que moldaram o Cravo Homelab ao longo da sua evolução.
+
+
+================================================================================
+FILE: docs\history\palmela-to-castelo-branco.md
+================================================================================
+
+# Migração Palmela → Castelo Branco
+
+## Objetivo
+
+Este documento regista a migração física e lógica do Cravo Homelab de Palmela para Castelo Branco.
+
+Mais do que uma simples mudança de localização, esta migração representou um momento de revisão arquitetural, consolidação documental e validação da maturidade operacional da infraestrutura.
+
+---
+
+# Contexto
+
+Durante vários anos o Homelab evoluiu progressivamente em Palmela.
+
+Ao longo desse período foram sendo adicionados:
+
+- equipamentos;
+- serviços;
+- automações;
+- armazenamento;
+- documentação;
+- procedimentos.
+
+Grande parte desse conhecimento encontrava-se distribuído por:
+
+- ficheiros individuais;
+- documentos históricos;
+- notas técnicas;
+- documentação produzida por IA;
+- memória do administrador.
+
+A preparação da migração revelou que nem toda a informação permanecia consistente.
+
+---
+
+# Objetivos da Migração
+
+A mudança para Castelo Branco tinha cinco objetivos principais.
+
+## Objetivo 1
+
+Transferir a infraestrutura física sem perda de dados.
+
+---
+
+## Objetivo 2
+
+Garantir continuidade dos serviços familiares.
+
+Exemplos:
+
+- Nextcloud;
+- Paperless;
+- Home Assistant;
+- WireGuard;
+- DNS interno.
+
+---
+
+## Objetivo 3
+
+Validar a capacidade de recuperação da infraestrutura.
+
+---
+
+## Objetivo 4
+
+Auditar a documentação existente.
+
+---
+
+## Objetivo 5
+
+Criar uma Fonte Única da Verdade (SSOT).
+
+---
+
+# Descobertas Durante a Auditoria
+
+A revisão documental revelou vários casos de divergência entre documentos produzidos em épocas diferentes.
+
+Foram identificadas referências contraditórias relativamente a:
+
+- hardware;
+- armazenamento;
+- topologias de rede;
+- serviços ativos;
+- arquiteturas antigas.
+
+Estas divergências não representavam erros operacionais.
+
+Representavam a evolução natural do sistema ao longo do tempo.
+
+No entanto, dificultavam a identificação do estado atual.
+
+---
+
+# Lições Aprendidas
+
+## A documentação histórica não é a realidade atual
+
+Um documento pode ter sido correto no passado e estar desatualizado no presente.
+
+---
+
+## A memória degrada-se
+
+Mesmo decisões importantes tornam-se difíceis de recordar após vários anos.
+
+---
+
+## A Inteligência Artificial não substitui evidências
+
+Ferramentas de IA podem ajudar a organizar informação mas não devem ser tratadas como fontes primárias.
+
+Sempre que possível devem existir provas documentais.
+
+---
+
+## As faturas e ficheiros reais possuem elevado valor histórico
+
+Faturas, exportações, backups e configurações demonstraram ser fontes mais fiáveis do que recordações ou resumos posteriores.
+
+---
+
+## O GitHub deve ser a memória permanente
+
+A decisão mais importante resultante da migração foi transformar o GitHub na localização oficial do conhecimento institucional do Homelab.
+
+---
+
+# Decisões Arquiteturais Confirmadas Durante a Migração
+
+## Filosofia Local-First
+
+Mantida.
+
+---
+
+## Centralização documental
+
+Mantida.
+
+---
+
+## DNS interno
+
+Mantido.
+
+---
+
+## VPN como método de acesso remoto
+
+Mantido.
+
+---
+
+## Eliminação de duplicações documentais
+
+Reforçada.
+
+---
+
+## Introdução formal da SSOT
+
+Implementada.
+
+---
+
+# Nascimento da Estrutura Documental Moderna
+
+Durante esta fase foi adotada a divisão formal:
+
+```text
+docs/
+
+├── philosophy/
+├── ssot/
+├── history/
+├── operations/
+└── family/
+```
+
+A partir deste momento cada documento passa a possuir um propósito definido.
+
+---
+
+# Estado da Infraestrutura no Final da Migração
+
+A infraestrutura entra em Castelo Branco com os seguintes objetivos estratégicos:
+
+- aumentar a qualidade da documentação;
+- reforçar a auditoria aos serviços;
+- validar configurações reais;
+- melhorar os processos de recuperação;
+- reduzir dependência da memória humana.
+
+---
+
+# Significado Histórico
+
+A migração Palmela → Castelo Branco marca o fim da fase experimental do Homelab.
+
+Representa a transição para uma infraestrutura documentada, auditável e governada segundo princípios formais.
+
+É neste momento que nasce oficialmente a Fonte Única da Verdade do Cravo Homelab.
+
+---
+
+# Conclusão
+
+A mudança de localização foi apenas o evento físico.
+
+A verdadeira transformação ocorreu ao nível da documentação e da governação do conhecimento.
+
+O sistema deixou de depender principalmente da memória do administrador e passou a depender de documentação estruturada, versionada e auditável.
+
+Este é o principal legado da migração para Castelo Branco.
+
+
+================================================================================
+FILE: docs\operations\contributing.md
+================================================================================
+
+# Contribuição para a Documentação
+
+## Objetivo
+
+Este documento define as regras para criação, alteração e manutenção da documentação do Cravo Homelab.
+
+A documentação constitui uma parte integrante da infraestrutura.
+
+Por esse motivo, alterações documentais devem seguir princípios consistentes.
+
+---
+
+# Filosofia
+
+A documentação existe para reduzir dependências da memória humana.
+
+Cada documento deve contribuir para:
+
+- compreensão;
+- recuperação;
+- operação;
+- continuidade.
+
+O objetivo não é escrever mais documentação.
+
+O objetivo é escrever documentação útil.
+
+---
+
+# Antes de Criar um Documento
+
+Perguntar:
+
+## Esta informação já existe?
+
+Se existir:
+
+Atualizar o documento existente.
+
+Não criar duplicações.
+
+---
+
+## Este documento terá utilização futura?
+
+Se a resposta for:
+
+```text
+Talvez não
+```
+
+considerar se realmente deve existir.
+
+---
+
+## Qual é o público-alvo?
+
+Escolher uma das categorias:
+
+### Família
+
+```text
+docs/family/
+```
+
+---
+
+### Estado Atual
+
+```text
+docs/ssot/
+```
+
+---
+
+### Operação
+
+```text
+docs/operations/
+```
+
+---
+
+### Arquitetura
+
+```text
+docs/architecture/
+```
+
+---
+
+### Filosofia
+
+```text
+docs/philosophy/
+```
+
+---
+
+### Histórico
+
+```text
+docs/history/
+```
+
+---
+
+# Estrutura Recomendada
+
+Todos os documentos devem conter:
+
+## Objetivo
+
+Porque existe o documento.
+
+---
+
+## Conteúdo
+
+Informação principal.
+
+---
+
+## Relações
+
+Quando relevante.
+
+Exemplo:
+
+```text
+Documentação Relacionada
+```
+
+---
+
+## Regras
+
+Quando aplicável.
+
+---
+
+# Estilo de Escrita
+
+## Deve ser
+
+- claro;
+- simples;
+- objetivo;
+- intemporal.
+
+---
+
+## Deve evitar
+
+- jargão excessivo;
+- humor contextual;
+- linguagem emocional;
+- dependência de conhecimento implícito.
+
+---
+
+# Regra do Futuro
+
+Assumir sempre que o leitor:
+
+- não estava presente;
+- não conhece o contexto;
+- não conhece o histórico;
+- não conhece os serviços.
+
+Documentar como se o leitor chegasse ao projeto pela primeira vez.
+
+---
+
+# Atualizações
+
+Uma alteração técnica importante deve produzir:
+
+## 1
+
+Alteração da infraestrutura.
+
+---
+
+## 2
+
+Atualização da SSOT.
+
+---
+
+## 3
+
+Atualização do Change Log.
+
+---
+
+## 4
+
+Atualização da documentação relacionada.
+
+---
+
+# Quando Criar um ADR
+
+Criar ADR quando:
+
+- houver uma decisão arquitetural;
+- existir escolha entre alternativas;
+- a decisão tiver impacto futuro.
+
+Não criar ADR para:
+
+- alterações triviais;
+- correções menores;
+- manutenção rotineira.
+
+---
+
+# Quando Criar Uma Lição Aprendida
+
+Criar entrada em:
+
+```text
+docs/history/lessons-learned.md
+```
+
+quando ocorrer:
+
+- incidente importante;
+- erro significativo;
+- descoberta relevante.
+
+---
+
+# Gestão de PDFs
+
+## Regra Fundamental
+
+Nunca editar PDFs.
+
+Os PDFs são artefactos gerados.
+
+---
+
+## Fluxo Oficial
+
+```text
+Markdown
+    ↓
+GitHub
+    ↓
+PDF
+    ↓
+Nextcloud
+    ↓
+Paperless
+```
+
+---
+
+## Fonte Única
+
+A única fonte autorizada para alterações é:
+
+```text
+GitHub
+```
+
+---
+
+# Critério de Qualidade
+
+Um documento de qualidade deve responder claramente:
+
+- O quê?
+- Porquê?
+- Como?
+- Quando?
+- Onde?
+
+Sem necessidade de consultar o autor.
+
+---
+
+# Regra dos Cinco Anos
+
+Antes de terminar um documento perguntar:
+
+> Conseguirei compreender isto daqui a cinco anos?
+
+Se a resposta for negativa:
+
+O documento precisa de mais contexto.
+
+---
+
+# Definição de Sucesso
+
+A documentação será considerada madura quando uma pessoa sem contacto prévio com o projeto conseguir:
+
+- compreender a infraestrutura;
+- operar os serviços;
+- recuperar sistemas;
+- continuar a evolução do Homelab;
+
+utilizando apenas os documentos presentes no repositório.
+
+Nesse momento o conhecimento deixará de depender do seu criador e passará a pertencer ao próprio sistema.
+
+
+================================================================================
+FILE: docs\operations\decision-records.md
+================================================================================
+
+# Registo de Decisões Arquiteturais
+
+## Objetivo
+
+Este documento existe para registar decisões importantes tomadas ao longo da vida do Cravo Homelab.
+
+Uma configuração sem contexto transforma-se rapidamente em arqueologia.
+
+Uma decisão documentada continua compreensível mesmo muitos anos depois.
+
+Este documento responde às perguntas:
+
+- Porque foi tomada esta decisão?
+- Que alternativas foram consideradas?
+- Que problema estava a ser resolvido?
+- Quais foram as consequências?
+
+---
+
+# Filosofia
+
+As configurações são temporárias.
+
+As decisões são permanentes.
+
+Mesmo que uma implementação seja substituída no futuro, a razão que conduziu à sua criação continua a ter valor histórico e educativo.
+
+---
+
+# Formato das Decisões
+
+Cada decisão deve seguir o seguinte modelo.
+
+---
+
+## ADR-XXX
+
+### Data
+
+AAAA-MM-DD
+
+### Estado
+
+- Proposta
+- Aprovada
+- Substituída
+- Obsoleta
+
+### Contexto
+
+Que problema existia?
+
+### Decisão
+
+O que foi decidido?
+
+### Alternativas Consideradas
+
+Que opções foram avaliadas?
+
+### Consequências
+
+Quais os benefícios?
+
+Quais os riscos?
+
+---
+
+# ADR-001
+
+## Título
+
+Adotar filosofia Local-First
+
+### Estado
+
+Aprovada
+
+### Contexto
+
+A dependência excessiva de serviços externos aumenta riscos de indisponibilidade, alterações comerciais e perda de controlo sobre os dados.
+
+### Decisão
+
+Priorizar serviços executados localmente.
+
+### Alternativas Consideradas
+
+- Dependência exclusiva de serviços cloud.
+- Modelo híbrido cloud/local.
+
+### Consequências
+
+Benefícios:
+
+- autonomia;
+- privacidade;
+- continuidade.
+
+Custos:
+
+- manutenção própria;
+- necessidade de documentação.
+
+---
+
+# ADR-002
+
+## Título
+
+Utilizar GitHub como memória permanente
+
+### Estado
+
+Aprovada
+
+### Contexto
+
+Foram identificadas divergências entre documentação histórica, memória humana e reconstruções realizadas através de IA.
+
+### Decisão
+
+Centralizar o conhecimento institucional no repositório Git.
+
+### Alternativas Consideradas
+
+- Documentação dispersa.
+- Google Docs.
+- Dependência de memória.
+
+### Consequências
+
+Benefícios:
+
+- histórico;
+- auditoria;
+- recuperação.
+
+Custos:
+
+- disciplina documental.
+
+---
+
+# ADR-003
+
+## Título
+
+Separar dados vivos de arquivo documental
+
+### Estado
+
+Aprovada
+
+### Contexto
+
+Misturar documentos ativos com arquivo permanente dificulta a pesquisa e organização.
+
+### Decisão
+
+Utilizar:
+
+- Nextcloud para trabalho corrente.
+- Paperless para arquivo permanente.
+
+### Consequências
+
+Redução da duplicação documental.
+
+Melhoria da pesquisa.
+
+---
+
+# ADR-004
+
+## Título
+
+Acesso remoto exclusivamente por VPN
+
+### Estado
+
+Aprovada
+
+### Contexto
+
+Exposição direta de serviços aumenta a superfície de ataque.
+
+### Decisão
+
+Utilizar WireGuard como mecanismo oficial de acesso remoto.
+
+### Alternativas Consideradas
+
+- Exposição pública de serviços.
+- Reverse Proxy exposto à Internet.
+- Cloud VPN externa.
+
+### Consequências
+
+Maior segurança.
+
+Maior dependência da VPN.
+
+---
+
+# ADR-005
+
+## Título
+
+Classificação formal da documentação
+
+### Estado
+
+Aprovada
+
+### Contexto
+
+A auditoria de 2026 revelou coexistência de:
+
+- documentação atual;
+- documentação histórica;
+- hipóteses;
+- reconstruções por IA.
+
+### Decisão
+
+Criar as classes:
+
+- VALIDADO
+- PROVÁVEL
+- HISTÓRICO
+- HIPÓTESE
+
+### Consequências
+
+Maior confiança na documentação.
+
+Melhor auditoria futura.
+
+---
+
+# Regra Fundamental
+
+Nenhuma decisão arquitetural importante deve existir apenas em:
+
+- conversas;
+- mensagens;
+- memória do administrador;
+- respostas de IA.
+
+Quando uma decisão tiver impacto estrutural, deve receber um ADR.
+
+---
+
+# Definição de Sucesso
+
+Daqui a dez anos, uma pessoa deve conseguir perceber não apenas:
+
+- o que existe;
+
+mas também:
+
+- porque existe.
+``
+
+
+================================================================================
+FILE: docs\operations\document-audit-process.md
+================================================================================
+
+# Processo de Auditoria Documental
+
+## Objetivo
+
+Este documento define o processo oficial de auditoria documental do Cravo Homelab.
+
+O objetivo é garantir que a documentação continua alinhada com a realidade observável da infraestrutura.
+
+A documentação só possui valor quando reflete corretamente o sistema que descreve.
+
+---
+
+# Filosofia
+
+Toda a documentação tende a divergir da realidade ao longo do tempo.
+
+As razões incluem:
+
+- alterações não documentadas;
+- memória humana imperfeita;
+- documentação desatualizada;
+- projetos abandonados;
+- mudanças de arquitetura;
+- reconstruções incompletas.
+
+A auditoria documental existe para corrigir essa deriva.
+
+---
+
+# Princípio Fundamental
+
+A realidade tem sempre prioridade sobre a documentação.
+
+Nunca alterar o sistema para coincidir com a documentação.
+
+Corrigir a documentação para refletir o sistema real.
+
+---
+
+# Frequência
+
+## Auditoria Contínua
+
+Sempre que uma alteração relevante ocorre.
+
+---
+
+## Auditoria Trimestral
+
+Revisão dos sistemas críticos.
+
+---
+
+## Auditoria Anual
+
+Revisão integral da infraestrutura.
+
+---
+
+# Fontes de Evidência
+
+As auditorias devem utilizar preferencialmente:
+
+## Nível 1
+
+Evidências primárias.
+
+Exemplos:
+
+- ficheiros de configuração;
+- docker-compose;
+- exportações;
+- backups;
+- inventários;
+- capturas de configuração;
+- comandos executados.
+
+---
+
+## Nível 2
+
+Evidências secundárias.
+
+Exemplos:
+
+- documentação operacional;
+- notas técnicas;
+- relatórios.
+
+---
+
+## Nível 3
+
+Evidências auxiliares.
+
+Exemplos:
+
+- memória humana;
+- mensagens;
+- respostas de IA.
+
+Estas nunca devem ser consideradas suficientes por si só.
+
+---
+
+# Processo de Auditoria
+
+## Passo 1
+
+Selecionar área.
+
+Exemplos:
+
+- Hardware
+- Rede
+- Serviços
+- Armazenamento
+- Automações
+
+---
+
+## Passo 2
+
+Comparar:
+
+```text
+Estado Real
+      vs
+SSOT
+```
+
+---
+
+## Passo 3
+
+Registar divergências.
+
+---
+
+## Passo 4
+
+Classificar cada divergência.
+
+### Erro Documental
+
+A realidade está correta.
+
+A documentação está errada.
+
+---
+
+### Configuração Obsoleta
+
+A documentação descreve um estado antigo.
+
+---
+
+### Hipótese Não Confirmada
+
+Existe informação sem evidência suficiente.
+
+---
+
+### Desvio Operacional
+
+A infraestrutura alterou-se sem atualização documental.
+
+---
+
+# Tratamento de Divergências
+
+## Regra 1
+
+Identificar evidência.
+
+---
+
+## Regra 2
+
+Atualizar classificação.
+
+Exemplo:
+
+```text
+PROVÁVEL
+    ↓
+VALIDADO
+```
+
+---
+
+## Regra 3
+
+Atualizar documentação.
+
+---
+
+## Regra 4
+
+Registar no Change Log.
+
+---
+
+# Auditoria de Hardware
+
+Validar:
+
+- equipamentos;
+- RAM;
+- discos;
+- interfaces de rede.
+
+---
+
+# Auditoria de Rede
+
+Validar:
+
+- VLANs;
+- ACLs;
+- DHCP;
+- DNS;
+- VPN;
+- SSIDs.
+
+---
+
+# Auditoria de Serviços
+
+Validar:
+
+- serviços ativos;
+- versões;
+- dependências;
+- utilizadores.
+
+---
+
+# Auditoria de Armazenamento
+
+Validar:
+
+- NAS;
+- volumes;
+- montagens;
+- backups.
+
+---
+
+# Auditoria de Documentação
+
+Validar:
+
+- documentos duplicados;
+- documentos órfãos;
+- documentos obsoletos.
+
+---
+
+# Sinais de Alerta
+
+Os seguintes indicadores sugerem necessidade de auditoria:
+
+- "Tenho ideia que..."
+- "Penso que..."
+- "Julgo que..."
+- "Deve estar..."
+- "Antigamente era..."
+
+Sempre que estas expressões surgirem, deve procurar-se evidência objetiva.
+
+---
+
+# Papel da Inteligência Artificial
+
+A IA pode:
+
+- identificar inconsistências;
+- relacionar documentos;
+- sugerir hipóteses;
+- apoiar auditorias.
+
+A IA não substitui evidência técnica.
+
+Toda a informação produzida por IA inicia-se como:
+
+```text
+HIPÓTESE
+```
+
+até validação independente.
+
+---
+
+# Critério de Qualidade
+
+Uma área é considerada auditada quando:
+
+- existe documentação;
+- existe evidência;
+- não existem contradições conhecidas.
+
+---
+
+# Indicador de Maturidade
+
+Um sistema documental maduro apresenta:
+
+- pouca informação classificada como HIPÓTESE;
+- elevada percentagem de informação VALIDADA;
+- histórico preservado;
+- documentação atualizada.
+
+---
+
+# Definição de Sucesso
+
+Uma auditoria é considerada concluída quando:
+
+1. A realidade foi observada.
+2. A documentação foi corrigida.
+3. As divergências foram explicadas.
+4. As evidências ficaram registadas.
+
+Nesse momento a Fonte Única da Verdade recupera a sua integridade.
+
+
+================================================================================
+FILE: docs\operations\documentation-pipeline.md
+================================================================================
+
+# Pipeline de Documentação
+
+## Objetivo
+
+Este documento descreve o ciclo de vida da documentação do Cravo Homelab.
+
+O objetivo é garantir que o conhecimento:
+
+- é preservado;
+- permanece acessível;
+- é facilmente consultável;
+- possui histórico;
+- não depende da memória humana.
+
+---
+
+# Filosofia
+
+A documentação é tratada como um ativo de primeira classe.
+
+A documentação não existe para acompanhar o sistema.
+
+A documentação faz parte do sistema.
+
+Uma configuração não documentada deve ser considerada incompleta.
+
+---
+
+# Princípios Fundamentais
+
+## Fonte Única
+
+A documentação original existe apenas num local:
+
+```text
+GitHub
+```
+
+Toda a restante documentação é gerada ou derivada dessa fonte.
+
+---
+
+## Separação Entre Fonte e Publicação
+
+A documentação deve existir em dois formatos distintos:
+
+### Fonte
+
+Markdown
+
+### Publicação
+
+PDF
+
+---
+
+## Separação Entre Consulta e Arquivo
+
+A documentação utilizada diariamente não deve ser confundida com documentação histórica.
+
+---
+
+# Arquitetura Documental
+
+```text
+GitHub
+(Documentação Fonte)
+
+      │
+      ▼
+
+GitHub Actions
+(Geração Automática)
+
+      │
+      ▼
+
+PDF
+
+      │
+      ├──► Nextcloud
+      │     Biblioteca Viva
+      │
+      ▼
+
+Paperless
+Arquivo Histórico
+```
+
+---
+
+# Função de Cada Sistema
+
+## GitHub
+
+### Papel
+
+Fonte Única da Verdade.
+
+### Responsabilidades
+
+- Markdown original;
+- Histórico;
+- Revisões;
+- Aprovação de alterações.
+
+### Regra
+
+Nenhum PDF deve ser editado manualmente.
+
+---
+
+## GitHub Actions
+
+### Papel
+
+Motor de publicação.
+
+### Responsabilidades
+
+- compilar documentação;
+- gerar PDFs;
+- publicar artefactos.
+
+---
+
+## Nextcloud
+
+### Papel
+
+Biblioteca Viva.
+
+### Responsabilidades
+
+Disponibilizar sempre a versão mais recente dos documentos.
+
+### Exemplos
+
+```text
+Manual da Família
+
+Manual Técnico
+
+SSOT Atual
+
+Livro de Governação
+```
+
+### Regra
+
+O Nextcloud contém sempre a versão corrente.
+
+---
+
+## Paperless
+
+### Papel
+
+Arquivo Histórico.
+
+### Responsabilidades
+
+Preservar versões publicadas.
+
+### Exemplos
+
+```text
+SSOT v1.0
+
+SSOT v2.0
+
+Manual Família v1.0
+
+Manual Família v2.0
+```
+
+### Regra
+
+Paperless preserva marcos históricos.
+
+Não substitui o Nextcloud.
+
+---
+
+# Artefactos Produzidos
+
+## Manual da Família
+
+Origem:
+
+```text
+docs/family/
+```
+
+Resultado:
+
+```text
+Manual_Familia.pdf
+```
+
+Público-alvo:
+
+- Ana
+- Francisco
+- Utilizadores finais
+
+---
+
+## Manual Técnico
+
+Origem:
+
+```text
+docs/ssot/
+docs/operations/
+```
+
+Resultado:
+
+```text
+Manual_Tecnico_Homelab.pdf
+```
+
+Público-alvo:
+
+- Administrador
+- Recuperação
+- Auditoria
+
+---
+
+## Livro de Governação
+
+Origem:
+
+```text
+docs/philosophy/
+docs/history/
+docs/operations/decision-records.md
+```
+
+Resultado:
+
+```text
+Livro_Governacao_Cravo_Homelab.pdf
+```
+
+Público-alvo:
+
+- Futuras auditorias
+- Evolução estratégica
+- Preservação do conhecimento
+
+---
+
+# Fluxo de Publicação
+
+## Passo 1
+
+Editar Markdown.
+
+---
+
+## Passo 2
+
+Commit para GitHub.
+
+---
+
+## Passo 3
+
+Validação automática.
+
+---
+
+## Passo 4
+
+Compilação PDF.
+
+---
+
+## Passo 5
+
+Publicação da versão atual.
+
+---
+
+## Passo 6
+
+Arquivamento de versões históricas.
+
+---
+
+# Gestão de Versões
+
+## Menor
+
+Correções simples.
+
+Exemplo:
+
+```text
+v1.0.1
+```
+
+---
+
+## Intermédia
+
+Alterações documentais significativas.
+
+Exemplo:
+
+```text
+v1.1.0
+```
+
+---
+
+## Maior
+
+Mudanças estruturais.
+
+Exemplo:
+
+```text
+v2.0.0
+```
+
+---
+
+# Classificação dos Documentos
+
+## Ativo
+
+Versão atual.
+
+Disponível no Nextcloud.
+
+---
+
+## Histórico
+
+Versão substituída.
+
+Preservada no Paperless.
+
+---
+
+## Obsoleto
+
+Sem validade operacional.
+
+Mantido apenas por valor histórico.
+
+---
+
+# Regra Fundamental
+
+A documentação nunca deve ser atualizada diretamente em:
+
+```text
+PDF
+Nextcloud
+Paperless
+```
+
+A única localização autorizada para edição é:
+
+```text
+GitHub
+```
+
+Todo o restante conteúdo é considerado derivado.
+
+---
+
+# Definição de Sucesso
+
+O sistema documental será considerado maduro quando:
+
+- toda a documentação possuir origem rastreável;
+- os PDFs forem gerados automaticamente;
+- a família consultar o Nextcloud;
+- o histórico estiver preservado no Paperless;
+- o GitHub permanecer a Fonte Única da Verdade.
+
+Nesse momento o conhecimento institucional do Cravo Homelab deixará de depender da memória de qualquer pessoa.
+
+
+================================================================================
+FILE: docs\operations\lifecycle-management.md
+================================================================================
+
+# Gestão de Ciclo de Vida
+
+## Objetivo
+
+Este documento define como os componentes do Cravo Homelab evoluem ao longo do tempo.
+
+Aplica-se a:
+
+- serviços;
+- hardware;
+- documentação;
+- automações;
+- integrações;
+- projetos.
+
+O objetivo é evitar que elementos abandonados permaneçam indefinidamente na infraestrutura sem propósito definido.
+
+---
+
+# Filosofia
+
+Tudo tem um ciclo de vida.
+
+Nada deve permanecer indefinidamente apenas porque existe.
+
+Cada componente deve estar numa das seguintes fases:
+
+```text
+Ideia
+  ↓
+
+LAB
+  ↓
+
+TESTE
+  ↓
+
+PRODUÇÃO
+  ↓
+
+OBSOLETO
+  ↓
+
+ARQUIVADO
+```
+
+---
+
+# Fase 1 — Ideia
+
+## Descrição
+
+Conceito ainda não implementado.
+
+Pode existir apenas como:
+
+- nota;
+- ADR;
+- proposta;
+- roadmap.
+
+---
+
+## Exemplos
+
+- novos serviços;
+- novas automações;
+- novos equipamentos.
+
+---
+
+# Fase 2 — LAB
+
+## Descrição
+
+Implementação inicial.
+
+Objetivo:
+
+Aprender.
+
+---
+
+## Características
+
+- experimental;
+- sem garantias;
+- sem dependência familiar.
+
+---
+
+## Pode Ser Removido?
+
+Sim.
+
+Sem impacto operacional.
+
+---
+
+# Fase 3 — TESTE
+
+## Descrição
+
+Sistema funcional.
+
+Está a ser utilizado para validação.
+
+---
+
+## Requisitos
+
+- documentação inicial;
+- objetivo definido;
+- utilizadores identificados.
+
+---
+
+## Pergunta-Chave
+
+Resolve realmente um problema?
+
+---
+
+# Fase 4 — PRODUÇÃO
+
+## Descrição
+
+Sistema oficialmente adotado.
+
+---
+
+## Requisitos
+
+- documentação;
+- backup;
+- recuperação;
+- utilizadores reais;
+- valor comprovado.
+
+---
+
+## Exemplos
+
+- Home Assistant
+- Nextcloud
+- Paperless
+
+---
+
+# Fase 5 — OBSOLETO
+
+## Descrição
+
+Sistema substituído ou sem utilidade atual.
+
+---
+
+## Características
+
+- não recebe novas funcionalidades;
+- não deve acumular dependências;
+- mantém apenas valor histórico.
+
+---
+
+## Regras
+
+Documentar a razão da obsolescência.
+
+---
+
+# Fase 6 — ARQUIVADO
+
+## Descrição
+
+Elemento removido da operação diária.
+
+Preservado apenas para consulta histórica.
+
+---
+
+## Localização
+
+```text
+docs/history/
+```
+
+---
+
+# Ciclo de Vida da Documentação
+
+## Documento Ativo
+
+Utilizado regularmente.
+
+---
+
+## Documento Histórico
+
+Representa um estado anterior.
+
+---
+
+## Documento Obsoleto
+
+Já não é relevante para operação.
+
+---
+
+## Documento Arquivado
+
+Mantido para consulta futura.
+
+---
+
+# Ciclo de Vida de Hardware
+
+## Ativo
+
+Em utilização.
+
+---
+
+## Reserva
+
+Mantido para recuperação.
+
+---
+
+## Aposentado
+
+Sem utilização operacional.
+
+---
+
+## Eliminado
+
+Removido definitivamente.
+
+---
+
+# Ciclo de Vida de Automações
+
+## Experimental
+
+Teste funcional.
+
+---
+
+## Operacional
+
+Produção.
+
+---
+
+## Desativada
+
+Mantida para referência.
+
+---
+
+## Removida
+
+Arquivada.
+
+---
+
+# Critérios para Remover Algo
+
+Um componente é candidato a remoção quando:
+
+- não possui utilizadores;
+- não possui benefício claro;
+- não possui documentação;
+- foi substituído;
+- aumenta complexidade sem valor.
+
+---
+
+# Regra Fundamental
+
+Nada permanece em Produção por inércia.
+
+A permanência em Produção deve ser continuamente justificada.
+
+---
+
+# Auditoria Anual
+
+Durante a auditoria anual verificar:
+
+### Serviços
+
+- ainda são necessários?
+
+### Hardware
+
+- ainda é utilizado?
+
+### Automações
+
+- ainda acrescentam valor?
+
+### Documentação
+
+- ainda está atualizada?
+
+### Projetos
+
+- continuam ativos?
+
+---
+
+# Definição de Sucesso
+
+A infraestrutura ideal não é a que possui mais componentes.
+
+É a que possui apenas os componentes necessários.
+
+Tudo o que existe deve ter:
+
+- propósito;
+- proprietário;
+- documentação;
+- valor.
+
+Caso contrário deverá iniciar o seu processo de desativação.
+
+
+================================================================================
+FILE: docs\operations\maintenance.md
+================================================================================
+
+# Operação e Manutenção
+
+## Objetivo
+
+Este documento descreve as atividades regulares necessárias para manter o Cravo Homelab estável, atualizado e operacional.
+
+O objetivo é reduzir a dependência da memória do administrador e garantir consistência operacional ao longo do tempo.
+
+---
+
+# Filosofia
+
+A manutenção deve ser:
+
+- previsível;
+- documentada;
+- repetível;
+- auditável.
+
+A infraestrutura deve ser cuidada de forma preventiva e não apenas quando surge uma falha.
+
+---
+
+# Frequências de Manutenção
+
+## Diária
+
+Verificações rápidas.
+
+### Confirmar
+
+- Serviços críticos operacionais.
+- Alertas recebidos.
+- Espaço livre suficiente.
+- Estado geral do Home Assistant.
+
+### Ferramentas
+
+- Uptime Kuma
+- Home Assistant
+- Dashboards principais
+
+---
+
+## Semanal
+
+Validação básica da infraestrutura.
+
+### Confirmar
+
+- Serviços Docker ativos.
+- Utilização de disco.
+- Estado do NAS.
+- Atualizações pendentes.
+
+### Rever
+
+- Logs críticos.
+- Alertas recorrentes.
+- Comportamentos anómalos.
+
+---
+
+## Mensal
+
+Auditoria operacional.
+
+### Confirmar
+
+- Estado dos backups.
+- Utilização de armazenamento.
+- Crescimento da base documental.
+- Funcionamento da VPN.
+
+### Validar
+
+- Pesquisa no Paperless.
+- Acesso ao Nextcloud.
+- Login Authentik.
+- Resolução DNS.
+
+---
+
+## Trimestral
+
+Auditoria técnica.
+
+### Rever
+
+- Docker Compose.
+- Utilizadores.
+- Integrações.
+- Serviços experimentais.
+
+### Confirmar
+
+- Serviços sem utilização.
+- Serviços sem documentação.
+- Dependências desnecessárias.
+
+---
+
+## Anual
+
+Auditoria completa.
+
+### Rever
+
+- Hardware.
+- Rede.
+- Armazenamento.
+- Serviços.
+- Documentação.
+
+### Atualizar
+
+- SSOT.
+- ADRs.
+- Inventários.
+- Histórico.
+
+---
+
+# Manutenção por Serviço
+
+## Home Assistant
+
+### Verificar
+
+- Automações com erro.
+- Sensores indisponíveis.
+- Integrações degradadas.
+
+### Confirmar
+
+- Bases de dados.
+- Dashboards.
+- Notificações.
+
+---
+
+## Nextcloud
+
+### Verificar
+
+- Espaço disponível.
+- Utilizadores.
+- Aplicações instaladas.
+
+### Confirmar
+
+- Upload.
+- Download.
+- Partilhas.
+
+---
+
+## Paperless
+
+### Verificar
+
+- OCR.
+- Correspondentes.
+- Etiquetas.
+
+### Confirmar
+
+- Pesquisa.
+- Indexação.
+
+---
+
+## PostgreSQL
+
+### Verificar
+
+- Crescimento das bases.
+- Consumo de espaço.
+- Integridade dos backups.
+
+---
+
+## WireGuard
+
+### Confirmar
+
+- Ligação remota.
+- Perfis ativos.
+- Resolução DNS.
+
+---
+
+## AdGuard Home
+
+### Verificar
+
+- Regras DNS.
+- Estatísticas.
+- Logs anómalos.
+
+---
+
+# Critérios de Saúde
+
+## Verde
+
+Funcionamento normal.
+
+Nenhuma intervenção necessária.
+
+---
+
+## Amarelo
+
+Anomalia ligeira.
+
+Requer observação.
+
+---
+
+## Vermelho
+
+Intervenção necessária.
+
+Pode existir impacto na família ou nos serviços.
+
+---
+
+# Lista de Verificação Pós-Alteração
+
+Sempre que ocorrer uma alteração relevante:
+
+## Validar
+
+- Nextcloud
+- Paperless
+- Home Assistant
+- Authentik
+- DNS
+- VPN
+
+---
+
+## Atualizar
+
+```text
+docs/ssot/change-log.md
+```
+
+---
+
+## Atualizar
+
+Documentação relacionada.
+
+---
+
+# Indicadores Importantes
+
+## Infraestrutura
+
+- Espaço livre.
+- Utilização RAM.
+- Utilização CPU.
+- Temperaturas.
+
+---
+
+## Dados
+
+- Crescimento documental.
+- Crescimento de fotografias.
+- Crescimento das bases de dados.
+
+---
+
+## Serviços
+
+- Disponibilidade.
+- Tempo de resposta.
+- Alertas.
+
+---
+
+# O Que Não Fazer
+
+❌ Atualizar vários componentes críticos ao mesmo tempo.
+
+❌ Apagar serviços sem documentação.
+
+❌ Alterar configurações sem registo.
+
+❌ Assumir que um backup funciona sem o testar.
+
+❌ Assumir que nos vamos lembrar mais tarde.
+
+---
+
+# Regra Fundamental
+
+Sempre que uma alteração parecer pequena mas afetar:
+
+- dados;
+- segurança;
+- armazenamento;
+- autenticação;
+- rede;
+
+essa alteração deve ser documentada.
+
+---
+
+# Definição de Sucesso
+
+Uma infraestrutura bem mantida é aquela que:
+
+- raramente falha;
+- recupera rapidamente;
+- possui documentação atualizada;
+- não depende da memória do administrador.
+
+A melhor manutenção é aquela que evita incidentes antes de eles acontecerem.
+
+
+================================================================================
+FILE: docs\operations\new-service-onboarding.md
+================================================================================
+
+# Introdução de Novos Serviços
+
+## Objetivo
+
+Este documento define o processo obrigatório para introdução de novos serviços no Cravo Homelab.
+
+Antes de qualquer serviço ser considerado parte oficial da infraestrutura, deve cumprir os requisitos aqui definidos.
+
+O objetivo é impedir:
+
+- crescimento descontrolado da plataforma;
+- duplicação de funcionalidades;
+- dependências desnecessárias;
+- perda de conhecimento;
+- serviços órfãos.
+
+---
+
+# Filosofia
+
+Cada serviço acrescenta:
+
+- complexidade;
+- manutenção;
+- consumo de recursos;
+- requisitos de backup;
+- requisitos de documentação;
+- risco operacional.
+
+Por esse motivo, a pergunta inicial não deve ser:
+
+> Posso instalar isto?
+
+Mas sim:
+
+> Porque devo instalar isto?
+
+---
+
+# Processo de Aprovação
+
+## Etapa 1 — Identificação da Necessidade
+
+O proponente deve responder:
+
+### Que problema resolve?
+
+### Quem irá utilizá-lo?
+
+### Qual o benefício esperado?
+
+### Existe uma solução já instalada?
+
+Se já existir uma solução adequada, deve justificar-se porque não pode ser reutilizada.
+
+---
+
+# Etapa 2 — Avaliação Arquitetural
+
+Avaliar:
+
+### Dados
+
+- Que dados irá armazenar?
+
+### Identidade
+
+- Utiliza Authentik?
+
+### Rede
+
+- Necessita de acesso externo?
+
+### Segurança
+
+- Introduz novos riscos?
+
+### Backup
+
+- Como será recuperado?
+
+---
+
+# Etapa 3 — Classificação Inicial
+
+O serviço entra inicialmente em:
+
+```text
+LAB
+```
+
+e nunca diretamente em produção.
+
+---
+
+# Estados Possíveis
+
+## LAB
+
+Instalação experimental.
+
+Pode ser removido sem aviso.
+
+Sem garantias.
+
+---
+
+## TESTE
+
+Funcional.
+
+Ainda não considerado parte oficial da infraestrutura.
+
+Documentação inicial obrigatória.
+
+---
+
+## PRODUÇÃO
+
+Serviço aprovado.
+
+Documentado.
+
+Incluído na SSOT.
+
+Sujeito a backup.
+
+Sujeito a recuperação.
+
+---
+
+# Critérios para Promoção a Produção
+
+Todos os seguintes critérios devem estar satisfeitos.
+
+---
+
+## Função definida
+
+O serviço possui um propósito claro.
+
+---
+
+## Utilizador identificado
+
+Existe pelo menos um utilizador real.
+
+---
+
+## Documentação criada
+
+O serviço está documentado.
+
+---
+
+## Backup definido
+
+Existe estratégia de recuperação.
+
+---
+
+## Dependências documentadas
+
+Dependências técnicas identificadas.
+
+---
+
+## Benefício validado
+
+O benefício foi comprovado em utilização real.
+
+---
+
+# Informação Mínima Obrigatória
+
+Cada serviço deve possuir um documento próprio.
+
+Exemplo:
+
+```text
+docs/services/
+    nome-servico.md
+```
+
+---
+
+## Estrutura mínima
+
+### Nome
+
+### Função
+
+### Utilizadores
+
+### Dependências
+
+### Dados armazenados
+
+### Estratégia de backup
+
+### Estratégia de recuperação
+
+### Estado
+
+- LAB
+- TESTE
+- PRODUÇÃO
+
+---
+
+# Razões para Rejeição
+
+O serviço deve ser rejeitado quando:
+
+- duplica funcionalidades existentes;
+- não possui utilizadores;
+- introduz riscos injustificados;
+- exige manutenção excessiva;
+- não possui plano de backup;
+- não respeita os Princípios Fundamentais.
+
+---
+
+# Processo de Remoção
+
+Um serviço pode ser removido quando:
+
+- deixou de ser utilizado;
+- foi substituído;
+- representa risco excessivo;
+- deixou de justificar recursos.
+
+---
+
+# Antes da Remoção
+
+Documentar:
+
+### Data
+
+### Motivo
+
+### Serviço substituto
+
+### Impacto esperado
+
+Actualizar:
+
+```text
+docs/ssot/services.md
+```
+
+e
+
+```text
+docs/ssot/change-log.md
+```
+
+---
+
+# Regra Fundamental
+
+Nenhum serviço pertence oficialmente ao Homelab até estar:
+
+1. Instalado.
+2. Testado.
+3. Documentado.
+4. Integrado em backup.
+5. Integrado em recuperação.
+
+Se qualquer um destes pontos falhar, o serviço continua a ser considerado experimental.
+
+---
+
+# Definição de Sucesso
+
+Qualquer pessoa que consulte a documentação deve conseguir responder imediatamente:
+
+- Porque existe este serviço?
+- Quem o utiliza?
+- Onde estão os seus dados?
+- Como fazer backup?
+- Como o recuperar?
+
+Se alguma destas respostas não existir, a integração não está concluída.
+
+
+================================================================================
+FILE: docs\operations\rebuild-from-zero.md
+================================================================================
+
+# Reconstrução Completa da Infraestrutura
+
+## Objetivo
+
+Este documento descreve o processo de reconstrução integral do Cravo Homelab a partir de hardware vazio.
+
+O objetivo é permitir recriar a infraestrutura sem depender da memória do administrador original.
+
+Este documento assume um cenário extremo:
+
+- novo servidor;
+- novo armazenamento;
+- instalação limpa;
+- recuperação através da documentação e backups.
+
+---
+
+# Filosofia
+
+A reconstrução deve seguir os princípios fundamentais do sistema:
+
+1. Infraestrutura primeiro.
+2. Armazenamento depois.
+3. Identidade antes das aplicações.
+4. Dados antes dos serviços.
+5. Recuperação antes da otimização.
+
+Nunca acelerar etapas.
+
+---
+
+# Fase 1 — Hardware
+
+## Confirmar
+
+- servidor funcional;
+- alimentação elétrica;
+- ligação de rede;
+- armazenamento disponível.
+
+## Validar
+
+- BIOS;
+- relógio do sistema;
+- ordem de arranque;
+- interface de rede.
+
+---
+
+# Fase 2 — Sistema Operativo
+
+## Instalar
+
+Ubuntu Server LTS
+
+## Configurar
+
+- utilizador administrativo;
+- SSH;
+- atualizações;
+- timezone;
+- hostname.
+
+## Validar
+
+```bash
+hostnamectl
+ip addr
+timedatectl
+```
+
+---
+
+# Fase 3 — Rede
+
+## Configurar
+
+- IP fixo;
+- gateway;
+- DNS;
+- VLANs se aplicável.
+
+## Validar
+
+```bash
+ping gateway
+ping internet
+ping dns
+```
+
+---
+
+# Fase 4 — Armazenamento
+
+## Ligar
+
+NAS QNAP
+
+## Validar
+
+- conectividade;
+- volumes;
+- partilhas;
+- iSCSI.
+
+## Confirmar
+
+Montagens persistentes.
+
+---
+
+# Fase 5 — Docker
+
+## Instalar
+
+Docker Engine
+
+Docker Compose
+
+## Validar
+
+```bash
+docker --version
+docker compose version
+```
+
+---
+
+# Fase 6 — Infraestrutura Base
+
+## Restaurar
+
+PostgreSQL
+
+## Restaurar
+
+AdGuard Home
+
+## Restaurar
+
+Authentik
+
+---
+
+# Justificação
+
+Sem identidade e DNS os restantes serviços não conseguem funcionar corretamente.
+
+---
+
+# Fase 7 — Serviços Principais
+
+## Restaurar
+
+Nextcloud
+
+## Restaurar
+
+Paperless
+
+## Restaurar
+
+Home Assistant
+
+---
+
+# Objetivo
+
+Garantir recuperação dos dados familiares.
+
+---
+
+# Fase 8 — Serviços Complementares
+
+## Restaurar
+
+WireGuard
+
+## Restaurar
+
+Nginx Proxy Manager
+
+## Restaurar
+
+Uptime Kuma
+
+## Restaurar
+
+OnlyOffice
+
+## Restaurar
+
+Talk
+
+---
+
+# Fase 9 — Validação Funcional
+
+Confirmar:
+
+## Utilizadores
+
+- Login funcional
+
+## Nextcloud
+
+- Leitura
+- Escrita
+
+## Paperless
+
+- Pesquisa
+- Visualização
+
+## Home Assistant
+
+- Sensores
+- Automações
+
+## VPN
+
+- Ligação remota
+
+## DNS
+
+- Resolução local
+
+---
+
+# Fase 10 — Auditoria Final
+
+Conferir:
+
+- documentação;
+- backups;
+- serviços;
+- automações;
+- acessos.
+
+Atualizar SSOT sempre que necessário.
+
+---
+
+# Critério de Sucesso
+
+A reconstrução é considerada concluída quando:
+
+- todos os serviços críticos funcionam;
+- todos os dados críticos estão acessíveis;
+- todos os acessos estão operacionais;
+- a documentação corresponde à realidade.
+
+---
+
+# Nota Histórica
+
+Se durante a reconstrução forem encontradas diferenças entre:
+
+- memória;
+- documentação antiga;
+- respostas de IA;
+- estado real;
+
+deve prevalecer a documentação SSOT e a evidência técnica observada.
+
+Os factos prevalecem sobre as interpretações.
+
+
+================================================================================
+FILE: docs\operations\risk-register.md
+================================================================================
+
+# Registo de Riscos
+
+## Objetivo
+
+Este documento identifica os principais riscos conhecidos do Cravo Homelab.
+
+O objetivo não é eliminar todos os riscos.
+
+Isso é impossível.
+
+O objetivo é:
+
+- reconhecer os riscos;
+- compreender os impactos;
+- definir medidas de mitigação;
+- evitar surpresas previsíveis.
+
+---
+
+# Filosofia
+
+Os riscos ignorados não desaparecem.
+
+Continuam a existir.
+
+A única diferença é que deixam de ser geridos.
+
+---
+
+# Classificação
+
+## Probabilidade
+
+### Baixa
+
+Pouco provável.
+
+---
+
+### Média
+
+Pode ocorrer.
+
+---
+
+### Alta
+
+Espera-se que ocorra algures no futuro.
+
+---
+
+# Impacto
+
+### Baixo
+
+Impacto reduzido.
+
+---
+
+### Médio
+
+Impacto significativo.
+
+---
+
+### Alto
+
+Impacto grave.
+
+---
+
+### Crítico
+
+Impacto potencialmente catastrófico.
+
+---
+
+# Risco 001
+
+## Nome
+
+Falha do servidor principal.
+
+### Probabilidade
+
+Média
+
+### Impacto
+
+Crítico
+
+### Ativos Afetados
+
+- Home Assistant
+- Nextcloud
+- Paperless
+- PostgreSQL
+- Authentik
+
+### Mitigação
+
+- Backups
+- Documentação
+- Procedimentos de reconstrução
+
+### Estado
+
+Monitorizado
+
+---
+
+# Risco 002
+
+## Nome
+
+Falha do armazenamento principal.
+
+### Probabilidade
+
+Média
+
+### Impacto
+
+Crítico
+
+### Ativos Afetados
+
+- Documentos
+- Fotografias
+- Arquivo
+
+### Mitigação
+
+- NAS
+- Estratégia de backup
+- Auditorias
+
+### Estado
+
+Monitorizado
+
+---
+
+# Risco 003
+
+## Nome
+
+Documentação desatualizada.
+
+### Probabilidade
+
+Alta
+
+### Impacto
+
+Alto
+
+### Causa
+
+Alterações não documentadas.
+
+### Mitigação
+
+- SSOT
+- Change Log
+- Auditorias
+
+### Estado
+
+Ativo
+
+---
+
+# Risco 004
+
+## Nome
+
+Dependência excessiva do administrador.
+
+### Probabilidade
+
+Alta
+
+### Impacto
+
+Alto
+
+### Causa
+
+Conhecimento não documentado.
+
+### Mitigação
+
+- Manual da Família
+- SSOT
+- Procedimentos operacionais
+
+### Estado
+
+Em redução
+
+---
+
+# Risco 005
+
+## Nome
+
+Perda de conhecimento histórico.
+
+### Probabilidade
+
+Alta
+
+### Impacto
+
+Médio
+
+### Mitigação
+
+- GitHub
+- ADRs
+- História
+- Lições Aprendidas
+
+---
+
+# Risco 006
+
+## Nome
+
+Complexidade excessiva.
+
+### Probabilidade
+
+Alta
+
+### Impacto
+
+Alto
+
+### Indicadores
+
+- serviços redundantes;
+- automações inúteis;
+- dependências excessivas.
+
+### Mitigação
+
+- Auditorias
+- Gestão de ciclo de vida
+
+---
+
+# Risco 007
+
+## Nome
+
+Falha da rede.
+
+### Probabilidade
+
+Média
+
+### Impacto
+
+Alto
+
+### Componentes
+
+- Router
+- Switch
+- Access Point
+
+### Mitigação
+
+- Documentação Omada
+- Inventário
+- Exportações
+
+---
+
+# Risco 008
+
+## Nome
+
+Dependência excessiva de IA.
+
+### Probabilidade
+
+Média
+
+### Impacto
+
+Médio
+
+### Descrição
+
+Informação produzida por IA pode parecer plausível sem ser verdadeira.
+
+### Mitigação
+
+- Evidências primárias
+- Sistema VALIDADO/PROVÁVEL/HIPÓTESE
+
+---
+
+# Risco 009
+
+## Nome
+
+Divergência entre realidade e SSOT.
+
+### Probabilidade
+
+Alta
+
+### Impacto
+
+Alto
+
+### Mitigação
+
+- Auditorias periódicas
+- Processo documental
+
+---
+
+# Risco 010
+
+## Nome
+
+Falha dos backups.
+
+### Probabilidade
+
+Desconhecida
+
+### Impacto
+
+Crítico
+
+### Mitigação
+
+- Testes periódicos
+- Exercícios de recuperação
+
+---
+
+# Matriz de Prioridade
+
+## Crítica
+
+- Falha do servidor
+- Falha do armazenamento
+- Falha dos backups
+
+---
+
+## Elevada
+
+- Dependência do administrador
+- Documentação desatualizada
+- Divergência da SSOT
+
+---
+
+## Média
+
+- Complexidade excessiva
+- Falha de rede
+- Perda de conhecimento
+
+---
+
+# Revisão
+
+Este documento deve ser revisto:
+
+- após incidentes;
+- após migrações;
+- durante auditorias anuais;
+- após alterações arquiteturais importantes.
+
+---
+
+# Regra Fundamental
+
+O objetivo não é reduzir a lista de riscos.
+
+O objetivo é aumentar a lista de riscos conhecidos.
+
+Os riscos conhecidos podem ser geridos.
+
+Os riscos desconhecidos são os verdadeiramente perigosos.
+
+---
+
+# Definição de Sucesso
+
+Uma infraestrutura madura não é aquela que não possui riscos.
+
+É aquela que conhece os seus riscos e possui planos razoáveis para os enfrentar.
+
+
+================================================================================
+FILE: docs\philosophy\00-principios-fundamentais.md
+================================================================================
+
+# Os Dez Princípios do Cravo Homelab
+
+> Estes princípios constituem a base filosófica e operacional do Cravo Homelab.
+>
+> Qualquer decisão técnica, arquitetural ou funcional deve ser avaliada à luz destes princípios.
+>
+> Quando existir conflito entre soluções possíveis, a opção que melhor respeitar estes princípios deve ser considerada preferencial.
+
+---
+
+## I. A tecnologia existe para servir a família.
+
+O objetivo do sistema não é demonstrar conhecimento técnico, executar software complexo ou seguir tendências tecnológicas.
+
+O objetivo do sistema é melhorar a vida da família.
+
+---
+
+## II. A rede local é a casa natural dos serviços.
+
+Sempre que possível, os serviços devem funcionar localmente.
+
+A Internet é um complemento útil.
+A rede local é a fundação do sistema.
+
+---
+
+## III. Cada informação deve possuir uma única Fonte da Verdade.
+
+A duplicação de informação é uma forma de desorganização.
+
+Cada dado deve ter uma localização oficial, conhecida e documentada.
+
+---
+
+## IV. A automatização deve eliminar trabalho.
+
+A automatização existe para reduzir tarefas repetitivas, reduzir erros e libertar tempo.
+
+Nunca deve ser criada apenas porque é tecnicamente possível.
+
+---
+
+## V. A simplicidade é uma funcionalidade.
+
+A solução mais simples que cumpra os requisitos deve ser preferida.
+
+A complexidade deve ser sempre considerada um custo.
+
+---
+
+## VI. A privacidade é o estado por defeito.
+
+Os dados da família pertencem à família.
+
+A partilha com terceiros deve ser uma decisão consciente e não a configuração padrão.
+
+---
+
+## VII. Os factos valem mais do que a memória.
+
+A memória humana falha.
+
+A interpretação falha.
+
+As inteligências artificiais falham.
+
+Os factos documentados devem prevalecer sobre qualquer recordação ou narrativa.
+
+---
+
+## VIII. O GitHub é a memória permanente do sistema.
+
+O conhecimento não deve residir apenas na cabeça do administrador.
+
+Toda a informação relevante deve ser documentada e preservada.
+
+---
+
+## IX. A evolução não apaga a história.
+
+As decisões antigas fazem parte da história do sistema.
+
+O passado deve ser preservado, mas claramente identificado como histórico.
+
+---
+
+## X. O sistema deve sobreviver ao seu criador.
+
+A infraestrutura deve poder ser compreendida, mantida, reparada ou recriada por outra pessoa através da documentação disponível.
+
+A dependência de conhecimento exclusivo constitui uma falha de arquitetura.
+
+---
+
+# Cláusula Final
+
+Sempre que surgir uma dúvida técnica, arquitetural ou operacional que não esteja explicitamente documentada, a decisão deve ser tomada de acordo com o espírito destes princípios.
+
+Os princípios prevalecem sobre as implementações.
+
+As implementações podem mudar.
+
+Os princípios permanecem.
+
+
+================================================================================
+FILE: docs\philosophy\01-interpretacao-dos-principios.md
+================================================================================
+
+# Interpretação dos Princípios Fundamentais
+
+Este documento explica a origem, significado e aplicação prática dos Dez Princípios do Cravo Homelab.
+
+Os princípios não foram criados de forma teórica.
+
+Cada um deles resulta de experiências reais, erros cometidos, problemas encontrados e soluções que se revelaram eficazes ao longo da evolução do sistema.
+
+O objetivo deste documento não é definir regras rígidas para sempre.
+
+O objetivo é fornecer um enquadramento lógico que permita tomar decisões consistentes ao longo dos anos, mesmo quando o hardware, software ou necessidades da família mudarem.
+
+---
+
+# I. A tecnologia existe para servir a família
+
+A infraestrutura não existe para servir o administrador.
+
+Existe para servir os seus utilizadores.
+
+Nenhuma implementação técnica tem valor se complicar desnecessariamente a vida das pessoas que utilizam o sistema.
+
+Uma solução tecnicamente elegante mas difícil de utilizar é inferior a uma solução simples e compreensível.
+
+Quando existir conflito entre sofisticação técnica e utilidade prática, deve prevalecer a utilidade prática.
+
+---
+
+# II. A rede local é a casa natural dos serviços
+
+A arquitetura do Homelab segue uma filosofia Local First.
+
+Os serviços devem permanecer operacionais mesmo quando existem falhas temporárias na ligação à Internet.
+
+O acesso remoto é uma funcionalidade complementar e não um requisito para o funcionamento normal da casa.
+
+A rede local deve fornecer:
+
+- acesso aos ficheiros;
+- acesso à automação;
+- acesso aos documentos;
+- acesso aos serviços familiares;
+- acesso à monitorização.
+
+A Internet deve acrescentar conveniência.
+
+Nunca dependência.
+
+---
+
+# III. Cada informação deve possuir uma única Fonte da Verdade
+
+A duplicação de informação conduz inevitavelmente a erros.
+
+Quando o mesmo documento existe em vários locais diferentes, torna-se impossível saber qual a versão correta.
+
+A estratégia adotada pelo Homelab é definir uma localização oficial para cada tipo de informação.
+
+Exemplos:
+
+- Documentação técnica → GitHub.
+- Arquivo documental → Paperless.
+- Ficheiros ativos → Nextcloud.
+- Configuração operacional → ficheiros de configuração versionados.
+
+Sempre que houver conflito, apenas uma localização deve ser considerada autoritária.
+
+---
+
+# IV. A automatização deve eliminar trabalho
+
+Automatizar por diversão é permitido.
+
+Automatizar por obrigação é preferível.
+
+Qualquer automatização introduz complexidade.
+
+Por esse motivo, apenas devem ser implementadas automatizações que reduzam esforço humano, risco de erro ou trabalho repetitivo.
+
+A pergunta correta não é:
+
+"Posso automatizar isto?"
+
+A pergunta correta é:
+
+"Vale a pena automatizar isto?"
+
+---
+
+# V. A simplicidade é uma funcionalidade
+
+A complexidade possui custos invisíveis.
+
+Cada aplicação adicional:
+
+- necessita de manutenção;
+- necessita de backups;
+- necessita de atualizações;
+- necessita de documentação.
+
+A solução mais simples que cumpra os requisitos deve ser considerada a solução preferencial.
+
+Não existe mérito em complexidade desnecessária.
+
+---
+
+# VI. A privacidade é o estado por defeito
+
+A proteção dos dados familiares deve existir desde o desenho inicial das soluções.
+
+Privacidade não significa isolamento total.
+
+Significa controlo consciente sobre quem pode aceder aos dados e em que circunstâncias.
+
+Sempre que possível:
+
+- os dados permanecem em infraestrutura própria;
+- o acesso é controlado;
+- os serviços externos são reduzidos ao mínimo necessário.
+
+---
+
+# VII. Os factos valem mais do que a memória
+
+Este princípio tornou-se particularmente importante durante a reconstrução documental do sistema.
+
+Ao longo do tempo surgiram:
+
+- versões diferentes da arquitetura;
+- documentos históricos;
+- planos que nunca chegaram a ser implementados;
+- alterações esquecidas;
+- interpretações de inteligência artificial.
+
+A memória humana é falível.
+
+A interpretação automática também.
+
+Sempre que existir conflito, a prioridade deve ser atribuída a evidências concretas:
+
+- ficheiros de configuração;
+- exportações;
+- backups;
+- documentação validada;
+- registos históricos;
+- comprovativos de aquisição.
+
+Uma evidência documentada tem prioridade sobre qualquer recordação.
+
+---
+
+# VIII. O GitHub é a memória permanente do sistema
+
+Os sistemas sobrevivem através da documentação.
+
+Não através da memória dos seus administradores.
+
+O GitHub foi escolhido como repositório central porque fornece:
+
+- histórico;
+- controlo de alterações;
+- rastreabilidade;
+- recuperação de versões anteriores.
+
+O conhecimento operacional do Homelab deve residir no repositório e não exclusivamente numa pessoa.
+
+---
+
+# IX. A evolução não apaga a história
+
+Uma decisão antiga pode já não ser correta.
+
+Continua, no entanto, a ser parte da história do sistema.
+
+A documentação deve preservar:
+
+- o estado atual;
+- os estados anteriores;
+- as razões das alterações.
+
+Eliminar o passado dificulta a compreensão do presente.
+
+Por essa razão, os documentos históricos devem ser preservados, mas claramente marcados como históricos.
+
+---
+
+# X. O sistema deve sobreviver ao seu criador
+
+O maior objetivo desta documentação é a continuidade.
+
+Qualquer pessoa que disponha do repositório documental deve conseguir compreender:
+
+- a arquitetura;
+- os serviços;
+- os dados;
+- os procedimentos de recuperação;
+- os objetivos do sistema.
+
+Uma infraestrutura que depende exclusivamente da memória do seu criador contém uma falha estrutural.
+
+O sucesso do projeto será atingido quando a documentação for suficiente para reconstruir o sistema sem necessidade de consultar o autor.
+
+---
+
+# Conclusão
+
+A tecnologia utilizada pelo Homelab irá inevitavelmente mudar.
+
+Novos equipamentos serão adquiridos.
+
+Outros serão abandonados.
+
+Novos serviços surgirão.
+
+Outros desaparecerão.
+
+Os princípios aqui descritos devem manter-se estáveis ao longo dessas mudanças.
+
+A arquitetura pode evoluir.
+
+A filosofia deve permanecer.
+
+
+================================================================================
+FILE: docs\philosophy\03-regras-de-ouro.md
+================================================================================
+
+# As Regras de Ouro do Cravo Homelab
+
+## Objetivo
+
+Este documento reúne um conjunto de regras simples que resultam da experiência acumulada durante a evolução do Cravo Homelab.
+
+Não são regras técnicas.
+
+São regras de sobrevivência.
+
+O seu objetivo é evitar erros que historicamente conduzem a:
+
+- perda de dados;
+- duplicação de informação;
+- complexidade desnecessária;
+- degradação documental;
+- dependência excessiva da memória humana.
+
+---
+
+# Regra 1
+
+## Nunca confiar exclusivamente na memória.
+
+Se uma informação for importante, deve ser documentada.
+
+Se não estiver documentada, deve assumir-se que será esquecida.
+
+---
+
+# Regra 2
+
+## Nenhum serviço entra em produção sem documentação.
+
+Antes de um serviço ser considerado oficial deve existir documentação mínima:
+
+- finalidade;
+- dependências;
+- backup;
+- recuperação.
+
+---
+
+# Regra 3
+
+## Nenhum serviço entra em produção sem um plano de saída.
+
+Antes de instalar um serviço deve ser possível responder:
+
+```text
+Como o removo?
+```
+
+---
+
+# Regra 4
+
+## A documentação é parte da infraestrutura.
+
+Uma alteração não está concluída até a documentação ser atualizada.
+
+---
+
+# Regra 5
+
+## O GitHub é a única fonte autorizada para edição.
+
+Nenhum PDF deve ser editado.
+
+Nenhum documento arquivado deve ser editado.
+
+Toda a alteração começa no GitHub.
+
+---
+
+# Regra 6
+
+## Os PDFs são publicações e não fontes.
+
+A fonte é sempre:
+
+```text
+Markdown
+```
+
+O PDF é apenas uma representação.
+
+---
+
+# Regra 7
+
+## O Nextcloud é a biblioteca viva.
+
+Contém a versão atual dos documentos.
+
+Apenas a versão mais recente.
+
+---
+
+# Regra 8
+
+## O Paperless é o arquivo permanente.
+
+Contém documentos históricos.
+
+Nunca substitui o GitHub.
+
+Nunca substitui o Nextcloud.
+
+---
+
+# Regra 9
+
+## Duplicação é considerada dívida técnica.
+
+Sempre que existir:
+
+- o mesmo ficheiro em vários locais;
+- a mesma configuração em vários documentos;
+- credenciais repetidas;
+- informação contraditória;
+
+deve iniciar-se um processo de consolidação.
+
+---
+
+# Regra 10
+
+## Automatizar apenas o que vale a pena.
+
+Nem tudo o que pode ser automatizado merece ser automatizado.
+
+A automação deve:
+
+- poupar tempo;
+- reduzir erros;
+- simplificar tarefas.
+
+---
+
+# Regra 11
+
+## A rede local vem primeiro.
+
+Um serviço que não funciona dentro da própria casa está incompleto.
+
+O acesso remoto é um complemento.
+
+Não uma dependência.
+
+---
+
+# Regra 12
+
+## A privacidade é a configuração por defeito.
+
+Partilhar é uma decisão consciente.
+
+Expor é uma exceção.
+
+---
+
+# Regra 13
+
+## As decisões importantes precisam de contexto.
+
+Sempre que uma alteração for estrutural:
+
+- criar ADR;
+- registrar motivo;
+- registrar consequências.
+
+---
+
+# Regra 14
+
+## Um backup não testado não é um backup.
+
+É apenas uma esperança.
+
+---
+
+# Regra 15
+
+## Um sistema simples é um sistema sustentável.
+
+A pergunta correta não é:
+
+```text
+Posso fazer?
+```
+
+A pergunta correta é:
+
+```text
+Vale a pena fazer?
+```
+
+---
+
+# Regra 16
+
+## Os factos prevalecem sobre as interpretações.
+
+Em caso de conflito:
+
+1. Configuração real;
+2. Exportações;
+3. Backups;
+4. GitHub;
+5. Documentação histórica;
+6. Memória humana;
+7. Respostas de IA.
+
+---
+
+# Regra 17
+
+## A evolução não apaga a história.
+
+O passado deve ser preservado.
+
+Mas claramente marcado como passado.
+
+---
+
+# Regra 18
+
+## A tecnologia existe para servir a família.
+
+Esta é a regra suprema.
+
+Qualquer solução que complique desnecessariamente a vida da família deve ser reconsiderada.
+
+---
+
+# Cláusula Final
+
+Sempre que existir dúvida entre duas soluções tecnicamente válidas, deve ser escolhida a que:
+
+- respeite os princípios fundamentais;
+- reduza complexidade;
+- aumente a sustentabilidade;
+- exija menos memória humana;
+- beneficie mais a família.
+
+Estas regras foram escritas para que o sistema sobreviva ao tempo, às mudanças tecnológicas e ao esquecimento inevitável da condição humana.
+
+
+================================================================================
+FILE: docs\philosophy\04-roadmap-e-visao.md
+================================================================================
+
+# Visão e Roadmap do Cravo Homelab
+
+## Objetivo
+
+Este documento descreve a direção estratégica do Cravo Homelab.
+
+Ao contrário da SSOT, não descreve o estado atual.
+
+Ao contrário da História, não descreve o passado.
+
+Este documento descreve o futuro pretendido.
+
+O seu objetivo é responder à pergunta:
+
+> Para onde queremos levar esta infraestrutura?
+
+---
+
+# Missão
+
+Construir uma infraestrutura doméstica sustentável, documentada e centrada na família que:
+
+- simplifique o quotidiano;
+- preserve conhecimento;
+- proteja dados;
+- reduza dependências externas;
+- automatize tarefas repetitivas;
+- permaneça compreensível ao longo do tempo.
+
+---
+
+# Visão de Longo Prazo
+
+O Cravo Homelab deverá evoluir para uma plataforma capaz de funcionar como:
+
+- Arquivo Digital Familiar;
+- Centro de Automação Residencial;
+- Biblioteca de Conhecimento;
+- Plataforma de Colaboração Familiar;
+- Sistema de Preservação Histórica.
+
+---
+
+# Objetivos Estratégicos
+
+## Objetivo 1
+
+### Conhecimento Permanente
+
+Todo o conhecimento importante deve possuir documentação.
+
+Nenhuma decisão importante deve existir apenas em:
+
+- memória;
+- mensagens;
+- conversas;
+- respostas de IA.
+
+---
+
+## Objetivo 2
+
+### Consolidação Documental
+
+Continuar a eliminar:
+
+- documentos duplicados;
+- fontes contraditórias;
+- informação órfã.
+
+A SSOT deve tornar-se progressivamente mais completa.
+
+---
+
+## Objetivo 3
+
+### Arquivo Familiar Digital
+
+Transformar o Paperless no repositório permanente da memória documental da família.
+
+Exemplos:
+
+- faturas;
+- contratos;
+- garantias;
+- documentação fiscal;
+- documentação histórica.
+
+---
+
+## Objetivo 4
+
+### Biblioteca Familiar Viva
+
+Transformar o Nextcloud no ponto central de consulta diária.
+
+Deverá concentrar:
+
+- documentos ativos;
+- manuais;
+- PDFs gerados automaticamente;
+- procedimentos familiares.
+
+---
+
+## Objetivo 5
+
+### Documentação Publicada Automaticamente
+
+Implementar pipeline documental.
+
+Objetivo:
+
+```text
+Markdown
+    ↓
+GitHub
+    ↓
+PDF
+    ↓
+Nextcloud
+    ↓
+Paperless
+```
+
+Sem intervenção manual.
+
+---
+
+## Objetivo 6
+
+### Recuperação Total
+
+Garantir que todo o Homelab pode ser reconstruído apenas através de:
+
+- documentação;
+- backups;
+- hardware equivalente.
+
+---
+
+## Objetivo 7
+
+### Casa Inteligente Sustentável
+
+Expandir a automação apenas quando existir benefício real.
+
+Evitar:
+
+- automações sem propósito;
+- sensores sem utilização;
+- complexidade gratuita.
+
+---
+
+## Objetivo 8
+
+### Governança Tecnológica
+
+As decisões futuras devem ser tomadas segundo os princípios do projeto.
+
+Nenhuma decisão tecnológica deve contradizer:
+
+- Local First;
+- Simplicidade;
+- Fonte Única da Verdade;
+- Privacidade;
+- Sustentabilidade.
+
+---
+
+# Projetos Futuros
+
+## AEGIS
+
+Integração progressiva do projeto robótico AEGIS na infraestrutura doméstica.
+
+Objetivos potenciais:
+
+- monitorização;
+- patrulhamento;
+- presença virtual;
+- interação com Home Assistant.
+
+---
+
+## Arquitetura Documental
+
+Evoluir a documentação para:
+
+```text
+Wikipedia Interna Familiar
+```
+
+mantendo simultaneamente:
+
+```text
+SSOT Técnica
+```
+
+---
+
+## Inventário Completo
+
+Catalogar todos os ativos:
+
+- Zigbee;
+- Wi-Fi;
+- Multimédia;
+- Robótica;
+- Automação.
+
+---
+
+## Cartografia da Habitação
+
+Evoluir o House Map para um verdadeiro mapa operacional da residência.
+
+---
+
+# Critérios de Sucesso
+
+O projeto será considerado bem sucedido quando:
+
+- a família conseguir utilizar os serviços sem conhecimentos técnicos;
+- a documentação permitir reconstruir a infraestrutura;
+- os dados estiverem protegidos;
+- a dependência da memória humana for mínima;
+- a tecnologia continuar subordinada às necessidades da família.
+
+---
+
+# Regra Final
+
+O objetivo do Cravo Homelab não é ter mais serviços.
+
+O objetivo é criar mais valor.
+
+Qualquer evolução futura deve ser medida não pela complexidade adicionada, mas pelo benefício real obtido para a família e para a preservação do conhecimento.
+
+
+================================================================================
+FILE: docs\philosophy\06-definicao-de-sucesso.md
+================================================================================
+
+# Definição de Sucesso
+
+## Objetivo
+
+Este documento define o que significa sucesso para o Cravo Homelab.
+
+O objetivo é permitir avaliar decisões futuras de forma consistente.
+
+Sempre que existir dúvida sobre uma alteração, projeto ou investimento, este documento deve ser consultado.
+
+---
+
+# Introdução
+
+É fácil medir:
+
+- número de serviços;
+- número de sensores;
+- capacidade de armazenamento;
+- utilização de CPU;
+- quantidade de automações.
+
+É muito mais difícil medir aquilo que realmente importa.
+
+O sucesso do Cravo Homelab não é tecnológico.
+
+O sucesso do Cravo Homelab é funcional.
+
+---
+
+# O Que Não É Sucesso
+
+As seguintes métricas não constituem objetivos por si só.
+
+## Não é sucesso
+
+Ter mais serviços.
+
+---
+
+## Não é sucesso
+
+Ter mais automações.
+
+---
+
+## Não é sucesso
+
+Ter mais equipamentos.
+
+---
+
+## Não é sucesso
+
+Ter configurações mais complexas.
+
+---
+
+## Não é sucesso
+
+Utilizar mais tecnologia.
+
+---
+
+## Não é sucesso
+
+Executar mais contentores Docker.
+
+---
+
+# O Que É Sucesso
+
+---
+
+# Critério 1
+
+## A Família Encontra o Que Procura
+
+Quando um documento é necessário:
+
+- sabe-se onde procurar;
+- é encontrado rapidamente;
+- não existem múltiplas versões contraditórias.
+
+---
+
+# Critério 2
+
+## A Informação Está Organizada
+
+Documentos importantes não se encontram dispersos por:
+
+- telemóveis;
+- computadores;
+- discos externos;
+- serviços aleatórios.
+
+Existe uma localização previsível para cada tipo de informação.
+
+---
+
+# Critério 3
+
+## A Família Não Precisa de Conhecimentos Técnicos
+
+Os serviços devem ser utilizáveis por qualquer elemento da família.
+
+Sem necessidade de compreender:
+
+- Docker;
+- PostgreSQL;
+- VLANs;
+- DNS;
+- WireGuard.
+
+---
+
+# Critério 4
+
+## O Conhecimento Não Depende da Memória
+
+As decisões importantes encontram-se documentadas.
+
+A infraestrutura pode ser compreendida através da documentação.
+
+Não através da memória do administrador.
+
+---
+
+# Critério 5
+
+## Os Dados Permanecem Acessíveis
+
+Documentos, fotografias e registos importantes permanecem acessíveis mesmo após:
+
+- mudanças de hardware;
+- mudanças de software;
+- migrações.
+
+---
+
+# Critério 6
+
+## A Recuperação É Possível
+
+Em caso de desastre deve existir capacidade de reconstrução.
+
+A documentação e os backups devem permitir restaurar o sistema.
+
+---
+
+# Critério 7
+
+## As Automações Criam Valor
+
+Cada automação deve justificar a sua existência.
+
+Uma automação sem benefício identificado constitui complexidade.
+
+---
+
+# Critério 8
+
+## A Complexidade Permanece Controlada
+
+Cada novo serviço deve contribuir para simplificar alguma tarefa.
+
+O crescimento não é um objetivo.
+
+A sustentabilidade é.
+
+---
+
+# Critério 9
+
+## O Conhecimento Continua Disponível
+
+As razões das decisões permanecem documentadas.
+
+O contexto não desaparece com o tempo.
+
+---
+
+# Critério 10
+
+## A Infraestrutura Serve as Pessoas
+
+A tecnologia existe para apoiar atividades humanas.
+
+Não para se tornar uma atividade em si mesma.
+
+---
+
+# Indicadores Práticos
+
+O projeto está a cumprir a sua missão quando:
+
+✅ A Ana encontra uma fatura sem ajuda.
+
+✅ O Francisco encontra um documento sem ajuda.
+
+✅ Uma fotografia antiga pode ser encontrada rapidamente.
+
+✅ Os serviços continuam utilizáveis após uma mudança de hardware.
+
+✅ Uma nova pessoa consegue compreender a infraestrutura através da documentação.
+
+✅ Uma auditoria consegue distinguir claramente entre factos e hipóteses.
+
+✅ A documentação está mais atualizada do que a memória dos intervenientes.
+
+---
+
+# Indicadores de Alerta
+
+O projeto está a afastar-se dos seus objetivos quando:
+
+❌ Existem múltiplas cópias do mesmo documento.
+
+❌ Surgem serviços sem propósito claro.
+
+❌ Existem automações que ninguém compreende.
+
+❌ A documentação deixa de acompanhar a realidade.
+
+❌ O administrador se torna indispensável para tarefas rotineiras.
+
+❌ Novos equipamentos são adquiridos sem benefício claramente identificado.
+
+---
+
+# Questão Fundamental
+
+Antes de qualquer alteração perguntar:
+
+> Esta alteração torna a vida da família mais simples?
+
+Se a resposta for negativa:
+
+A alteração deve ser reconsiderada.
+
+---
+
+# Definição Final de Sucesso
+
+O sucesso do Cravo Homelab não será medido pela tecnologia instalada.
+
+Será medido pela capacidade de:
+
+- preservar informação;
+- preservar conhecimento;
+- reduzir esforço;
+- aumentar autonomia;
+- garantir continuidade.
+
+Se daqui a muitos anos a família continuar a conseguir encontrar, compreender e utilizar a sua informação digital sem depender de conhecimento especializado, então o objetivo do Cravo Homelab terá sido alcançado.
+
+
+================================================================================
+FILE: docs\philosophy\07-manifesto-da-preservacao-do-conhecimento.md
+================================================================================
+
+# Manifesto da Preservação do Conhecimento
+
+## Introdução
+
+O Cravo Homelab nasceu como uma solução tecnológica.
+
+Com o passar do tempo tornou-se evidente que a tecnologia nunca foi o verdadeiro objetivo.
+
+Os equipamentos mudaram.
+
+Os sistemas operativos mudaram.
+
+Os serviços mudaram.
+
+As arquiteturas mudaram.
+
+Mas existiu sempre algo que permaneceu constante:
+
+A necessidade de preservar informação, contexto e conhecimento.
+
+Este documento define a filosofia de preservação do conhecimento do Cravo Homelab.
+
+---
+
+# Princípio 1
+
+## O conhecimento é um ativo.
+
+O conhecimento possui valor.
+
+Tal como os documentos, as fotografias ou os equipamentos.
+
+Quando o conhecimento se perde:
+
+- decisões são repetidas;
+- erros são repetidos;
+- tempo é desperdiçado;
+- contextos desaparecem.
+
+O conhecimento deve ser tratado como um ativo de primeira classe.
+
+---
+
+# Princípio 2
+
+## A memória humana é limitada.
+
+Nenhuma pessoa consegue recordar tudo.
+
+Com o passar dos anos:
+
+- detalhes desaparecem;
+- justificações são esquecidas;
+- decisões perdem contexto.
+
+O sistema deve confiar em documentação.
+
+Não em memória.
+
+---
+
+# Princípio 3
+
+## O contexto é tão importante como o resultado.
+
+Saber que uma decisão foi tomada não é suficiente.
+
+É necessário compreender:
+
+- porque foi tomada;
+- quais eram as alternativas;
+- quais os riscos considerados;
+- quais os objetivos pretendidos.
+
+Uma configuração sem contexto transforma-se em arqueologia.
+
+---
+
+# Princípio 4
+
+## O conhecimento deve sobreviver às ferramentas.
+
+Nenhuma tecnologia é permanente.
+
+Hoje existe:
+
+- Nextcloud;
+- Paperless;
+- Home Assistant;
+- Docker.
+
+Amanhã poderão existir outras soluções.
+
+O conhecimento deve ser independente das ferramentas utilizadas.
+
+---
+
+# Princípio 5
+
+## O conhecimento deve ser pesquisável.
+
+Informação que não pode ser encontrada é equivalente a informação perdida.
+
+Todo o conhecimento relevante deve possuir:
+
+- organização;
+- classificação;
+- localização previsível;
+- capacidade de pesquisa.
+
+---
+
+# Princípio 6
+
+## O conhecimento deve possuir histórico.
+
+O passado é importante.
+
+As decisões antigas devem ser preservadas.
+
+Mesmo quando deixaram de ser válidas.
+
+A história explica a evolução.
+
+---
+
+# Princípio 7
+
+## O conhecimento deve possuir evidência.
+
+A opinião tem valor limitado.
+
+A evidência possui valor duradouro.
+
+Sempre que possível:
+
+- utilizar documentação;
+- utilizar exportações;
+- utilizar configurações reais;
+- utilizar provas observáveis.
+
+---
+
+# Princípio 8
+
+## A documentação é uma forma de respeito pelo futuro.
+
+Documentar não serve apenas o presente.
+
+Serve as pessoas que irão consultar a informação mais tarde.
+
+O leitor futuro merece compreender:
+
+- o que foi feito;
+- porque foi feito;
+- como poderá ser recuperado.
+
+---
+
+# Princípio 9
+
+## O conhecimento deve ser acessível.
+
+A informação importante não deve estar escondida.
+
+Nem depender de:
+
+- software raro;
+- formatos proprietários;
+- plataformas obscuras.
+
+A simplicidade aumenta a longevidade.
+
+---
+
+# Princípio 10
+
+## O conhecimento familiar merece ser preservado.
+
+O objetivo final do sistema não é preservar tecnologia.
+
+É preservar:
+
+- documentos;
+- fotografias;
+- história;
+- experiências;
+- aprendizagem.
+
+A tecnologia é apenas o mecanismo.
+
+O conhecimento é o objetivo.
+
+---
+
+# A Biblioteca Viva
+
+O Cravo Homelab adota o conceito de:
+
+```text
+Biblioteca Viva
+```
+
+Representada pelo:
+
+```text
+Nextcloud
+```
+
+Aqui reside o conhecimento atual.
+
+O conhecimento consultado diariamente.
+
+---
+
+# O Arquivo Permanente
+
+O Cravo Homelab adota o conceito de:
+
+```text
+Arquivo Permanente
+```
+
+Representado pelo:
+
+```text
+Paperless
+```
+
+Aqui reside o conhecimento preservado.
+
+O conhecimento que deve sobreviver ao tempo.
+
+---
+
+# A Memória Institucional
+
+O Cravo Homelab adota o conceito de:
+
+```text
+Memória Institucional
+```
+
+Representada pelo:
+
+```text
+GitHub
+```
+
+Aqui reside:
+
+- a documentação;
+- a história;
+- a justificação;
+- a verdade atual.
+
+---
+
+# A Relação Entre os Três
+
+```text
+GitHub
+    ↓
+
+Conhecimento Fonte
+
+    ↓
+
+Nextcloud
+
+Conhecimento Consultado
+
+    ↓
+
+Paperless
+
+Conhecimento Preservado
+```
+
+---
+
+# O Objetivo Final
+
+O sucesso deste projeto não será medido:
+
+- pelo número de sensores;
+- pelo número de contentores;
+- pelo número de automações.
+
+Será medido pela capacidade de preservar conhecimento útil ao longo do tempo.
+
+Se daqui a vinte anos for possível compreender:
+
+- como a infraestrutura funcionava;
+- porque existia;
+- como evoluiu;
+- que decisões foram tomadas;
+
+então este objetivo terá sido atingido.
+
+---
+
+# Declaração Final
+
+Os equipamentos falham.
+
+Os serviços são substituídos.
+
+As tecnologias tornam-se obsoletas.
+
+Mas o conhecimento continua valioso.
+
+O dever do Cravo Homelab é garantir que esse conhecimento permanece acessível, compreensível e preservado para quem vier depois.
+
+Porque a informação perde valor quando se perde o contexto.
+
+E o contexto perde-se quando não é documentado.
+
+
+================================================================================
+FILE: docs\services\home-assistant.md
+================================================================================
+
+# Home Assistant
+
+## Objetivo
+
+Este documento descreve a implementação do Home Assistant no Cravo Homelab.
+
+O objetivo é permitir:
+
+- compreender a função do serviço;
+- administrar a plataforma;
+- recuperar após desastre;
+- auditar integrações;
+- documentar dependências.
+
+Este documento destina-se ao administrador da infraestrutura.
+
+---
+
+# Resumo
+
+## Nome
+
+Home Assistant
+
+## Tipo
+
+Plataforma de automação residencial.
+
+## Estado
+
+Produção.
+
+## Criticidade
+
+Crítica.
+
+---
+
+# Função
+
+O Home Assistant constitui o cérebro operacional da habitação.
+
+Coordena:
+
+- automações;
+- sensores;
+- notificações;
+- equipamentos inteligentes;
+- monitorização;
+- lógica doméstica.
+
+---
+
+# Dependências
+
+## PostgreSQL
+
+Utilizado para:
+
+- histórico;
+- estatísticas;
+- eventos;
+- telemetria.
+
+Sem PostgreSQL o serviço continua a funcionar mas perde capacidades avançadas de histórico.
+
+---
+
+## Rede Local
+
+Dependência crítica.
+
+A maioria dos dispositivos comunica através da rede.
+
+---
+
+## DNS
+
+Dependência operacional.
+
+Utilizado para resolução de serviços internos.
+
+---
+
+## Energia
+
+Dependência crítica.
+
+O serviço é considerado de missão crítica para a habitação.
+
+---
+
+# Dados Armazenados
+
+## Configuração
+
+Exemplos:
+
+- configuration.yaml
+- packages
+- scripts
+- scenes
+- dashboards
+
+---
+
+## Automações
+
+Inclui:
+
+- automações da habitação;
+- notificações;
+- rotinas;
+- lógica de controlo.
+
+---
+
+## Dashboards
+
+Interfaces utilizadas diariamente pelos utilizadores.
+
+---
+
+## Base de Dados
+
+Armazenada em PostgreSQL.
+
+Contém:
+
+- estados;
+- histórico;
+- estatísticas;
+- eventos.
+
+---
+
+# Integrações Principais
+
+## Domótica
+
+- Zigbee
+- Tuya
+- Tomadas inteligentes
+- Sensores
+
+---
+
+## Assistentes de Voz
+
+- Amazon Alexa
+- Dispositivos Echo
+
+---
+
+## Rede
+
+- Omada
+- sensores de presença
+- monitorização
+
+---
+
+## Multimédia
+
+- Fire TV
+- dispositivos compatíveis
+
+---
+
+# Área de Rega Inteligente
+
+## Criticidade
+
+Elevada.
+
+Trata-se de uma das automações mais sofisticadas da infraestrutura.
+
+---
+
+## Funções
+
+- monitorização da humidade;
+- controlo de válvulas;
+- compensação dinâmica;
+- notificações;
+- proteção contra rega excessiva.
+
+---
+
+## Observação
+
+Qualquer alteração nesta área deve ser previamente documentada.
+
+---
+
+# Notificações
+
+## Função
+
+Informar os utilizadores sobre:
+
+- eventos;
+- alertas;
+- estados relevantes.
+
+---
+
+## Tipos
+
+### Informativas
+
+Sem necessidade de ação.
+
+---
+
+### Avisos
+
+Merecem observação.
+
+---
+
+### Críticas
+
+Requerem atenção imediata.
+
+---
+
+# Procedimentos Operacionais
+
+## Atualização
+
+Antes de atualizar:
+
+1. Confirmar backups.
+2. Confirmar estado do PostgreSQL.
+3. Registar alteração no Change Log.
+
+Após atualizar:
+
+1. Validar dashboards.
+2. Validar automações.
+3. Validar notificações.
+
+---
+
+## Reinício
+
+Confirmar após reinício:
+
+- sensores;
+- integrações;
+- automações críticas.
+
+---
+
+# Recuperação
+
+## Cenário 1
+
+Perda de configuração.
+
+Restaurar:
+
+- configuração;
+- scripts;
+- automações.
+
+---
+
+## Cenário 2
+
+Perda da base de dados.
+
+Restaurar backup PostgreSQL.
+
+---
+
+## Cenário 3
+
+Perda total do serviço.
+
+Seguir:
+
+```text
+docs/operations/rebuild-from-zero.md
+```
+
+---
+
+# Auditoria Anual
+
+Confirmar:
+
+- integrações não utilizadas;
+- automações órfãs;
+- dashboards abandonados;
+- entidades duplicadas.
+
+---
+
+# Métricas Importantes
+
+## Saúde
+
+- CPU
+- RAM
+- Tempo de resposta
+
+---
+
+## Base de Dados
+
+- tamanho;
+- crescimento;
+- desempenho.
+
+---
+
+## Integrações
+
+- entidades indisponíveis;
+- falhas recorrentes;
+- dispositivos offline.
+
+---
+
+# Filosofia
+
+O Home Assistant existe para simplificar a gestão da habitação.
+
+Uma automação deve existir apenas quando:
+
+- reduz trabalho;
+- reduz erros;
+- acrescenta conforto;
+- acrescenta segurança.
+
+Uma automação difícil de compreender deve ser considerada candidata a simplificação.
+
+---
+
+# Documentação Relacionada
+
+```text
+docs/ssot/services.md
+docs/family/home-assistant.md
+docs/operations/maintenance.md
+docs/operations/rebuild-from-zero.md
+```
+
+
+================================================================================
+FILE: docs\ssot\asset-inventory.md
+================================================================================
+
+# Inventário de Ativos
+
+## Objetivo
+
+Este documento constitui o inventário oficial dos ativos físicos e lógicos do Cravo Homelab.
+
+O seu objetivo é permitir identificar rapidamente:
+
+- o que existe;
+- onde se encontra;
+- para que serve;
+- quem depende do equipamento;
+- qual a sua criticidade.
+
+Este documento complementa a SSOT e deve ser mantido atualizado.
+
+---
+
+# Classificação dos Ativos
+
+Os ativos são agrupados por categoria.
+
+---
+
+# Infraestrutura Principal
+
+## Lenovo ThinkCentre M710 SFF
+
+### Estado
+
+Ativo
+
+### Função
+
+Servidor principal do Homelab.
+
+### Criticidade
+
+Crítica
+
+### Localização Física
+
+A definir pela instalação atual.
+
+### Dependências
+
+- Docker
+- Home Assistant
+- Nextcloud
+- Paperless
+- Authentik
+- PostgreSQL
+
+---
+
+## NAS QNAP
+
+### Estado
+
+Ativo
+
+### Função
+
+Armazenamento principal.
+
+### Criticidade
+
+Crítica
+
+### Ligação
+
+iSCSI
+
+### Dependências
+
+- Nextcloud
+- Paperless
+- Backups
+
+---
+
+# Equipamentos de Rede
+
+## TP-Link ER605
+
+### Estado
+
+Ativo
+
+### Função
+
+Gateway principal.
+
+### Criticidade
+
+Crítica
+
+---
+
+## TP-Link TL-SG1008P
+
+### Estado
+
+Ativo
+
+### Função
+
+Switch principal.
+
+### Criticidade
+
+Elevada
+
+---
+
+## TP-Link EAP653
+
+### Estado
+
+Ativo
+
+### Função
+
+Access Point principal.
+
+### Criticidade
+
+Elevada
+
+---
+
+# Assistentes de Voz
+
+## Amazon Echo
+
+### Estado
+
+Ativo
+
+### Função
+
+Interação por voz.
+
+### Criticidade
+
+Baixa
+
+### Observações
+
+Inventário detalhado pendente.
+
+---
+
+# Multimédia
+
+## Fire TV
+
+### Estado
+
+Ativo
+
+### Função
+
+Integração multimédia.
+
+### Criticidade
+
+Baixa
+
+---
+
+# Segurança
+
+## Sistema de Alarme
+
+### Equipamento
+
+PGST PG103
+
+### Estado
+
+Ativo
+
+### Criticidade
+
+Elevada
+
+---
+
+# Robôs
+
+## Roomba #1
+
+### Estado
+
+Ativo
+
+### Função
+
+Limpeza.
+
+---
+
+## Roomba #2
+
+### Estado
+
+Ativo
+
+### Função
+
+Limpeza.
+
+---
+
+# Ecossistema Zigbee
+
+## Objetivo
+
+Todos os dispositivos Zigbee devem ser catalogados individualmente.
+
+---
+
+# Modelo de Registo
+
+## Nome
+
+Tomada Zigbee Sala
+
+## Entidade
+
+switch.tomada_sala
+
+## Localização
+
+Sala
+
+## Função
+
+Controlo da iluminação indireta.
+
+## Data de Instalação
+
+AAAA-MM-DD
+
+## Criticidade
+
+Baixa
+
+## Dependências
+
+Home Assistant
+
+---
+
+# Sensores
+
+Cada sensor deve incluir:
+
+- localização;
+- entidade;
+- tecnologia;
+- utilização;
+- data de instalação.
+
+---
+
+# Iluminação
+
+Cada dispositivo deve incluir:
+
+- localização;
+- entidade;
+- tipo;
+- automações associadas.
+
+---
+
+# Dispositivos Experimentais
+
+Os equipamentos em teste devem ser registados separadamente.
+
+Estado:
+
+```text
+LAB
+```
+
+---
+
+# Equipamentos Aposentados
+
+Equipamentos retirados de serviço devem migrar para:
+
+```text
+docs/history/retired-assets.md
+```
+
+---
+
+# Criticidade
+
+## Crítica
+
+Falha com impacto imediato.
+
+Exemplos:
+
+- Lenovo
+- QNAP
+- ER605
+
+---
+
+## Elevada
+
+Falha com impacto significativo.
+
+Exemplos:
+
+- Home Assistant
+- EAP653
+- Alarme
+
+---
+
+## Média
+
+Falha com impacto limitado.
+
+---
+
+## Baixa
+
+Falha sem impacto estrutural.
+
+---
+
+# Regra Fundamental
+
+Nenhum equipamento deve existir na infraestrutura sem estar inventariado.
+
+Se um dispositivo não consta neste documento, deve ser considerado não documentado.
+
+---
+
+# Definição de Sucesso
+
+Qualquer pessoa deve conseguir:
+
+- localizar um equipamento;
+- identificar a sua função;
+- avaliar a sua criticidade;
+- compreender as suas dependências;
+
+consultando apenas este inventário.
+
+
+================================================================================
+FILE: docs\ssot\backup-and-recovery.md
+================================================================================
+
+# Backup e Recuperação
+
+## Objetivo
+
+Este documento descreve a estratégia de proteção, recuperação e continuidade operacional do Cravo Homelab.
+
+Este documento existe para responder a uma pergunta simples:
+
+> O que fazemos quando algo falha?
+
+Todos os sistemas falham.
+
+Discos avariam.
+
+Configurações são corrompidas.
+
+Equipamentos são substituídos.
+
+A verdadeira medida da qualidade de uma infraestrutura não é a ausência de falhas.
+
+É a capacidade de recuperação.
+
+---
+
+# Filosofia de Recuperação
+
+O sistema foi concebido segundo os seguintes princípios:
+
+1. Nenhum dado importante deve existir apenas numa localização.
+2. A recuperação deve ser documentada.
+3. Os backups devem poder ser restaurados.
+4. Um backup não testado não é considerado um backup.
+5. A recuperação deve ser possível sem depender da memória do administrador.
+
+---
+
+# Classificação dos Dados
+
+## Dados Críticos
+
+A perda destes dados é considerada inaceitável.
+
+Exemplos:
+
+- Arquivo Paperless
+- Documentação GitHub
+- Fotografias familiares
+- Dados Nextcloud
+- Bases de dados PostgreSQL
+- Configuração Home Assistant
+
+---
+
+## Dados Importantes
+
+A perda é aceitável mas indesejável.
+
+Exemplos:
+
+- Dashboards
+- Templates
+- Configurações secundárias
+
+---
+
+## Dados Recriáveis
+
+Podem ser reconstruídos.
+
+Exemplos:
+
+- Contentores Docker
+- Imagens Docker
+- Cache
+- Logs temporários
+
+---
+
+# Componentes que Devem Ter Backup
+
+## Home Assistant
+
+Deve existir cópia de:
+
+- configuração
+- automações
+- blueprints
+- dashboards
+- integrações
+
+---
+
+## PostgreSQL
+
+Deve existir cópia de:
+
+- bases de dados
+- utilizadores
+- permissões
+
+---
+
+## Nextcloud
+
+Deve existir cópia de:
+
+- dados dos utilizadores
+- configuração
+- aplicações
+
+---
+
+## Paperless
+
+Deve existir cópia de:
+
+- documentos
+- base de dados
+- etiquetas
+- metadados
+
+---
+
+## Authentik
+
+Deve existir cópia de:
+
+- utilizadores
+- grupos
+- aplicações
+- providers
+- fluxos
+
+---
+
+## AdGuard Home
+
+Deve existir cópia de:
+
+- configuração DNS
+- reescritas
+- listas
+- filtros
+
+---
+
+## WireGuard
+
+Deve existir cópia de:
+
+- configuração
+- peers
+- chaves públicas
+
+As chaves privadas devem ser protegidas com especial cuidado.
+
+---
+
+## Nginx Proxy Manager
+
+Deve existir cópia de:
+
+- proxy hosts
+- certificados
+- definições SSL
+
+---
+
+# Estratégia de Recuperação
+
+## Cenário 1
+
+### Falha de Serviço Individual
+
+Exemplos:
+
+- Nextcloud parado
+- PostgreSQL indisponível
+- AdGuard sem resposta
+
+Procedimento:
+
+1. Verificar logs.
+2. Reiniciar serviço.
+3. Validar dependências.
+4. Restaurar configuração se necessário.
+
+---
+
+## Cenário 2
+
+### Falha do Lenovo
+
+Exemplos:
+
+- SSD avariado
+- Sistema operativo corrompido
+- Hardware substituído
+
+Objetivo:
+
+Recuperar todos os serviços utilizando:
+
+- documentação;
+- backups;
+- repositório Git.
+
+---
+
+## Cenário 3
+
+### Falha do NAS
+
+Objetivo:
+
+Recuperar:
+
+- documentos;
+- fotografias;
+- arquivo digital;
+- armazenamento familiar.
+
+---
+
+## Cenário 4
+
+### Recuperação Total
+
+Situação extrema.
+
+Todo o sistema necessita de ser reconstruído.
+
+Objetivo:
+
+A documentação deve permitir reinstalar a infraestrutura sem depender de conhecimento externo.
+
+---
+
+# Ordem de Recuperação
+
+A recuperação deve seguir esta sequência:
+
+## 1
+
+Infraestrutura Física
+
+- energia
+- rede
+- switches
+- router
+
+---
+
+## 2
+
+Armazenamento
+
+- NAS
+- volumes
+- iSCSI
+
+---
+
+## 3
+
+Servidor Base
+
+- Ubuntu
+- Docker
+
+---
+
+## 4
+
+Serviços Fundamentais
+
+- PostgreSQL
+- AdGuard
+- Authentik
+
+---
+
+## 5
+
+Serviços Operacionais
+
+- Nextcloud
+- Paperless
+- Home Assistant
+
+---
+
+## 6
+
+Serviços Complementares
+
+- WireGuard
+- NPM
+- Uptime Kuma
+- OnlyOffice
+- Talk
+
+---
+
+# Recovery Point Objective (RPO)
+
+Objetivo futuro.
+
+Determina quanta informação pode ser perdida.
+
+Pendentes de definição:
+
+- Home Assistant
+- Nextcloud
+- Paperless
+- PostgreSQL
+
+---
+
+# Recovery Time Objective (RTO)
+
+Objetivo futuro.
+
+Define quanto tempo é aceitável para recuperar um serviço.
+
+Pendente de definição.
+
+---
+
+# Testes de Recuperação
+
+Deve existir um teste periódico de recuperação.
+
+Objetivos:
+
+- validar backups;
+- validar documentação;
+- validar procedimentos.
+
+---
+
+# Regra Fundamental
+
+Um backup apenas existe quando:
+
+1. Foi criado.
+2. Foi armazenado.
+3. Foi documentado.
+4. Foi testado.
+
+Se qualquer um destes quatro pontos falhar, o backup não deve ser considerado fiável.
+
+---
+
+# Definição de Sucesso
+
+A recuperação de qualquer sistema crítico deve ser possível apenas com:
+
+- este repositório;
+- os backups disponíveis;
+- acesso físico ao hardware.
+
+Nenhuma recuperação deve depender exclusivamente da memória do administrador.
+
+
+================================================================================
+FILE: docs\ssot\change-log.md
+================================================================================
+
+# Change Log do Cravo Homelab
+
+## Objetivo
+
+Este documento regista todas as alterações relevantes efetuadas na infraestrutura.
+
+O objetivo não é substituir o Git.
+
+O objetivo é registrar decisões arquiteturais importantes que explicam a evolução do sistema.
+
+Este documento responde às perguntas:
+
+- O que mudou?
+- Quando mudou?
+- Porque mudou?
+- Qual foi o impacto?
+
+---
+
+# Regras de Registo
+
+Uma entrada deve ser criada quando ocorre uma alteração que afete:
+
+- hardware;
+- armazenamento;
+- rede;
+- autenticação;
+- backup;
+- automação;
+- arquitetura dos serviços.
+
+Alterações menores podem ser registadas apenas no histórico do Git.
+
+---
+
+# Formato das Entradas
+
+## Data
+
+AAAA-MM-DD
+
+## Categoria
+
+- Hardware
+- Storage
+- Network
+- Services
+- Security
+- Documentation
+- Home Assistant
+- Other
+
+## Alteração
+
+Descrição objetiva.
+
+## Motivo
+
+Razão da alteração.
+
+## Impacto
+
+Consequências da alteração.
+
+---
+
+# Entradas
+
+---
+
+## 2026-06-25
+
+### Categoria
+
+Hardware
+
+### Alteração
+
+Aquisição de Lenovo ThinkCentre M710 SFF.
+
+### Motivo
+
+Substituição da infraestrutura anterior.
+
+### Impacto
+
+Criação da plataforma base do Homelab.
+
+### Estado
+
+VALIDADO
+
+---
+
+## 2026-XX-XX
+
+### Categoria
+
+Storage
+
+### Alteração
+
+Transição de armazenamento baseado em disco USB para NAS QNAP.
+
+### Motivo
+
+Maior capacidade e fiabilidade.
+
+### Impacto
+
+Centralização do armazenamento familiar.
+
+### Estado
+
+PROVÁVEL
+
+---
+
+## 2026-XX-XX
+
+### Categoria
+
+Authentication
+
+### Alteração
+
+Introdução do Authentik.
+
+### Motivo
+
+Unificação da autenticação.
+
+### Impacto
+
+Redução de múltiplas credenciais.
+
+### Estado
+
+PROVÁVEL
+
+---
+
+## 2026-XX-XX
+
+### Categoria
+
+Network
+
+### Alteração
+
+Implementação de acesso remoto através de WireGuard.
+
+### Motivo
+
+Eliminar exposição direta dos serviços à Internet.
+
+### Impacto
+
+Melhoria significativa da segurança.
+
+### Estado
+
+PROVÁVEL
+
+---
+
+## 2026-XX-XX
+
+### Categoria
+
+Storage
+
+### Alteração
+
+Implementação do Paperless-ngx.
+
+### Motivo
+
+Centralização do arquivo documental.
+
+### Impacto
+
+Digitalização e indexação dos documentos familiares.
+
+### Estado
+
+PROVÁVEL
+
+---
+
+## 2026-XX-XX
+
+### Categoria
+
+Network
+
+### Alteração
+
+Implementação de DNS interno através do AdGuard Home.
+
+### Motivo
+
+Simplificar o acesso aos serviços.
+
+### Impacto
+
+Introdução dos domínios internos.
+
+Exemplos:
+
+- nextcloud.lenovo
+- paperless.lenovo
+- homeassistant.lenovo
+
+### Estado
+
+PROVÁVEL
+
+---
+
+## 2026-09
+
+### Categoria
+
+Documentation
+
+### Alteração
+
+Início da reconstrução da Fonte Única da Verdade (SSOT).
+
+### Motivo
+
+Existência de documentação histórica divergente.
+
+### Impacto
+
+Criação de um sistema formal de governação documental.
+
+### Estado
+
+VALIDADO
+
+---
+
+# Registo de Alterações Futuras
+
+Adicionar novas entradas acima das existentes.
+
+As entradas mais recentes devem surgir primeiro.
+
+---
+
+# O que NÃO deve entrar aqui
+
+Não registar:
+
+- pequenas correções;
+- alterações cosméticas;
+- atualizações rotineiras;
+- mudanças sem impacto arquitetural.
+
+Para esse tipo de detalhe deve utilizar-se o histórico Git.
+
+---
+
+# Definição de Sucesso
+
+Uma pessoa que nunca viu o sistema deve conseguir:
+
+- compreender a evolução da infraestrutura;
+- perceber as principais decisões técnicas;
+- identificar alterações críticas;
+- reconstruir o contexto histórico do projeto.
+
+Este documento existe para preservar a história viva do Homelab.
+
+
+================================================================================
+FILE: docs\ssot\criticality-matrix.md
+================================================================================
+
+# Matriz de Criticidade
+
+## Objetivo
+
+Este documento define a criticidade dos sistemas, serviços, equipamentos e dados do Cravo Homelab.
+
+O seu objetivo é estabelecer prioridades objetivas para:
+
+- recuperação;
+- manutenção;
+- investimento;
+- monitorização;
+- documentação.
+
+Nem todos os componentes possuem a mesma importância.
+
+Quando existem recursos limitados, deve ser dada prioridade aos elementos mais críticos.
+
+---
+
+# Filosofia
+
+Os recursos são finitos.
+
+O tempo é finito.
+
+A atenção do administrador é finita.
+
+Por isso é necessário definir claramente o que é:
+
+- crítico;
+- importante;
+- conveniente;
+- opcional.
+
+---
+
+# Níveis de Criticidade
+
+## Nível 1 — Crítico
+
+A falha provoca impacto imediato ou significativo.
+
+A recuperação deve ser prioritária.
+
+---
+
+## Nível 2 — Importante
+
+A falha é incómoda.
+
+O sistema continua funcional.
+
+---
+
+## Nível 3 — Conveniência
+
+A falha tem impacto reduzido.
+
+---
+
+## Nível 4 — Experimental
+
+Sem impacto operacional.
+
+---
+
+# Dados
+
+## Arquivo Documental
+
+### Sistema
+
+Paperless
+
+### Criticidade
+
+Nível 1
+
+### Justificação
+
+Contém documentação legal, fiscal e histórica.
+
+---
+
+## Fotografias Familiares
+
+### Sistema
+
+Nextcloud
+
+### Criticidade
+
+Nível 1
+
+### Justificação
+
+Conteúdo insubstituível.
+
+---
+
+## Documentação Técnica
+
+### Sistema
+
+GitHub
+
+### Criticidade
+
+Nível 1
+
+### Justificação
+
+Memória institucional do projeto.
+
+---
+
+# Infraestrutura
+
+## Lenovo Host
+
+### Criticidade
+
+Nível 1
+
+### Justificação
+
+Executa a maioria dos serviços.
+
+---
+
+## NAS QNAP
+
+### Criticidade
+
+Nível 1
+
+### Justificação
+
+Armazenamento principal.
+
+---
+
+## ER605
+
+### Criticidade
+
+Nível 1
+
+### Justificação
+
+Gateway principal.
+
+---
+
+## Switch Principal
+
+### Criticidade
+
+Nível 2
+
+---
+
+## EAP653
+
+### Criticidade
+
+Nível 2
+
+---
+
+# Serviços
+
+## PostgreSQL
+
+### Criticidade
+
+Nível 1
+
+### Impacto
+
+Afeta múltiplos serviços.
+
+---
+
+## AdGuard Home
+
+### Criticidade
+
+Nível 1
+
+### Impacto
+
+A resolução de nomes internos deixa de funcionar.
+
+---
+
+## Home Assistant
+
+### Criticidade
+
+Nível 1
+
+### Impacto
+
+Perda de automações.
+
+---
+
+## WireGuard
+
+### Criticidade
+
+Nível 2
+
+### Impacto
+
+Perda de acesso remoto.
+
+---
+
+## Nextcloud
+
+### Criticidade
+
+Nível 1
+
+### Impacto
+
+Documentos ativos indisponíveis.
+
+---
+
+## Paperless
+
+### Criticidade
+
+Nível 1
+
+### Impacto
+
+Arquivo documental indisponível.
+
+---
+
+## Authentik
+
+### Criticidade
+
+Nível 1
+
+### Impacto
+
+Autenticação comprometida.
+
+---
+
+## Nginx Proxy Manager
+
+### Criticidade
+
+Nível 2
+
+---
+
+## Uptime Kuma
+
+### Criticidade
+
+Nível 3
+
+---
+
+## OnlyOffice
+
+### Criticidade
+
+Nível 3
+
+---
+
+## Talk
+
+### Criticidade
+
+Nível 3
+
+---
+
+# Automação
+
+## Sistema de Rega
+
+### Criticidade
+
+Nível 1
+
+Durante períodos de utilização intensiva.
+
+---
+
+## Sensores Ambientais
+
+### Criticidade
+
+Nível 2
+
+---
+
+## Robôs Aspiradores
+
+### Criticidade
+
+Nível 3
+
+---
+
+# Conhecimento
+
+## SSOT
+
+### Criticidade
+
+Nível 1
+
+---
+
+## ADRs
+
+### Criticidade
+
+Nível 2
+
+---
+
+## História
+
+### Criticidade
+
+Nível 2
+
+---
+
+## Manuais Familiares
+
+### Criticidade
+
+Nível 2
+
+---
+
+# Ordem de Recuperação
+
+## Prioridade Máxima
+
+```text
+Energia
+Rede
+Armazenamento
+```
+
+---
+
+## Segunda Prioridade
+
+```text
+PostgreSQL
+AdGuard
+Authentik
+```
+
+---
+
+## Terceira Prioridade
+
+```text
+Nextcloud
+Paperless
+Home Assistant
+```
+
+---
+
+## Quarta Prioridade
+
+```text
+WireGuard
+NPM
+```
+
+---
+
+## Quinta Prioridade
+
+```text
+Uptime Kuma
+OnlyOffice
+Talk
+```
+
+---
+
+# Revisão
+
+Esta matriz deve ser revista:
+
+- após migrações;
+- após alterações arquiteturais;
+- após incidentes importantes;
+- durante auditorias anuais.
+
+---
+
+# Regra Fundamental
+
+Uma funcionalidade popular não é necessariamente crítica.
+
+A criticidade é determinada pelo impacto da perda e não pela frequência de utilização.
+
+---
+
+# Definição de Sucesso
+
+Qualquer pessoa deve conseguir determinar rapidamente:
+
+- o que proteger primeiro;
+- o que recuperar primeiro;
+- onde investir esforço documental;
+
+consultando apenas esta matriz.
+
+
+================================================================================
+FILE: docs\ssot\hardware.md
+================================================================================
+
+# Hardware Atual (SSOT)
+
+## Objetivo
+
+Este documento descreve exclusivamente o hardware atualmente considerado em produção no Cravo Homelab.
+
+Não inclui:
+
+- hardware histórico;
+- planos futuros;
+- equipamentos retirados de serviço;
+- hipóteses ou configurações ainda não verificadas.
+
+Toda a informação presente neste documento deve possuir uma fonte de validação identificada.
+
+---
+
+# Estado do Documento
+
+Classificação:
+
+VALIDADO + PROVÁVEL
+
+Última revisão:
+
+2026-09-XX
+
+---
+
+# Servidor Principal
+
+## Estado
+
+VALIDADO
+
+## Equipamento
+
+Lenovo ThinkCentre M710 SFF
+
+## Processador
+
+Intel Core i5-6500T
+
+## Memória RAM
+
+8 GB DDR4
+
+## Armazenamento Local
+
+256 GB SSD
+
+## Sistema Operativo
+
+Ubuntu Server LTS
+
+## Função
+
+Servidor principal do Homelab.
+
+Executa:
+
+- Docker
+- Home Assistant
+- Nextcloud
+- Paperless-ngx
+- Authentik
+- PostgreSQL
+- AdGuard Home
+- WireGuard
+- Nginx Proxy Manager
+- Uptime Kuma
+
+## Evidência
+
+Fatura de aquisição datada de 25/06/2026.
+
+---
+
+# Armazenamento Secundário
+
+## Estado
+
+VALIDADO
+
+## Equipamento
+
+NAS QNAP
+
+## Função
+
+Armazenamento massivo.
+
+Aloja:
+
+- documentos familiares;
+- arquivo Paperless;
+- armazenamento Nextcloud;
+- backups;
+- conteúdos multimédia.
+
+## Ligação
+
+iSCSI
+
+## Observações
+
+Substituiu uma solução anterior baseada em disco USB externo.
+
+---
+
+# Equipamentos de Rede
+
+## Estado
+
+PROVÁVEL
+
+Necessita de futura validação através de exportação Omada.
+
+### Router Principal
+
+TP-Link Omada ER605
+
+### Switch Principal
+
+TP-Link TL-SG1008P
+
+### Access Point Principal
+
+TP-Link EAP653
+
+---
+
+# Equipamentos de Automação
+
+## Estado
+
+PROVÁVEL
+
+### Robôs Aspiradores
+
+2 x iRobot Roomba i1
+
+### Sistema de Alarme
+
+PGST PG103
+
+### Ecossistema Zigbee
+
+Sensores e atuadores diversos.
+
+Validação detalhada pendente de inventário.
+
+---
+
+# Equipamentos de Voz e Multimédia
+
+## Estado
+
+PROVÁVEL
+
+### Amazon Echo
+
+- Echo Show 15
+- Echo Spot
+- Echo Pop
+
+### Fire TV
+
+Dispositivos Fire TV utilizados para integração multimédia.
+
+Número exato de equipamentos por validar.
+
+---
+
+# Hardware Histórico
+
+## Servidor
+
+Nenhum registo histórico deve ser utilizado para descrever o estado atual.
+
+Equipamentos identificados em documentação histórica:
+
+- Lenovo M710s
+- Lenovo M710 Tiny
+
+Estes registos permanecem preservados em:
+
+```text
+docs/history/
+```
+
+e não devem ser considerados representativos da infraestrutura atual sem nova validação.
+
+---
+
+# Itens Pendentes de Auditoria
+
+## Confirmar
+
+- Número total de dispositivos Fire TV.
+- Inventário Zigbee completo.
+- Número total de tomadas inteligentes.
+- Inventário completo de sensores.
+- Inventário completo de dispositivos multimédia.
+
+---
+
+# Regra de Atualização
+
+Qualquer alteração física de hardware deve originar:
+
+1. Atualização deste documento.
+2. Atualização do Change Log.
+3. Arquivo da informação substituída no diretório histórico.
+
+A documentação deve refletir a realidade física existente e não intenções futuras.
+
+
+================================================================================
+FILE: docs\ssot\house-map.md
+================================================================================
+
+# Mapa da Habitação
+
+## Objetivo
+
+Este documento estabelece a correspondência entre a infraestrutura digital e a infraestrutura física da habitação.
+
+O seu objetivo é permitir identificar:
+
+- onde se encontra cada equipamento;
+- qual a sua função;
+- quais as dependências;
+- quais os serviços associados.
+
+Este documento complementa:
+
+```text
+asset-inventory.md
+```
+
+Enquanto o inventário responde:
+
+"Que equipamento existe?"
+
+este documento responde:
+
+"Onde está esse equipamento?"
+
+
+================================================================================
+FILE: docs\ssot\network.md
+================================================================================
+
+# Rede (SSOT)
+
+## Objetivo
+
+Este documento descreve a arquitetura de rede atualmente utilizada pelo Cravo Homelab.
+
+O objetivo da rede não é apenas fornecer acesso à Internet.
+
+A rede constitui a plataforma de segurança, comunicação, automação e acesso aos serviços da família.
+
+---
+
+# Filosofia da Rede
+
+A arquitetura de rede segue cinco princípios fundamentais:
+
+1. Local First.
+2. Segmentação de confiança.
+3. Privilégio mínimo.
+4. DNS interno centralizado.
+5. Acesso remoto exclusivamente através de VPN.
+
+Sempre que estas regras entrem em conflito com conveniências temporárias, devem prevalecer os princípios.
+
+---
+
+# Visão Geral
+
+```text
+Internet
+    │
+    ▼
+
+Operador ISP
+    │
+    ▼
+
+TP-Link ER605
+    │
+    ├── VLAN Principal
+    ├── VLAN IoT
+    └── VLAN Guest
+
+    │
+    ▼
+
+TL-SG1008P
+    │
+    ▼
+
+EAP653
+    │
+    ▼
+
+Clientes e Serviços
+```
+
+---
+
+# Equipamentos de Rede
+
+## Router Principal
+
+Estado: PROVÁVEL
+
+Equipamento:
+
+TP-Link Omada ER605
+
+Funções:
+
+- Gateway principal
+- Firewall
+- DHCP
+- VLANs
+- Encaminhamento
+- VPN
+
+---
+
+## Switch Principal
+
+Estado: PROVÁVEL
+
+Equipamento:
+
+TP-Link TL-SG1008P
+
+Funções:
+
+- Distribuição Ethernet
+- PoE
+- Interligação dos sistemas
+
+---
+
+## Access Point Principal
+
+Estado: PROVÁVEL
+
+Equipamento:
+
+TP-Link EAP653
+
+Funções:
+
+- Rede Wi-Fi
+- Segmentação de SSIDs
+- Acesso móvel
+
+---
+
+# Endereçamento Principal
+
+## Rede Principal
+
+Estado: PROVÁVEL
+
+```text
+192.168.168.0/23
+```
+
+Função:
+
+Rede principal do Homelab.
+
+Contém:
+
+- Lenovo Host
+- QNAP
+- Serviços centrais
+- Computadores
+- Dispositivos familiares
+
+---
+
+## Lenovo Host
+
+Estado: PROVÁVEL
+
+```text
+192.168.168.168
+```
+
+Função:
+
+Nó principal da infraestrutura.
+
+---
+
+## NAS QNAP
+
+Estado: PROVÁVEL
+
+```text
+192.168.168.200
+```
+
+Função:
+
+Armazenamento central.
+
+---
+
+# Segmentação
+
+## VLAN Principal
+
+Função:
+
+Serviços críticos e equipamentos de confiança.
+
+Exemplos:
+
+- Lenovo
+- QNAP
+- Computadores
+- Administração
+
+---
+
+## VLAN IoT
+
+Função:
+
+Isolamento dos equipamentos de automação.
+
+Exemplos:
+
+- Sensores
+- Tomadas Inteligentes
+- Relés
+- Equipamentos Tuya
+- Infraestrutura de automação
+
+Princípio:
+
+A IoT não deve iniciar comunicações para a rede principal.
+
+---
+
+## VLAN Guest
+
+Função:
+
+Visitantes.
+
+Princípio:
+
+Os visitantes devem ter acesso apenas à Internet.
+
+Sem acesso à rede interna.
+
+---
+
+# DNS
+
+## Princípio
+
+Todos os dispositivos devem utilizar DNS interno.
+
+A resolução de nomes internos é considerada uma funcionalidade crítica.
+
+---
+
+## Serviço Principal
+
+AdGuard Home
+
+Funções:
+
+- DNS da rede local
+- Reescrita de nomes
+- Filtragem
+- Gestão de domínios internos
+
+---
+
+## Zona Local
+
+```text
+*.lenovo
+```
+
+*til*zação:
+
+- nextcloud.lenovo
+- paper*ess.lenovo
+- homeassistant.lenovo
+* outros serviços internos
+
+---
+
+# *i-Fi
+
+## Objetivo
+
+Separar*dispositivos de confiança dos disp*sitivos IoT.
+
+---
+
+## Rede Princip*l
+
+SSID:
+
+```text
+CRAVO_HOMELAB
+``*
+
+Destinada a:
+
+- computadores
+- t*lemóveis
+- tablets
+- administração*
+---
+
+## Rede Io*
+
+SSID:
+
+```text
+CRAVO_IOT
+```
+
+De*tinada a:
+
+- sensores
+- tomadas
+- *ontroladores
+- equipamentos de aut*mação
+
+---
+
+# Segurança
+
+## Regra *undamental
+
+Nenhum serviço interno*deve estar diretamente exposto à I*ternet.
+
+---
+
+## UPnP
+
+Estado espe*ado:
+
+DESATIVADO
+
+Motivo:
+
+Impedir*a abertura automática de portas.
+
+*--
+
+## Port Forwarding
+
+Estado esp*rado:
+
+Mínimo possível.
+
+A*enas as*regras estr*tamente necessárias devem existir.*
+---
+
+## Firewall
+
+Princípio:
+
+Neg*r por defeito.
+
+Permitir apenas o *ecessário.
+
+---
+
+# Acesso Remoto
+
+*# Método Oficial
+
+WireGuard
+
+Não e*istem métodos alternativos oficial*ente suportados.
+
+---
+
+## Objetivo*
+
+Permitir:
+
+- acesso à documentaç*o
+- acesso ao Nextcloud
+- acesso a* Paperless
+- acesso ao Home Assist*nt
+
+sem exposição direta dos servi*os à Internet.
+
+---
+
+# Dependência* Críticas
+
+A rede suporta diretame*te:
+
+- AdGuard Home
+- Nextcloud
+- *aperless
+- Home Assistant
+- WireGu*rd
+- Authentik
+- PostgreSQL
+- Ngin* Proxy Manager
+
+Qualquer alteração*estrutural da rede deve considerar*o impacto nestes serviços.
+
+---
+
+#*Auditorias Futuras
+
+Validar atravé* de exportação Omada:
+
+- VLANs rea*s
+- ACLs
+- Reservas DHCP
+- DNS*- Port Forwards
+- Re*ras de Firewall
+- SSIDs
+- Pot*ncias Wi-Fi
+* Configurações de roaming
+
+---
+
+* Regra de Atualização
+
+Sempre que*ocorrer alteração*
+
+- de endereçamento;
+- de VLANs;
+* de Wi-Fi;
+- de*ACLs;
+- de DNS;
+- de VPN;
+
+este do*umento deve ser atualizado antes d* alteração ser considerada concluí*a.
+
+
+================================================================================
+FILE: docs\ssot\README.md
+================================================================================
+
+# Fonte Única da Verdade (SSOT)
+
+## Introdução
+
+Este diretório contém a Fonte Única da Verdade (Single Source Of Truth - SSOT) do Cravo Homelab.
+
+Toda a informação considerada atual, validada e operacional deve residir neste local.
+
+O objetivo é garantir que o estado real do sistema possa ser compreendido sem depender:
+
+- da memória dos utilizadores;
+- da memória do administrador;
+- de conversas passadas;
+- de documentação histórica;
+- de interpretações produzidas por sistemas de Inteligência Artificial.
+
+Sempre que existir conflito entre múltiplas fontes de informação, prevalecerá a informação documentada e validada neste diretório.
+
+---
+
+# Hierarquia de Confiança
+
+A documentação do projeto encontra-se dividida em quatro níveis de confiança.
+
+## Nível 1 — VALIDADO
+
+Informação suportada por evidência técnica direta.
+
+Exemplos:
+
+- ficheiros de configuração;
+- exportações de sistemas;
+- backups;
+- docker-compose;
+- scripts;
+- capturas de configuração;
+- inventário físico confirmado;
+- faturas de aquisição;
+- documentação produzida após validação.
+
+Esta é a categoria que deve constituir a maioria da informação presente na SSOT.
+
+---
+
+## Nível 2 — PROVÁVEL
+
+Informação suportada por documentação consistente mas sem validação técnica recente.
+
+Exemplos:
+
+- documentação produzida durante a operação normal;
+- relatórios técnicos;
+- notas de projeto;
+- procedimentos anteriormente utilizados.
+
+Deve ser considerada confiável, mas sujeita a futura verificação.
+
+---
+
+## Nível 3 — HISTÓRICO
+
+Informação que representou corretamente o sistema numa determinada época.
+
+Exemplos:
+
+- arquiteturas anteriores;
+- equipamentos substituídos;
+- redes antigas;
+- serviços removidos;
+- migrações concluídas.
+
+Informação histórica nunca deve ser utilizada como referência para o estado atual.
+
+---
+
+## Nível 4 — HIPÓTESE
+
+Informação não validada.
+
+Exemplos:
+
+- inferências;
+- hipóteses de trabalho;
+- reconstruções documentais;
+- interpretações de IA;
+- planos futuros.
+
+Não deve ser utilizada para operações, recuperação ou tomada de decisão sem validação prévia.
+
+---
+
+# Regra Fundamental
+
+Nenhuma informação deve transitar para o estado VALIDADO sem evidência primária.
+
+A evidência primária inclui:
+
+- ficheiros de configuração;
+- exportações;
+- backups;
+- código-fonte;
+- capturas de configuração;
+- registos do sistema;
+- documentação produzida diretamente a partir do sistema real.
+
+---
+
+# Organização da SSOT
+
+A Fonte da Verdade está dividida nas seguintes áreas:
+
+```text
+ssot/
+│
+├── hardware.md
+├── storage.md
+├── network.md
+├── services.md
+├── users-and-access.md
+├── backup-and-recovery.md
+└── change-log.md
+```
+
+Cada documento deve descrever exclusivamente o estado atual.
+
+Não deve conter:
+
+- notas históricas extensas;
+- decisões abandonadas;
+- projetos futuros.
+
+Essas informações pertencem ao diretório:
+
+```text
+docs/history/
+```
+
+---
+
+# Processo de Atualização
+
+Sempre que ocorrer uma alteração relevante:
+
+1. Atualizar a configuração real.
+2. Validar o funcionamento.
+3. Atualizar a documentação SSOT.
+4. Registar a alteração em `change-log.md`.
+5. Arquivar documentação anterior quando necessário.
+
+A documentação deve seguir a realidade.
+
+A realidade nunca deve ser adaptada para corresponder à documentação.
+
+---
+
+# Regras para Utilização de Inteligência Artificial
+
+As ferramentas de Inteligência Artificial são consideradas auxiliares de documentação.
+
+Podem:
+
+- resumir;
+- organizar;
+- auditar;
+- explicar;
+- sugerir melhorias.
+
+Não podem ser consideradas evidência primária.
+
+Qualquer informação produzida por IA deve ser tratada como:
+
+```text
+HIPÓTESE
+```
+
+até existir validação independente.
+
+---
+
+# Definição de Sucesso
+
+Uma pessoa sem contacto prévio com o projeto deve conseguir:
+
+- compreender a arquitetura;
+- identificar os equipamentos;
+- recuperar os serviços;
+- restaurar os backups;
+- reproduzir a configuração;
+
+utilizando apenas a documentação presente neste repositório.
+
+Quando isso for possível, a missão desta documentação estará cumprida.
+
+
+================================================================================
+FILE: docs\ssot\services.md
+================================================================================
+
+# Serviços (SSOT)
+
+## Objetivo
+
+Este documento descreve os serviços atualmente considerados parte integrante do Cravo Homelab.
+
+Cada serviço deve possuir:
+
+- uma função clara;
+- uma justificação para a sua existência;
+- dependências documentadas;
+- um proprietário funcional.
+
+Um serviço sem propósito documentado deve ser considerado candidato a remoção.
+
+---
+
+# Filosofia dos Serviços
+
+Os serviços existem para resolver problemas.
+
+Não existem para demonstrar tecnologias.
+
+Antes de adicionar um novo serviço, deve responder-se às seguintes perguntas:
+
+1. Que problema resolve?
+2. Já existe um serviço que resolva esse problema?
+3. A manutenção futura justifica o benefício obtido?
+4. A família irá efetivamente utilizá-lo?
+
+---
+
+# Mapa Geral da Plataforma
+
+```text
+                 Authentik
+                     │
+                     ▼
+
+     Nextcloud ─── OnlyOffice
+          │
+          ├── Talk
+          │
+          ▼
+
+     PostgreSQL
+
+          ▲
+          │
+
+Paperless     Home Assistant
+
+          │
+          ▼
+
+      AdGuard
+
+          │
+          ▼
+
+       NPM
+
+          │
+          ▼
+
+     WireGuard
+
+          │
+          ▼
+
+    Uptime Kuma
+```
+
+---
+
+# Serviços em Produção
+
+---
+
+## Home Assistant
+
+### Estado
+
+VALIDADO
+
+### Função
+
+Plataforma central de automação doméstica.
+
+### Responsabilidades
+
+- automações;
+- sensores;
+- iluminação;
+- notificações;
+- integração de dispositivos;
+- monitorização doméstica.
+
+### Dependências
+
+- PostgreSQL
+- Rede local
+- AdGuard
+- Equipamentos IoT
+
+### Proprietário Funcional
+
+Habitação
+
+---
+
+## PostgreSQL
+
+### Estado
+
+PROVÁVEL
+
+### Função
+
+Motor central de bases de dados.
+
+### Responsabilidades
+
+Armazenar dados estruturados de:
+
+- Home Assistant;
+- Nextcloud;
+- Paperless;
+- Authentik.
+
+### Princípio
+
+Bases de dados dispersas devem ser evitadas.
+
+Sempre que possível deve existir uma infraestrutura relacional centralizada.
+
+---
+
+## Nextcloud
+
+### Estado
+
+PROVÁVEL
+
+### Função
+
+Nuvem privada da família.
+
+### Responsabilidades
+
+- armazenamento de ficheiros;
+- colaboração;
+- sincronização;
+- partilha de documentos;
+- gestão de fotografias.
+
+### Utilizadores
+
+Família
+
+---
+
+## OnlyOffice
+
+### Estado
+
+PROVÁVEL
+
+### Função
+
+Edição colaborativa de documentos.
+
+### Dependência Primária
+
+Nextcloud
+
+### Observação
+
+Não é considerado um serviço autónomo.
+
+Existe exclusivamente para complementar o Nextcloud.
+
+---
+
+## Nextcloud Talk
+
+### Estado
+
+PROVÁVEL
+
+### Função
+
+Mensagens e comunicações privadas.
+
+### Dependência Primária
+
+Nextcloud
+
+### Utilizadores
+
+Família
+
+---
+
+## Paperless-ngx
+
+### Estado
+
+PROVÁVEL
+
+### Função
+
+Arquivo documental permanente.
+
+### Responsabilidades
+
+- OCR;
+- indexação;
+- arquivo;
+- pesquisa documental.
+
+### Princípio
+
+Documentos importantes não devem depender de pastas aleatórias em discos.
+
+---
+
+## Authentik
+
+### Estado
+
+PROVÁVEL
+
+### Função
+
+Gestão unificada de identidade.
+
+### Responsabilidades
+
+- autenticação;
+- autorização;
+- Single Sign-On;
+- integração de acessos.
+
+### Benefício
+
+Reduz duplicação de credenciais.
+
+---
+
+## AdGuard Home
+
+### Estado
+
+PROVÁVEL
+
+### Função
+
+DNS interno.
+
+### Responsabilidades
+
+- resolução de nomes;
+- domínio interno;
+- filtragem DNS.
+
+### Criticidade
+
+Muito elevada.
+
+Uma falha neste serviço afeta a utilização normal da infraestrutura.
+
+---
+
+## Nginx Proxy Manager
+
+### Estado
+
+PROVÁVEL
+
+### Função
+
+Publicação controlada de serviços.
+
+### Responsabilidades
+
+- reverse proxy;
+- certificados;
+- encaminhamento interno.
+
+### Benefício
+
+Eliminação de portas explícitas para os utilizadores.
+
+---
+
+## WireGuard
+
+### Estado
+
+PROVÁVEL
+
+### Função
+
+Acesso remoto seguro.
+
+### Responsabilidades
+
+- VPN;
+- acesso remoto;
+- extensão da rede doméstica.
+
+### Princípio
+
+Serviços não devem ser expostos diretamente à Internet.
+
+---
+
+## Uptime Kuma
+
+### Estado
+
+PROVÁVEL
+
+### Função
+
+Monitorização.
+
+### Responsabilidades
+
+- disponibilidade;
+- alertas;
+- validação de serviços.
+
+### Benefício
+
+Deteção precoce de falhas.
+
+---
+
+# Serviços em Avaliação
+
+---
+
+## Nextcloud Talk
+
+Estado:
+
+Homologação contínua.
+
+---
+
+## OnlyOffice
+
+Estado:
+
+Homologação contínua.
+
+---
+
+# Serviços Históricos
+
+Serviços identificados em documentação anterior:
+
+- Plex
+- Samba
+- Radarr
+- Sonarr
+- Prowlarr
+- qBittorrent
+- Heimdall
+- Portainer
+
+O estado atual destes serviços deverá ser validado posteriormente.
+
+Até validação futura não fazem parte da SSOT atual.
+
+---
+
+# Criticidade por Serviço
+
+## Nível Crítico
+
+Falha com impacto imediato.
+
+- Home Assistant
+- PostgreSQL
+- AdGuard
+- WireGuard
+
+---
+
+## Nível Importante
+
+Falha tolerável temporariamente.
+
+- Nextcloud
+- Paperless
+- Authentik
+
+---
+
+## Nível Conveniência
+
+Falha sem impacto estrutural.
+
+- Uptime Kuma
+- OnlyOffice
+- Talk
+
+---
+
+# Política de Inclusão
+
+Um serviço só deve integrar a SSOT quando:
+
+- estiver operacional;
+- tiver um propósito definido;
+- possuir documentação;
+- justificar o custo de manutenção.
+
+Caso contrário deverá permanecer em:
+    
+docs/history/
+ou
+
+docs/lab/
+até maturidade suficiente.
+
+---
+
+# Regra de Atualização
+
+Sempre que um serviço for:
+
+- adicionado;
+- removido;
+- substituído;
+- consolidado;
+
+este documento deve ser atualizado e a alteração registada em:
+
+```text
+docs/ssot/change-log.md
+```
+
+
+================================================================================
+FILE: docs\ssot\storage.md
+================================================================================
+
+# Armazenamento (SSOT)
+
+## Objetivo
+
+Este documento descreve a arquitetura oficial de armazenamento do Cravo Homelab.
+
+O seu objetivo é identificar:
+
+- onde os dados residem;
+- como são armazenados;
+- quem depende deles;
+- que mecanismos de proteção existem;
+- como recuperar os dados em caso de desastre.
+
+---
+
+# Filosofia de Armazenamento
+
+O sistema foi concebido para cumprir quatro objetivos:
+
+1. Centralização da informação.
+2. Eliminação de duplicações desnecessárias.
+3. Facilidade de pesquisa e recuperação.
+4. Continuidade operacional.
+
+Nenhum dado importante deve existir exclusivamente em dispositivos pessoais.
+
+A informação familiar deve residir em sistemas centralizados e documentados.
+
+---
+
+# Visão Geral
+
+```text
+Utilizadores
+      │
+      ▼
+
+Nextcloud
+Paperless
+Home Assistant
+
+      │
+      ▼
+
+Lenovo Host
+
+      │
+   iSCSI
+      │
+
+      ▼
+
+NAS QNAP
+```
+
+---
+
+# Camadas de Armazenamento
+
+## Camada 1 - SSD Local
+
+### Estado
+
+VALIDADO
+
+### Localização
+
+Servidor Lenovo ThinkCentre M710 SFF
+
+### Tipo
+
+SSD 256 GB
+
+### Função
+
+Armazenamento rápido para:
+
+- Sistema Operativo
+- Docker
+- Configuração dos serviços
+- Bases de dados ativas
+- Ficheiros temporários
+
+### Princípio
+
+Apenas dados que beneficiem de elevado desempenho devem permanecer no SSD local.
+
+---
+
+## Camada 2 - NAS Principal
+
+### Estado
+
+VALIDADO
+
+### Equipamento
+
+NAS QNAP
+
+### Ligação
+
+iSCSI
+
+### Função
+
+Armazenamento permanente.
+
+Concentra:
+
+- documentos familiares;
+- fotografias;
+- arquivo digital;
+- multimédia;
+- cópias de segurança;
+- dados persistentes.
+
+### Princípio
+
+O NAS é considerado o repositório principal de dados da família.
+
+---
+
+# Distribuição de Dados
+
+## Nextcloud
+
+### Finalidade
+
+Documentos vivos.
+
+Informação em utilização diária.
+
+### Exemplos
+
+- documentos pessoais;
+- documentos partilhados;
+- fotografias;
+- ficheiros de trabalho;
+- documentação corrente.
+
+---
+
+## Paperless
+
+### Finalidade
+
+Arquivo documental permanente.
+
+### Exemplos
+
+- faturas;
+- garantias;
+- contratos;
+- seguros;
+- documentos fiscais;
+- documentação digitalizada.
+
+### Regra
+
+Um documento arquivado definitivamente deve residir no Paperless.
+
+---
+
+## GitHub
+
+### Finalidade
+
+Conhecimento.
+
+### Conteúdo
+
+- documentação;
+- inventários;
+- procedimentos;
+- histórico;
+- Fonte da Verdade.
+
+### Regra
+
+O GitHub guarda conhecimento.
+
+Não guarda dados familiares.
+
+---
+
+# Evolução Histórica
+
+## Solução Inicial
+
+Disco USB externo.
+
+### Problemas identificados
+
+- dependência física;
+- fiabilidade limitada;
+- expansão reduzida.
+
+---
+
+## Solução Atual
+
+NAS QNAP.
+
+Ligação iSCSI ao servidor principal.
+
+### Benefícios
+
+- centralização;
+- melhor capacidade;
+- maior escalabilidade;
+- melhor integração com serviços.
+
+---
+
+# Criticidade dos Dados
+
+## Nível 1 - Crítico
+
+Perda inaceitável.
+
+Exemplos:
+
+- Paperless;
+- documentos legais;
+- documentação técnica;
+- fotografias familiares.
+
+---
+
+## Nível 2 - Importante
+
+Recuperável com esforço.
+
+Exemplos:
+
+- configurações;
+- automações;
+- dashboards.
+
+---
+
+## Nível 3 - Recriável
+
+Pode ser reconstruído.
+
+Exemplos:
+
+- contentores Docker;
+- imagens Docker;
+- caches temporárias.
+
+---
+
+# Princípios Operacionais
+
+## Regra 1
+
+Nenhum documento importante deve existir apenas num telemóvel.
+
+---
+
+## Regra 2
+
+Nenhuma fatura deve existir apenas em papel.
+
+---
+
+## Regra 3
+
+O Paperless é o arquivo oficial da família.
+
+---
+
+## Regra 4
+
+O Nextcloud é a área de trabalho da família.
+
+---
+
+## Regra 5
+
+O GitHub é a memória técnica permanente.
+
+---
+
+# Futuras Auditorias
+
+Validar:
+
+- estrutura real de volumes do QNAP;
+- mapeamentos iSCSI;
+- diretórios utilizados por cada serviço;
+- política de backups;
+- estratégia de recuperação após desastre.
+
+
+================================================================================
+FILE: docs\ssot\users-and-access.md
+================================================================================
+
+# Utilizadores e Controlo de Acessos (SSOT)
+
+## Objetivo
+
+Este documento descreve a política de identidade, autenticação e autorização do Cravo Homelab.
+
+O objetivo não é armazenar credenciais.
+
+O objetivo é documentar:
+
+- quem utiliza o sistema;
+- quais os perfis existentes;
+- como ocorre a autenticação;
+- que serviços dependem dessa autenticação;
+- quais os princípios de segurança adotados.
+
+---
+
+# Princípios Fundamentais
+
+## Identidade Única
+
+Sempre que possível, cada utilizador deve possuir uma única identidade digital.
+
+Deve evitar-se a criação de múltiplas contas independentes para os mesmos utilizadores em diferentes plataformas.
+
+---
+
+## Menor Privilégio
+
+Cada utilizador deve possuir apenas os acessos necessários às suas funções.
+
+Permissões excessivas aumentam o risco operacional.
+
+---
+
+## Centralização
+
+A autenticação deve ser centralizada sempre que tecnicamente possível.
+
+A existência de múltiplos mecanismos independentes deve ser evitada.
+
+---
+
+# Utilizadores Conhecidos
+
+## Administrador Principal
+
+Estado:
+
+VALIDADO
+
+Função:
+
+Administração da infraestrutura.
+
+Responsabilidades:
+
+- gestão do sistema;
+- backups;
+- atualizações;
+- documentação;
+- recuperação de desastre.
+
+Nível de acesso:
+
+Administrador global.
+
+---
+
+## Utilizadores Familiares
+
+Estado:
+
+PROVÁVEL
+
+Função:
+
+Utilização normal dos serviços.
+
+Exemplos:
+
+- armazenamento;
+- comunicação;
+- consulta documental;
+- automação doméstica.
+
+Nível de acesso:
+
+Utilizador standard.
+
+---
+
+# Modelo de Autenticação
+
+## Princípio
+
+Os utilizadores devem autenticar-se o menor número possível de vezes.
+
+Sempre que possível deve existir Single Sign-On (SSO).
+
+---
+
+## Authentik
+
+Estado:
+
+PROVÁVEL
+
+Função:
+
+Provedor central de identidade.
+
+Responsabilidades:
+
+- autenticação;
+- autorização;
+- gestão de sessões;
+- Single Sign-On.
+
+---
+
+# Dependências de Identidade
+
+## Nextcloud
+
+Método preferencial:
+
+Authentik
+
+Função:
+
+Acesso à nuvem privada.
+
+---
+
+## Nextcloud Talk
+
+Método preferencial:
+
+Authentik
+
+Função:
+
+Mensagens e comunicações.
+
+---
+
+## Outros Serviços
+
+Sempre que tecnicamente possível, novos serviços devem integrar-se com o mecanismo central de autenticação existente.
+
+---
+
+# Gestão de Credenciais
+
+## Regra Fundamental
+
+Nenhuma password deve ser armazenada na documentação.
+
+---
+
+## A documentação pode conter
+
+- nomes de contas;
+- descrições de acesso;
+- responsabilidades;
+- dependências.
+
+---
+
+## A documentação nunca deve conter
+
+- passwords;
+- segredos;
+- chaves privadas;
+- tokens;
+- certificados privados;
+- QR Codes de VPN.
+
+---
+
+# Contas Administrativas
+
+A existência de contas administrativas locais deve ser minimizada.
+
+Sempre que possível:
+
+- utilizar autenticação centralizada;
+- reduzir duplicações;
+- documentar acessos de emergência.
+
+---
+
+# Acessos de Emergência
+
+Deve existir um procedimento documentado para recuperação de acesso em caso de:
+
+- falha do Authentik;
+- perda de credenciais;
+- falha de SSO.
+
+O procedimento deve ser documentado em:
+
+```text
+docs/operations/disaster-recovery.md
+```
+
+---
+
+# Acesso Local
+
+Em condições normais, todos os serviços devem ser acessíveis através da rede local.
+
+A autenticação deve permanecer funcional sem dependências cloud não essenciais.
+
+---
+
+# Acesso Remoto
+
+Método oficial:
+
+WireGuard
+
+Qualquer método alternativo deve ser explicitamente documentado e justificado.
+
+---
+
+# Controlo de Alterações
+
+Sempre que ocorrer:
+
+- criação de utilizador;
+- remoção de utilizador;
+- alteração do modelo de autenticação;
+- introdução de novo fornecedor de identidade;
+
+este documento deve ser atualizado.
+
+---
+
+# Auditorias Futuras
+
+Confirmar:
+
+- utilizadores ativos;
+- grupos existentes;
+- permissões administrativas;
+- integrações Authentik;
+- acessos de emergência;
+- dependências de SSO.
+
+---
+
+# Regra Final
+
+A identidade é um serviço crítico.
+
+Qualquer alteração ao sistema de autenticação deve ser tratada com o mesmo nível de cuidado que uma alteração à infraestrutura de armazenamento ou aos mecanismos de backup.
+
+
+================================================================================
+FILE: docs\standards\document-classification.md
+================================================================================
+
+# Classificação de Informação
+
+## Objetivo
+
+Este documento define a classificação oficial utilizada na documentação do Cravo Homelab.
+
+O objetivo é permitir que qualquer pessoa consiga avaliar rapidamente o grau de confiança de uma informação.
+
+Nem todas as informações possuem o mesmo nível de evidência.
+
+Nem todos os sistemas possuem o mesmo grau de maturidade.
+
+Por esse motivo, toda a documentação deve utilizar as classificações definidas neste documento.
+
+---
+
+# Princípio Fundamental
+
+Uma informação sem classificação deve ser considerada:
+
+```text
+NÃO VALIDADA
+```
+
+---
+
+# Classificação de Confiança
+
+Estas classificações indicam o grau de confiança da informação.
+
+---
+
+# VALIDADO
+
+## Definição
+
+Informação suportada por evidência primária.
+
+---
+
+## Exemplos
+
+- ficheiros de configuração;
+- exportações;
+- backups;
+- faturas;
+- screenshots;
+- código fonte;
+- estado observado diretamente.
+
+---
+
+## Grau de Confiança
+
+Muito Elevado
+
+---
+
+## Utilização
+
+Pode ser utilizada para:
+
+- auditorias;
+- recuperação;
+- tomada de decisão;
+- documentação oficial.
+
+---
+
+# PROVÁVEL
+
+## Definição
+
+Informação consistente mas ainda não confirmada através de evidência primária recente.
+
+---
+
+## Exemplos
+
+- documentação operacional;
+- notas históricas recentes;
+- documentação anteriormente validada.
+
+---
+
+## Grau de Confiança
+
+Elevado
+
+---
+
+## Utilização
+
+Pode orientar trabalhos futuros.
+
+Deve ser validada sempre que possível.
+
+---
+
+# HIPÓTESE
+
+## Definição
+
+Informação que parece plausível mas que ainda não possui validação suficiente.
+
+---
+
+## Exemplos
+
+- reconstruções documentais;
+- interpretações;
+- planos futuros;
+- conclusões produzidas por IA;
+- pressupostos.
+
+---
+
+## Grau de Confiança
+
+Baixo
+
+---
+
+## Utilização
+
+Não deve fundamentar alterações críticas.
+
+Necessita de validação.
+
+---
+
+# HISTÓRICO
+
+## Definição
+
+Informação que foi verdadeira numa determinada época mas que pode já não representar a realidade atual.
+
+---
+
+## Exemplos
+
+- arquiteturas antigas;
+- hardware substituído;
+- serviços removidos;
+- redes anteriores.
+
+---
+
+## Grau de Confiança
+
+Pode ser elevado.
+
+Mas apenas relativamente ao passado.
+
+---
+
+## Utilização
+
+Contexto e preservação histórica.
+
+Nunca deve ser assumida como representativa do estado atual.
+
+---
+
+# Ciclo de Vida da Confiança
+
+```text
+HIPÓTESE
+    ↓
+
+PROVÁVEL
+    ↓
+
+VALIDADO
+```
+
+ou
+
+```text
+PROVÁVEL
+    ↓
+HISTÓRICO
+```
+
+---
+
+# Classificação de Serviços
+
+Estas classificações indicam o estado operacional de um sistema.
+
+---
+
+# LAB
+
+## Definição
+
+Sistema experimental.
+
+---
+
+## Características
+
+- sem garantias;
+- sem suporte;
+- documentação mínima;
+- sujeito a remoção.
+
+---
+
+## Exemplo
+
+Serviço recentemente instalado.
+
+---
+
+# TESTE
+
+## Definição
+
+Sistema funcional mas ainda em validação.
+
+---
+
+## Características
+
+- testes reais;
+- documentação inicial;
+- utilização limitada.
+
+---
+
+## Objetivo
+
+Avaliar viabilidade.
+
+---
+
+# PRODUÇÃO
+
+## Definição
+
+Sistema oficialmente integrado no Homelab.
+
+---
+
+## Requisitos
+
+- documentação;
+- backup;
+- estratégia de recuperação;
+- utilizadores reais.
+
+---
+
+## Características
+
+Alterações devem ser controladas.
+
+---
+
+# OBSOLETO
+
+## Definição
+
+Sistema abandonado ou substituído.
+
+---
+
+## Características
+
+Não deve receber alterações.
+
+Mantido apenas para referência histórica.
+
+---
+
+# Ciclo de Vida dos Serviços
+
+```text
+LAB
+  ↓
+
+TESTE
+  ↓
+
+PRODUÇÃO
+  ↓
+
+OBSOLETO
+```
+
+---
+
+# Classificação de Documentos
+
+## Ativo
+
+Documento utilizado atualmente.
+
+---
+
+## Histórico
+
+Documento preservado para consulta.
+
+---
+
+## Arquivado
+
+Documento sem utilização operacional.
+
+---
+
+## Obsoleto
+
+Documento mantido apenas para referência histórica.
+
+---
+
+# Regras de Utilização
+
+## Regra 1
+
+Todo o documento técnico deve indicar explicitamente a classificação da informação.
+
+---
+
+## Regra 2
+
+Toda a entrada na SSOT deve procurar atingir estado:
+
+```text
+VALIDADO
+```
+
+---
+
+## Regra 3
+
+Informações baseadas apenas em memória nunca devem ser marcadas como:
+
+```text
+VALIDADO
+```
+
+---
+
+## Regra 4
+
+Informação produzida por IA deve iniciar sempre como:
+
+```text
+HIPÓTESE
+```
+
+até validação posterior.
+
+---
+
+## Regra 5
+
+Documentação histórica deve permanecer separada da SSOT.
+
+---
+
+# Definição de Sucesso
+
+Qualquer leitor deve conseguir responder imediatamente:
+
+- Posso confiar nesta informação?
+- Esta informação descreve o presente ou o passado?
+- Este serviço está em produção ou apenas em teste?
+
+consultando apenas a classificação atribuída.
+
+
+================================================================================
+FILE: docs\standards\naming-conventions.md
+================================================================================
+
+# Convenções de Nomenclatura
+
+## Objetivo
+
+Este documento define as convenções oficiais de nomenclatura utilizadas no Cravo Homelab.
+
+O objetivo é garantir:
+
+- consistência;
+- previsibilidade;
+- facilidade de manutenção;
+- facilidade de pesquisa;
+- redução de ambiguidades.
+
+As convenções aplicam-se a:
+
+- equipamentos;
+- serviços;
+- sensores;
+- automações;
+- scripts;
+- documentos;
+- projetos.
+
+---
+
+# Princípio Fundamental
+
+Um nome deve permitir compreender um objeto sem necessidade de contexto adicional.
+
+Evitar:
+
+```text
+sensor1
+novo_sensor
+teste
+coisa
+```
+
+Preferir:
+
+```text
+sensor_humidade_jardim_norte
+```
+
+---
+
+# Idioma
+
+## Regra
+
+Utilizar Português (Portugal).
+
+Exemplos:
+
+✅
+
+```text
+rega_jardim
+porta_entrada
+temperatura_sala
+```
+
+❌
+
+```text
+garden_irrigation
+frontdoor
+livingroom_temp
+```
+
+---
+
+# Caracteres Permitidos
+
+Utilizar apenas:
+
+```text
+a-z
+0-9
+_
+```
+
+Evitar:
+
+```text
+espaços
+acentos
+caracteres especiais
+```
+
+---
+
+# Home Assistant
+
+## Sensores
+
+Formato:
+
+```text
+sensor_<tipo>_<local>
+```
+
+Exemplos:
+
+```text
+sensor_temperatura_sala
+sensor_humidade_jardim
+sensor_movimento_ginasio
+```
+
+---
+
+## Interruptores
+
+Formato:
+
+```text
+switch_<equipamento>_<local>
+```
+
+Exemplos:
+
+```text
+switch_tomada_sala
+switch_rega_horta
+```
+
+---
+
+## Luzes
+
+Formato:
+
+```text
+light_<zona>
+```
+
+Exemplos:
+
+```text
+light_sala
+light_cozinha
+light_jardim
+```
+
+---
+
+## Scripts
+
+Formato:
+
+```text
+script_<funcao>
+```
+
+Exemplos:
+
+```text
+script_notificacao_voz
+script_rega_manual
+script_boas_noites
+```
+
+---
+
+## Automações
+
+Formato:
+
+```text
+[Area] Descrição
+```
+
+Exemplos:
+
+```text
+[Jardim] Rega Inteligente
+[Segurança] Alerta Intrusão
+[Sala] Desligar Luzes
+```
+
+---
+
+# Docker
+
+## Contentores
+
+Formato:
+
+```text
+servico-funcao
+```
+
+Exemplos:
+
+```text
+postgres-core
+paperless-ngx
+adguard-home
+uptime-kuma
+```
+
+---
+
+## Redes Docker
+
+Formato:
+
+```text
+network_<funcao>
+```
+
+Exemplos:
+
+```text
+network_core
+network_proxy
+network_iot
+```
+
+---
+
+## Volumes
+
+Formato:
+
+```text
+volume_<servico>
+```
+
+Exemplos:
+
+```text
+volume_nextcloud
+volume_postgres
+volume_paperless
+```
+
+---
+
+# Documentação
+
+## Documentos
+
+Formato:
+
+```text
+nome-documento.md
+```
+
+Exemplos:
+
+```text
+hardware.md
+network.md
+paperless.md
+```
+
+---
+
+## Evitar
+
+```text
+Documento Final.md
+Versao Nova.md
+Manual Atualizado.md
+```
+
+---
+
+# PDFs Gerados
+
+Formato:
+
+```text
+Nome_Oficial_vX.Y.pdf
+```
+
+Exemplos:
+
+```text
+Manual_Familia_v1.0.pdf
+SSOT_v1.0.pdf
+Livro_Governacao_v1.0.pdf
+```
+
+---
+
+# ADRs
+
+Formato:
+
+```text
+ADR-XXX
+```
+
+Exemplos:
+
+```text
+ADR-001
+ADR-002
+ADR-003
+```
+
+---
+
+# Projetos
+
+Formato:
+
+```text
+NOME_MAIUSCULAS
+```
+
+Exemplos:
+
+```text
+AEGIS
+CRAVO_HOMELAB
+```
+
+---
+
+# Equipamentos
+
+Formato:
+
+```text
+TIPO-LOCAL
+```
+
+Exemplos:
+
+```text
+EAP653-SALA
+QNAP-SALA
+LENOVO-HOST
+```
+
+---
+
+# Zonas da Habitação
+
+Nomes oficiais:
+
+```text
+Sala
+Cozinha
+Ginásio
+Jardim
+Entrada
+Escritório
+```
+
+Evitar nomes alternativos para a mesma área.
+
+---
+
+# Regra Fundamental
+
+Se um nome exigir explicações frequentes, o nome está errado.
+
+Um bom nome deve ser:
+
+- simples;
+- previsível;
+- único;
+- compreensível.
+
+---
+
+# Definição de Sucesso
+
+Qualquer elemento da infraestrutura deve poder ser identificado apenas pelo seu nome.
+
+A nomenclatura deve reduzir a necessidade de documentação adicional e facilitar a manutenção futura do sistema.
+
+
+================================================================================
+FILE: tools\export.ps1
+================================================================================
+
+$RepositoryRoot = Split-Path $PSScriptRoot -Parent
+
+$ToolkitScript = Join-Path `
+    (Split-Path $RepositoryRoot -Parent) `
+    "Cravo-Toolkit\exporters\repository-export.ps1"
+
+Push-Location $RepositoryRoot
+
+try
+{
+    & $ToolkitScript
+}
+finally
+{
+    Pop-Location
+}
+
